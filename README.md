@@ -18,8 +18,7 @@ build template
 $ ./bin/build
 ```
 
-deploy 
+## View on port 8080
 
-```
-git subtree push --prefix public origin gh-pages
-````
+python -m SimpleHTTPServer 8080
+
