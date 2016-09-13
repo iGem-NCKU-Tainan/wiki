@@ -9,7 +9,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/index.hbs",
-    "filename": "./public/index.html"
+    "filename": "./docs/index.html"
   },
   {
     "title": "Project - iGEM NCKU",
@@ -18,7 +18,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/Project/index.hbs",
-    "filename": "./public/Project/index.html"
+    "filename": "./docs/Project/index.html"
   },
   {
     "title": "Wet lab - iGEM NCKU",
@@ -27,7 +27,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/Wetlab/index.hbs",
-    "filename": "./public/Wetlab/index.html"
+    "filename": "./docs/Wetlab/index.html"
   },
   {
     "title": "Dry lab - iGEM NCKU",
@@ -36,7 +36,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/Drylab/index.hbs",
-    "filename": "./public/Drylab/index.html"
+    "filename": "./docs/Drylab/index.html"
   },
   {
     "title": "Human Practices - iGEM NCKU",
@@ -45,7 +45,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/Human_Practices/index.hbs",
-    "filename": "./public/Human_Practices/index.html"
+    "filename": "./docs/Human_Practices/index.html"
   },
   {
     "title": "Team - iGEM NCKU",
@@ -54,7 +54,7 @@ route = [
     "description": "",
     "partials": './partials.js',
     "layout":  "./view/Team/index.hbs",
-    "filename": "./public/Team/index.html"
+    "filename": "./docs/Team/index.html"
   },
 ]
 

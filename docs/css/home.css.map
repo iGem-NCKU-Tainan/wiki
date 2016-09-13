@@ -1,0 +1,1 @@
+{"version":3,"sources":["_layout.scss"],"names":[],"mappings":"AAGM,KAAN,KACE,WAAA","file":"home.css","sourcesContent":["@import \"./_color\";\n@import \"./_nav\";\n\nhtml, body {\n  background: $bg-color;\n}\n"],"sourceRoot":"/source/"}
