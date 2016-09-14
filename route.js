@@ -13,7 +13,8 @@ route = [
     	"url": "",
 			"img": "",
     	"description": "",
-			"logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png"
+			"logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png",
+			"sample1": "/wiki/images/T--NCKU_Tainan--sample1.png"
 		},
     "partials": './partials.js',
     "layout":  "./view/index.hbs",
