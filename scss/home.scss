@@ -1,3 +1,26 @@
 @import "./_layout";
 
+#big-title {
+	height: 230px;
+	margin-top: 100px;
+
+	.col-md-4 {
+		text-align: center;
+		img { 
+			height: 100%; 
+		}
+	}
+	
+	.col-md-8 {
+		height: 100%;
+		vertical-align: middle;
+		padding: 40px 20px;
+		span {
+			vertical-align: middle;
+			font-size: 85px;
+			font-weight: bold;
+			border-bottom: 10px solid $yellow;
+		}
+	}
+}
 

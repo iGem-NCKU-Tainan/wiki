@@ -1,6 +1,30 @@
 @import "./_color";
 @import "./_nav";
 
-html, body {
+html,body {
   background: $bg-color;
+	color: $text;
 }
+
+.container-big {
+	background: $bg-gray;
+	height: 500px;
+	width: 100%;
+	top: 280px;
+	position: absolute;
+}
+
+.container-fluid {
+	width: 65%;
+}
+
+.block {
+	border: 3px solid black;
+	padding: 15px 20px;
+	line-height: 40px;
+}
+
+.row * {
+	text-align: left;
+}
+
