@@ -2,7 +2,19 @@ var path = require('path');
 var url = require('url');
 
 var commonData = {
-	"font": "/wiki/font/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff"
+	"cssLink1": "/wiki/css/frame/T--NCKU_Tainan--bootstrap.min.css",
+	"cssLink2": "/wiki/font/T--NCKU_Tainan--NotoSans.css",
+	"cssLink3": "/wiki/font/T--NCKU_Tainan--font-awesome.min.css",
+	"jsLink1": "/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js",
+	"jsLink2": "/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js",
+	"commonjs": "/wiki/js/T--NCKU_Tainan--common.js",
+	"font": "/wiki/font/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
+	"icon": "/wiki/T--NCKU_Tainan--favicon.ico",
+	"home": "/wiki",
+	"project": "/wiki/Project",
+	"wetlab": "/wiki/Wetlab",
+	"drylab": "/wiki/Drylab",
+	"hp": "/wiki/Human_Practices"
 };
 
 route = [
@@ -13,6 +25,7 @@ route = [
     	"url": "",
 			"img": "",
     	"description": "",
+			"cssHome": "/wiki/css/T--NCKU_Tainan--home.css",
 			"logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png",
 			"sample1": "/wiki/images/T--NCKU_Tainan--sample1.png"
 		},

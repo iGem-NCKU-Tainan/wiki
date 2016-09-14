@@ -16,7 +16,7 @@ html,body {
 	position: absolute;
 	
 	#line-left {
-		border-left: 15px solid $yellow;
+		border-right: 15px solid $yellow;
 		height: 475px;
 		margin-top: -135px;
 		position: absolute;
@@ -24,7 +24,7 @@ html,body {
 	}
 
 	#line-right {
-		border-right: 15px solid $yellow;
+		border-left: 15px solid $yellow;
 		height: 475px;
 		margin-top: 156px;
 		position: absolute;
@@ -49,4 +49,23 @@ html,body {
 	font-size: 20px;
 	font-weight: bold;
 }
+
+/* below are special to igem's template */
+
+body > #globalWrapper {
+	font-size: 1em;
+
+	#top_title, #sideMenu { 
+		display: none;
+	}
+
+	#content {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		margin-top: -10px;
+	}
+}
+
+
 

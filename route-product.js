@@ -2,7 +2,19 @@ var path = require('path');
 var url = require('url');
 
 var commonData = {
-	"font": "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff"
+	"cssLink1": "/Team:NCKU_Tainan/css/frame/T--NCKU_Tainan--bootstrap_min_css?ctype=text/css&action=raw",
+	"cssLink2": "/Team:NCKU_Tainan/font/T--NCKU_Tainan--NotoSans_css?ctype=text/css&action=raw",
+	"cssLink3": "/Team:NCKU_Tainan/font/T--NCKU_Tainan--font-awesome_min_css?ctype=text/css&action=raw",
+	"jsLink1": "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--jquery-1_12_0_min_js?ctype=text/javascript&action=raw",
+	"jsLink2": "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--bootstrap_min_js?ctype=text/javascript&action=raw",
+	"commonjs": "/Team:NCKU_Tainan/js/T--NCKU_Tainan--common_js?ctype=text/javascript&action=raw",
+	"font": "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
+	"icon": "/wiki/images/8/80/T--NCKU_Tainan--favicon.png",
+	"home": "/Team:NCKU_Tainan",
+	"project": "/Team:NCKU_Tainan/Project",
+	"wetlab": "/Team:NCKU_Tainan/Wetlab",
+	"drylab": "/Team:NCKU_Tainan/Drylab",
+	"hp": "/Team:NCKU_Tainan/Human_Practices"
 };
 
 route = [
@@ -13,6 +25,7 @@ route = [
     	"url": "",
 			"img": "",
     	"description": "",
+			"cssHome": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--home_css?ctype=text/css&action=raw",
 			"logoUrl": "/wiki/images/4/4b/T--NCKU_Tainan--ulogo.png",
 			"sample1": "/wiki/images/a/ad/T--NCKU_Tainan--sample1.png"
 		},
