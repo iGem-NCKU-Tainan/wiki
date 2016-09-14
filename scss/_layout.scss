@@ -13,12 +13,29 @@ html,body {
   font-family: 'NotoSansCJKtc-Regular', 'Noto Sans', "微軟雅黑","Microsoft YaHei", Helvetica, 'sans-serif';
 }
 
-.container-big {
+#container-big {
 	background: $bg-gray;
 	height: 500px;
 	width: 100%;
 	top: 280px;
 	position: absolute;
+	
+	#line-left {
+		border-left: 15px solid $yellow;
+		height: 475px;
+		margin-top: -135px;
+		position: absolute;
+		left: 0;
+	}
+
+	#line-right {
+		border-right: 15px solid $yellow;
+		height: 475px;
+		margin-top: 156px;
+		position: absolute;
+		right: 0;
+	}
+
 }
 
 .container-fluid {
