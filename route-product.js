@@ -1,9 +1,14 @@
 var path = require('path');
 var url = require('url');
 
+var commonData = {
+	"font": "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff"
+};
+
 route = [
   {
 		data: {
+			commonData,
 	    "title": "iGEM NCKU",
     	"url": "",
 			"img": "",
@@ -70,5 +75,10 @@ route = [
     "filename": "./product/Team/index.html"
   },
 ]
+
+// add commonData to all data in route 
+for (i in route)
+	for (j in commonData)
+		route[i].data[j]=commonData[j];
 
 module.exports = route;
