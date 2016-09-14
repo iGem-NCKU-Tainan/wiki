@@ -1,9 +1,16 @@
 @import "./_color";
 @import "./_nav";
 
+@font-face {
+  font-family: 'NotoSansCJKtc-Regular';
+  src: url("/font/NotoSansCJKtc-Regular.woff") format('woff');
+}
+
 html,body {
   background: $bg-color;
 	color: $text;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'NotoSansCJKtc-Regular', 'Noto Sans', "微軟雅黑","Microsoft YaHei", Helvetica, 'sans-serif';
 }
 
 .container-big {

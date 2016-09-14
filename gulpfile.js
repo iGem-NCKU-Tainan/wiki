@@ -70,4 +70,9 @@ gulp.task('image', function () {
 	.pipe(gulp.dest('./docs/images/'));
 });
 
-gulp.task('default', ['scripts',  'scss', 'image', 'watch']);
+gulp.task('font', function () {
+  return gulp.src(['./font/**/*'])
+  .pipe(gulp.dest('./docs/font/'));
+})
+
+gulp.task('default', ['scripts',  'scss', 'image', 'font', 'watch']);
