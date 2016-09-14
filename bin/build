@@ -6,12 +6,14 @@ var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs-extra');
 var path = require('path');
 var load = './route.js';
+var load-product = './route-product.js';
 var project = argv._[1];
 var minify = argv.m;
 var w = argv.w;
 var i;
 
 build(load, w);
+build(load-product, w);
 
 function build(load, w) {
 

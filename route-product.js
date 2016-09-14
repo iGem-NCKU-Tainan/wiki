@@ -8,11 +8,11 @@ route = [
     	"url": "",
 			"img": "",
     	"description": "",
-			"logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png"
+			"logoUrl": "/wiki/images/4/4b/T--NCKU_Tainan--ulogo.png"
 		},
     "partials": './partials.js',
     "layout":  "./view/index.hbs",
-    "filename": "./docs/index.html"
+    "filename": "./product/index.html"
   },
   {
     data: {
@@ -23,7 +23,7 @@ route = [
 		},
     "partials": './partials.js',
     "layout":  "./view/Project/index.hbs",
-    "filename": "./docs/Project/index.html"
+    "filename": "./product/Project/index.html"
   },
   {
 		data: {
@@ -34,7 +34,7 @@ route = [
 		},
     "partials": './partials.js',
     "layout":  "./view/Wetlab/index.hbs",
-    "filename": "./docs/Wetlab/index.html"
+    "filename": "./product/Wetlab/index.html"
   },
   {
 		data: {
@@ -45,7 +45,7 @@ route = [
 		},
     "partials": './partials.js',
     "layout":  "./view/Drylab/index.hbs",
-    "filename": "./docs/Drylab/index.html"
+    "filename": "./product/Drylab/index.html"
   },
   {
 		data: {
@@ -56,7 +56,7 @@ route = [
 		},
     "partials": './partials.js',
     "layout":  "./view/Human_Practices/index.hbs",
-    "filename": "./docs/Human_Practices/index.html"
+    "filename": "./product/Human_Practices/index.html"
   },
   {
 		data: {
@@ -67,7 +67,7 @@ route = [
 		},
     "partials": './partials.js',
     "layout":  "./view/Team/index.hbs",
-    "filename": "./docs/Team/index.html"
+    "filename": "./product/Team/index.html"
   },
 ]
 
