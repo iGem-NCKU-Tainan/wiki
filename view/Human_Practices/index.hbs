@@ -1,8 +1,25 @@
 <html>
   <head>
     {{> head}}
+		<link rel="stylesheet" href="{{cssHP}}">
   </head>
-
   <body>
-   </body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">Human Practices</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<h2>head2</h2>
+						<p>introduction</p>
+						<div class="title-line">head2</div>
+					</div>
+					<div class="col-md-3">
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
 </html>

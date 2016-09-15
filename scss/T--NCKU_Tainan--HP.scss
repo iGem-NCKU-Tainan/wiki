@@ -1,0 +1,19 @@
+@import "./_layout";
+
+.head {
+	width: 55%;
+	margin-left: 55%;
+}
+
+.content {
+	margin-top: 145px;
+
+	.col-md-9 {
+		background: $bg-color;
+	}
+
+	.col-md-3 {
+		background: $bg-gray;
+	}
+}
+
