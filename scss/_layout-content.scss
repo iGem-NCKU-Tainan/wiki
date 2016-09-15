@@ -1,0 +1,55 @@
+@import "./_layout";
+
+#container-big {
+	#line-left2 {
+		border-right: 15px solid $yellow;
+		height: 360px;
+		margin-top: 805px;
+		position: absolute;
+		left: 0;
+	}
+}
+
+.head {
+	width: 55%;
+	margin-left: 55%;
+}
+
+.head2 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+.content {
+	margin-top: 145px;
+
+	.col-md-9 {
+		background: $bg-color;
+		padding: 30px 10% 30px 30px;
+
+		img {
+			width: 100%;
+			margin: 20px 0;
+		}
+		
+		.title-line {
+			width: 40%;
+			margin-top: 50px;
+			padding: 10px 0;
+			font-size: 16px;
+		}
+
+		.intro {
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+	}
+
+	.col-md-3 {
+		background: $bg-gray;
+	}
+
+}
+

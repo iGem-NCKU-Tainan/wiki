@@ -66,6 +66,10 @@ html,body {
 	font-weight: bold;
 }
 
+p {
+	word-wrap: break-word;
+}
+
 /* below are special to igem's template */
 
 body > #globalWrapper {
