@@ -1,1 +1,1 @@
-!function(){$("#HQ_page").attr("id","")}();
+!function(){$("#HQ_page").attr("id","")}(),$(window).on("load",function(){var e=document.getElementsByClassName("content")[0],t=e.getElementsByClassName("col-md-9")[0],s=e.getElementsByClassName("col-md-3")[0],l=t.offsetHeight,o=s.offsetHeight;o>l?t.style.height=o:s.style.height=l;for(var a=e.getElementsByClassName("title-line"),n=e.getElementsByClassName("block"),i=0;i<a.length;++i){var m=a.item(i),g=n.item(i),y=m.offsetTop;g.style.position="absolute",g.style.top=y+"px",g.style.width="90%"}});
