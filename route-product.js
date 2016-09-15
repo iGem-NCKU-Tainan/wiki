@@ -72,9 +72,9 @@ route = [
   	  "url": "",
     	"img": "",
     	"description": "",
-			"cssHome": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--HP_css?ctype=text/css&action=raw",
-			"sample2": "/wiki/images/a/ad/T--NCKU_Tainan--sample2.jpg",
-			"sample3": "/wiki/images/a/ad/T--NCKU_Tainan--sample3.png"
+			"cssHP": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--HP_css?ctype=text/css&action=raw",
+			"sample2": "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
+			"sample3": "/wiki/images/2/29/T--NCKU_Tainan--sample3.png",
 		},
     "partials": './partials.js',
     "layout":  "./view/Human_Practices/index.hbs",
