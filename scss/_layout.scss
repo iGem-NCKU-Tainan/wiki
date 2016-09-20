@@ -1,5 +1,5 @@
 @import "./_color";
-@import "./_nav";
+@import "./_header";
 
 html,body {
   background: $bg-color;
@@ -75,7 +75,7 @@ p {
 body > #globalWrapper {
 	font-size: 1em;
 
-	#top_title, #sideMenu { 
+	#top_title, #sideMenu {
 		display: none;
 	}
 

@@ -1,0 +1,65 @@
+@import "./_color";
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-brand h1,
+.navbar-brand h4,
+.navbar-default .navbar-text {
+  color: $text;
+  font-weight: 600;
+}
+
+.navbar-brand{
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+}
+
+#navbar {
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.navbar-nav > li {
+  margin: 0 10px 0 10px;
+}
+
+.nav-underline {
+  border-bottom: 4px solid $yellow;
+  width: 55%;
+  opacity: 0;
+  margin: auto;
+}
+
+.navbar-nav > li > a {
+  padding-bottom: 5px;
+  &:hover {
+    & + .nav-underline {
+      opacity: 1;
+    }
+  }
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 32px;
+}
+
+#navbar {
+  z-index: 99;
+}
+
+@media all and (max-width: 767px) {
+  .nav-underline {
+    margin: 0 0 5px 15px;
+    width: 30px;
+    float: left;
+  }
+}
