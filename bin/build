@@ -12,8 +12,12 @@ var minify = argv.m;
 var w = argv.w;
 var i;
 
-build(load, w);
-build(load_product, w);
+if (argv.p) {
+  build(load_product, w);
+}
+else {
+  build(load, w);
+}
 
 function build(load, w) {
 
@@ -42,4 +46,4 @@ function build(load, w) {
       }
     });
   }
-};
+}
