@@ -15,16 +15,16 @@
 .navbar-brand{
   h1 {
     margin-bottom: 0;
-  }
+}
 
-  h4 {
-    margin-top: 0;
-  }
+h4 {
+  margin-top: 0;
+}
 }
 
 #navbar {
   position: relative;
-  top: 30px;
+  top: 34px;
   left: 50px;
 }
 
@@ -44,8 +44,8 @@
   &:hover {
     & + .nav-underline {
       opacity: 1;
-    }
   }
+}
 }
 
 .navbar-default .navbar-toggle {
@@ -56,10 +56,26 @@
   z-index: 99;
 }
 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background-color: transparent;
+  &:hover {
+    & + .nav-underline {
+      opacity: 1;
+   }
+ }
+}
+
+li .dropdown-menu {
+  border: 1px solid #eee;
+  margin-top: 5px;
+}
+
 @media all and (max-width: 767px) {
   .nav-underline {
     margin: 0 0 5px 15px;
     width: 30px;
     float: left;
-  }
+}
 }

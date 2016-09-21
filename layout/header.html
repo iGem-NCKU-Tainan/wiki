@@ -21,8 +21,20 @@
   <div id="navbar" class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
       <li><a href="{{home}}">Home</a><div class="nav-underline"></div></li>
-      <li><a href="{{project}}">Project</a><div class="nav-underline"></div></li>
-      <li><a href="{{wetlab}}">WetLab</a><div class="nav-underline"></div></li>
+
+      <li>
+        <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="{{project}}">Project</a><div class="nav-underline"></div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><a href="{{proj-team}}">Team</a></li>
+          <li><a href="{{proj-attributions}}">Attributions</a></li>
+        </ul>
+      </li>
+
+      <li><a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="{{wetlab}}">WetLab</a><div class="nav-underline"></div>
+        <ul class="dropdown-menu" aria-labelledby ="dropdownMenu2">
+          <li><a href="{{weblab-description}}">Description</a></li>
+        </ul>
+      </li>
       <li><a href="{{drylab}}">DryLab</a><div class="nav-underline"></div></li>
       <li><a href="{{hp}}">Human Practice</a><div class="nav-underline"></div></li>
     </ul>
