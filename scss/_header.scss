@@ -8,6 +8,7 @@
 .navbar-brand h1,
 .navbar-brand h4,
 .navbar-default .navbar-text {
+  padding-bottom: 0;
   color: $text;
   font-weight: 600;
 }
@@ -26,6 +27,7 @@ h4 {
   position: relative;
   top: 34px;
   left: 50px;
+  z-index: 99;
 }
 
 .navbar-nav > li {
@@ -52,10 +54,6 @@ h4 {
   margin-top: 32px;
 }
 
-#navbar {
-  z-index: 99;
-}
-
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -72,10 +70,20 @@ li .dropdown-menu {
   margin-top: 5px;
 }
 
+#content h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+#bodyContent h4 {
+  padding: 0;
+}
+
 @media all and (max-width: 767px) {
   .nav-underline {
     margin: 0 0 5px 15px;
     width: 30px;
     float: left;
-}
+  }
 }
