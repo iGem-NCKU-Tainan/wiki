@@ -14,7 +14,7 @@ html,body {
 	width: 100%;
 	top: 280px;
 	position: absolute;
-	
+
 	#line-left {
 		border-right: 15px solid $yellow;
 		height: 475px;
@@ -80,12 +80,10 @@ body > #globalWrapper {
 	}
 
 	#content {
+    line-height: inherit;
 		margin: 0;
 		padding: 0;
 		width: 100%;
 		margin-top: -10px;
 	}
 }
-
-
-
