@@ -46,6 +46,7 @@ module.exports = [
  	   	img: "",
   	  description: "",
 			cssParts: "/wiki/css/T--NCKU_Tainan--Project--Parts.css",
+			sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
 		},
     layout:  "./view/Project/parts.hbs",
     filename: "./docs/Project/parts.html"
