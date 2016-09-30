@@ -1,1 +1,48 @@
 @import "./_layout-content";
+
+.head2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222222;
+  border: solid 4px #1b1b1b;
+  padding: 16px 30px;
+  text-align: center;
+  display: table-cell;
+}
+
+.rect {
+  padding: 40px 0 70px;
+  display: inline-block;
+  width: 50%;
+
+  h5 {
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 20px;
+
+    &::before {
+      width: 2px;
+      height: 10px;
+      color: #FAD509;
+      background: #fad509;
+      display: inline-block;
+      content: "";
+      position: relative;
+      right: 8px;
+      transform: rotate(22deg);
+    }
+  }
+
+  p::before {
+    content: '- ';
+  }
+}
+
+@media all and (max-width: 575px) {
+  .rect {
+    width: 100%;
+  }
+}
