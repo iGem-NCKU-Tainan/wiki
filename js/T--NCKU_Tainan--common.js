@@ -8,8 +8,8 @@ $(window).on("load", function(){
 	if (container === undefined) return;
 
 	/* content's height */
-	var col1 = container.getElementsByClassName("col-md-9");
-	var col2 = container.getElementsByClassName("col-md-3");
+	var col1 = container.getElementsByClassName("col-md-9")[0];
+	var col2 = container.getElementsByClassName("col-md-3")[0];
 
 	if (col1 !== undefined && col2 !== undefined) {
 	  updateColsHeight(col1, col2);

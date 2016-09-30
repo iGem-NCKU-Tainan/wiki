@@ -40,6 +40,10 @@
   }
 }
 
+.open .nav-underline {
+  opacity: 1;
+}
+
 .nav-underline {
   border-bottom: 3px solid $yellow;
   width: 70%;
