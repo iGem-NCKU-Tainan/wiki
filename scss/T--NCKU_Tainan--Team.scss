@@ -1,1 +1,70 @@
 @import "./_layout-content";
+
+#container-big #photo-left {
+  width: 34%;
+  height: 220px;
+  position: absolute;
+  left: 25%;
+}
+
+.container-fluid {
+  width: 92%;
+}
+
+.rect {
+  display: flex;
+  margin-top: 40px;
+}
+
+.left {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.right {
+  margin-top: 10px;
+  flex: 3;
+}
+
+.dept {
+  width: 85%;
+  padding: 20px 35px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222222;
+  line-height: 35px;
+  border: solid 6px #1b1b1b;
+}
+
+.content {
+
+  .member {
+    border-top: 8px solid #161616;
+    width: 30%;
+    max-width: 219px;
+    float: left;
+    margin: 0 10px;
+
+    .m-img {
+       width: 100%;
+       max-width: 219px;
+    }
+
+  }
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+}
+
+@media all and (max-width: 767px) {
+  .rect {
+    flex-wrap: wrap;
+  }
+  .content .member {
+    width: 100%;
+  }
+}
