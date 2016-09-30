@@ -12,7 +12,7 @@ module.exports = [
 			member: teamData.Member
 		},
     layout:  "./view/Team/index.hbs",
-    filename: "./docs/Team/index.html"
+    filename: "./docs/team/index.html"
   },
   {
     data: {
@@ -24,7 +24,7 @@ module.exports = [
 			sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
 		},
     layout:  "./view/Team/attributions.hbs",
-    filename: "./docs/Team/attributions.html"
+    filename: "./docs/team/attributions.html"
   },
   {
     data: {
@@ -35,7 +35,7 @@ module.exports = [
 	    css: "/wiki/css/T--NCKU_Tainan--Team--Acknowledgement.css"
 		},
     layout:  "./view/Team/acknowledgement.hbs",
-    filename: "./docs/Team/acknowledgement.html"
+    filename: "./docs/team/acknowledgement.html"
   },
   {
     data: {
@@ -46,6 +46,6 @@ module.exports = [
 	    css: "/wiki/css/T--NCKU_Tainan--Team--Collaborations.css"
 		},
     layout:  "./view/Team/collaborations.hbs",
-    filename: "./docs/Team/collaborations.html"
+    filename: "./docs/team/collaborations.html"
   }
  ];
