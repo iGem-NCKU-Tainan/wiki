@@ -18,13 +18,16 @@ $(window).on("load", function(){
 	/* add content page's comment */
 	var content = container.getElementsByClassName("title-line");
 	var comment = container.getElementsByClassName("block");
-	for(var i=0; i<content.length; ++i) {
+	for(var i=0; i < content.length; ++i) {
 		var item1 = content.item(i);
 		var item2 = comment.item(i);
 		var Top = item1.offsetTop;
-		item2.style.position = "absolute";
-		item2.style.top = Top+"px";
-		item2.style.width = "90%";
+
+		if (item2) {
+		  item2.style.position = "absolute";
+		  item2.style.top = Top+"px";
+		  item2.style.width = "90%";
+    }
 	}
 });
 
