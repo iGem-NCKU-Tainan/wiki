@@ -1,1 +1,16 @@
 @import "./_layout-content";
+@import "./_form";
+
+.s-content {
+  h5 {
+    font-weight: bold;
+  }
+  p {
+    padding: 5px 15px;
+  }
+  table {
+    margin: 10px 10px 20px;
+  }
+}
+
+
