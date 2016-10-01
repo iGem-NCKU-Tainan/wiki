@@ -25,6 +25,7 @@ module.exports = [
   	  url: "",
  	   	img: "",
   	  description: "",
+	    css: "/wiki/css/T--NCKU_Tainan--Project--Results.css",
 		},
     layout:  "./view/Project/results.hbs",
     filename: "./docs/Project/results.html"
