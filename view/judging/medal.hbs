@@ -1,0 +1,70 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">JUDGING / Medal</div>
+				<div class="content row">
+          <div class="col-md-9 s-content">
+          <h4 class="s-title broneze">Bronze</h4>
+            <h5>1.    Register and attend </h5>
+            <p>
+              NCKU Tainan team registerd for iGEM competition as an "undergraduate" team and as the first team from southern Taiwan.
+            </p>
+            <h5>2.    deliverables</h5>
+            <p>We completed all the deliverables and we are going to the iGEM 2016 Giant Jamboree.
+            Specific information can be found in <a href="{{teamAttributions}}">Attribution</a> / <a href="{{projParts}}">Parts and Submission</a> / <a href="judgingSafetyform">Safety Form</a> / <a href="judgingSafetyform">Judging form</a>
+            </p>
+            <h5>3.    Attribution</h5>
+            <p>The individual attributions of each team member are well documented in our <a href={{teamAttributions}}>Attribution Page</a> , For contributions and aid from our mentors and supporters , please see <a href="{{teamAcknowledgement}}">Acknowledgement</a>.
+            </p>
+            <h5>4.    Part / Contribution</h5>
+            <p>Our project aims to prevent diabetes by detecting urine glucose with safety . . The <a href="{{projParts}}">parts</a> that we build are well documented and already submitted
+            </p>
+
+
+          <h4 class="s-title silver">Silver</h4>
+            <h5>1.    Validated Part / Validated Contribution</h5>
+            <p>We experimentally validated our BioBrick device for Urine Glucose Detection (<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920001">BBa_K1920001</a>)and Safety((<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920006">BBa_K1920006</a>) .
+            For our Detection (<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920001">BBa_K1920001</a>) BioBrick part , we characterized the relationship between glucose concentration and induced RFP fluorescent intensity  .And for our Safety((<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920006">BBa_K1920006</a>) BioBrick part we measured the growth curve and performed a CFU assay.
+          </p>
+          <h5>2.    Collaboration</h5>
+          <p>we interacted with over ??? other iGEM teams in a variety of activities! And our key contribution to other iGEM teams project includes :
+            (1)    Collaborate with TCU_Taiwan , we shared the protocol of Glucose-free modified M9 medium for cell culturing and functional experiments
+            (2)    Collaborate with TCU_Taiwan , we helped in modeling specifically about the calculation of Enzyme Kinetics and Promoter Efficiency
+            All the details can be found in  <a href="{{teamCollaborations}}">Collaboration</a></p>
+            <h5>3.    Human Practices</h5>
+            <p>In addition to perfecting our project and preventing diabetes , we held a variety of activities to connect U-know and iGEM to people
+            (1)    we launched videos via social media to provide health education to bust the common myth about diabetes and to provide correct information from doctors and specialists
+            (2)    we held synthetic biology workshops in our university NCKU to promote synthetic biology and interdisciplinary cooperation.
+
+            for further information , please go to <a href="{{hp}}">Human Practices</a></p>
+
+
+
+            <h4 class="s-title gold">Gold</h4>
+            <h5>1.    Integrated Human Practices</h5>
+            <p>This summer we proudly hosted <a href="http://igem.ncku.edu.tw/2016conf/">iGEM 2016 Asia-Pacific Conference</a>, gathering over 20 teams , 180 iGEMers , from three different regions . During the conference , all teams and iGEMers had the opportunity to present their own project as well as to listen to others’ speech . In addition ,we invited experts and specialists from the industry , media to share their aspect from different point of view and to seek the opportunity of cooperation with industry .. We are dedicated to provide an opportunity for iGEMers to interact and we received a lot of good response!
+            </p>
+            <h5>2.    Proof of concept</h5>
+            <p>To prove that U-know can prevent diabetes by detecting , we performed several <a href="">Urine Functional Tests</a>.   Our Detection Circuit(<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920001">BBa_K1920001</a>) do differentiate Diabetic urine sample with Control , and the sensitivity is 95% , which was already further improved to 100%
+            For Safety , we tested our Safety Circuit(<a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920006">BBa_K1920006</a>) and proved that our design do protect U-know users as well as the environment by killing bacteria.
+          </p>
+          <p>To know more , please look at <a href="{{projResults}}">Result/Proof</a></p>
+
+            <h5>3.    Demonstrate your work</h5>
+            <p>To bring U-know to real world condition , we built different versions of device <a href="">prototypes</a>.
+            We welcome you to become a U-know user , and never be afraid of diabetes
+            U-know Makes You Know !</p>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
+</html>
