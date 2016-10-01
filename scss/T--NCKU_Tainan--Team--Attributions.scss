@@ -11,10 +11,15 @@
   display: table-cell;
 }
 
+.exp .rect {
+  min-height: 255px;
+}
+
 .rect {
-  padding: 40px 0 70px;
+  padding: 40px 0;
   display: inline-block;
-  width: 50%;
+  width: 49%;
+  float: left;
 
   h5 {
     opacity: 0.6;
@@ -39,6 +44,10 @@
   p::before {
     content: '- ';
   }
+}
+
+.single {
+  width: 100%;
 }
 
 @media all and (max-width: 575px) {
