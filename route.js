@@ -2,10 +2,12 @@ var path = require('path');
 var url = require('url');
 var routeProject = require('./nav_routes/route-project');
 var routeTeam = require('./nav_routes/route-team');
+var routeJudging = require('./nav_routes/route-judging');
 
 var route = []
 .concat(routeProject)
 .concat(routeTeam)
+.concat(routeJudging)
 .concat([
   {
 		data: {
@@ -86,10 +88,13 @@ var commonData = {
 	drylab: "/wiki/Drylab",
 	hp: "/wiki/Human_Practices",
 	projParts: '/wiki/Project/parts',
+	projResults: '/wiki/Project/results',
   team: '/wiki/team',
   teamCollaborations: '/wiki/team/collaborations',
   teamAttributions: '/wiki/team/attributions',
   teamAcknowledgement: '/wiki/team/acknowledgement',
+  judgingMedal: '/wiki/judging/medal',
+  judgingSafetyForm: '/wiki/judging/safety_form'
 };
 
 // add commonData to all data in route
