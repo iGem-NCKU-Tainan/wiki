@@ -33,6 +33,42 @@ var route = []
     "layout":  "./view/Human_Practices/index.hbs",
     "filename": "./docs/Human_Practices/index.html"
   }
+  ,
+  {
+        data: {
+        "title": "Modeling - iGEM NCKU",
+      "url": "",
+        "img": "",
+        "description": "",
+            "cssModeling": "/wiki/css/T--NCKU_Tainan--Project--Modeling.css",
+            "image1": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
+            "image2": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
+            "image3": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg",
+            "image4": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image4.jpg",
+            "image5": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image5.jpg",
+            "image6": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image6.jpg",
+            "image7": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image7.jpg",
+            "image8": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image8.jpg",
+            "image9": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image9.jpg",
+            "image10": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image10.jpg",
+            "image11": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image11.jpg",
+            "image12": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image12.jpg",
+            "image13": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image13.jpg",
+            "image14": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image14.jpg",
+            "image15": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image15.jpg",
+            "image16": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image16.jpg",
+            "image17": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image17.jpg",
+            "image18": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image18.jpg",
+            "image19": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg",
+            "image20": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image20.jpg"
+        },
+    "layout":  "./view/Project/modeling.hbs",
+    "filename": "./docs/Project/modeling.html"
+  }
+
+
+
+
 ]);
 
 var commonData = {

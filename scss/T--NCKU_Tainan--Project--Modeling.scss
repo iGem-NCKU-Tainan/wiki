@@ -1,0 +1,57 @@
+@import "./_layout-content";
+
+//colors
+$white:  white;
+$black:  black;
+$codebg: #9CD9FF;
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    &.dial {
+        background-image: linear-gradient(to top right, $white 49%, $black, $white 51% );
+    }
+    div {
+        &.right {
+            text-align: right;
+            padding-right: 5px;
+        }
+        &.left {
+            text-align: left;
+            padding-left: 5px;
+        }
+    }
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.size1 {
+    width: 200px;
+}
+.size2 {
+    width: 100px;
+}
+.size3 {
+    width: 50px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.MathJax {
+    font-size: 0.8em !important;
+}
+
+.code {
+    background-color: $codebg;
+}
