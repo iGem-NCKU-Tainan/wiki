@@ -1,8 +1,8 @@
 var path = require('path');
 var url = require('url');
-var routeProject = require('./nav_routes/route-project');
-var routeTeam = require('./nav_routes/route-team');
-var routeJudging = require('./nav_routes/route-judging');
+var routeProject = require('./dev_routes/route-project');
+var routeTeam = require('./dev_routes/route-team');
+var routeJudging = require('./dev_routes/route-judging');
 
 var route = []
 .concat(routeProject)
