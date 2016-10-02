@@ -8,12 +8,11 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team.css" + typecss,
-      sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg",
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team_css" + typecss,
       member: teamData.Member
     },
     layout:  "./view/Team/index.hbs",
-    filename: "./product/team/index.html"
+    filename: "./product/Team.html"
   },
   {
     data: {
@@ -21,11 +20,10 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team--Attributions.css" + typecss,
-      sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg"
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Attributions_css" + typecss,
     },
     layout:  "./view/Team/attributions.hbs",
-    filename: "./product/team/attributions.html"
+    filename: "./product/Attributions.html"
   },
   {
     data: {
@@ -33,10 +31,10 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team--Acknowledgement.css" + typecss
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Acknowledgement_css" + typecss
     },
     layout:  "./view/Team/acknowledgement.hbs",
-    filename: "./product/team/acknowledgement.html"
+    filename: "./product/Acknowledgement.html"
   },
   {
     data: {
@@ -44,9 +42,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team--Collaborations.css" + typecss
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Collaborations_css" + typecss
     },
     layout:  "./view/Team/collaborations.hbs",
-    filename: "./product/team/collaborations.html"
+    filename: "./product/Collaborations.html"
   }
  ];

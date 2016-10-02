@@ -6,11 +6,11 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Judging--Medal.css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Medal_css" + typecss,
       sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/judging/medal.hbs",
-    filename: "./product/judging/medal.html"
+    filename: "./product/Medal.html"
   },
   {
     data: {
@@ -18,11 +18,11 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Judging--Safetyform.css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Safety_css" + typecss,
       sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/judging/safety_form.hbs",
-    filename: "./product/judging/safety_form.html"
+    filename: "./product/Safety.html"
   }
 
  ];

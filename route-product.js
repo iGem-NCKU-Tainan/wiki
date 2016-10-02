@@ -29,12 +29,10 @@ var route = []
       "img": "",
       "description": "",
       "cssHP": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--HP_css?ctype=text/css&action=raw",
-      "sample2": "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
-      "sample3": "/wiki/images/2/29/T--NCKU_Tainan--sample3.png",
     },
     "partials": './partials.js',
     "layout":  "./view/Human_Practices/index.hbs",
-    "filename": "./product/Human_Practices/index.html"
+    "filename": "./product/Human_Practices.html"
   }
 ]);
 
@@ -45,19 +43,21 @@ var commonData = {
   jsLink1: "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--jquery-1_12_0_min_js?ctype=text/javascript&action=raw",
   jsLink2: "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--bootstrap_min_js?ctype=text/javascript&action=raw",
   commonjs: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--common_js?ctype=text/javascript&action=raw",
+  sample2: "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
+  sample3: "/wiki/images/2/29/T--NCKU_Tainan--sample3.png",
   font: "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
   icon: "/wiki/images/8/80/T--NCKU_Tainan--favicon.png",
   home: "/Team:NCKU_Tainan",
   project: "/Team:NCKU_Tainan/Project",
   hp: "/Team:NCKU_Tainan/Human_Practices",
-  projParts: '/Team:NCKU_Tainan/Project/parts',
-  projResults: '/Team:NCKU_Tainan/Project/results',
-  team: '/Team:NCKU_Tainan/team',
-  teamCollaborations: '/Team:NCKU_Tainan/team/collaborations',
-  teamAttributions: '/Team:NCKU_Tainan/team/attributions',
-  teamAcknowledgement: '/Team:NCKU_Tainan/team/acknowledgement',
-  judgingMedal: '/Team:NCKU_Tainan/judging/medal',
-  judgingSafetyForm: '/Team:NCKU_Tainan/judging/safety_form'
+  projParts: '/Team:NCKU_Tainan/Parts',
+  projResults: '/Team:NCKU_Tainan/Results',
+  team: '/Team:NCKU_Tainan/Team',
+  teamCollaborations: '/Team:NCKU_Tainan/Collaborations',
+  teamAttributions: '/Team:NCKU_Tainan/Attributions',
+  teamAcknowledgement: '/Team:NCKU_Tainan/Acknowledgement',
+  judgingMedal: '/Team:NCKU_Tainan/Medal',
+  judgingSafetyForm: '/Team:NCKU_Tainan/Safety'
 };
 
 

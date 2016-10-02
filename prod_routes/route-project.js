@@ -19,7 +19,7 @@ module.exports = [
       description: "",
     },
     layout:  "./view/Project/description.hbs",
-    filename: "./product/Project/description.html"
+    filename: "./product/Description.html"
   },
   {
     data: {
@@ -28,10 +28,10 @@ module.exports = [
       img: "",
       description: "",
       sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Project--Results.css" + typecss
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Results_css" + typecss
     },
     layout:  "./view/Project/results.hbs",
-    filename: "./product/Project/results.html"
+    filename: "./product/Results.html"
   },
   {
     data: {
@@ -41,7 +41,7 @@ module.exports = [
       description: "",
     },
     layout:  "./view/Project/modeling.hbs",
-    filename: "./product/Project/modeling.html"
+    filename: "./product/Model.html"
   },
   {
     data: {
@@ -49,10 +49,10 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      cssParts: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Project--Parts.css" + typecss,
+      cssParts: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Parts_css" + typecss,
       sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/Project/parts.hbs",
-    filename: "./product/Project/parts.html"
+    filename: "./product/Parts.html"
   }
 ];
