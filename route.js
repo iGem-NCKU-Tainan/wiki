@@ -42,7 +42,7 @@ var route = []
       "url": "",
         "img": "",
         "description": "",
-            "cssModeling": "/wiki/css/T--NCKU_Tainan--Project--Modeling.css",
+            "cssModeling": "/wiki/css/T--NCKU_Tainan--Model.css",
             "image1": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
             "image2": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
             "image3": "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg",

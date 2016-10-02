@@ -20,7 +20,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Team--Attributions.css",
+      css: "/wiki/css/T--NCKU_Tainan--Attributions.css",
       sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/Team/attributions.hbs",
@@ -32,7 +32,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Team--Acknowledgement.css"
+      css: "/wiki/css/T--NCKU_Tainan--Acknowledgement.css"
     },
     layout:  "./view/Team/acknowledgement.hbs",
     filename: "./docs/team/acknowledgement.html"
@@ -43,7 +43,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Team--Collaborations.css"
+      css: "/wiki/css/T--NCKU_Tainan--Collaborations.css"
     },
     layout:  "./view/Team/collaborations.hbs",
     filename: "./docs/team/collaborations.html"
