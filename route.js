@@ -17,7 +17,8 @@ var route = []
       "description": "",
       "cssHome": "/wiki/css/T--NCKU_Tainan--home.css",
       "logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png",
-      "sample1": "/wiki/images/T--NCKU_Tainan--sample1.png"
+      "sample1": "/wiki/images/T--NCKU_Tainan--sample1.png",
+      "sample4": "/wiki/images/T--NCKU_Tainan--sample4.png",
     },
     "layout":  "./view/index.hbs",
     "filename": "./docs/index.html"

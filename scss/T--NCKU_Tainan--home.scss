@@ -4,25 +4,24 @@ p {
 	text-align: left;
 }
 
+.container-fluid {
+	&>.row {
+		padding: 70px 3% 30px;	
+	}
+}
+
 #big-title {
-	margin-top: 100px;
+	margin-bottom: 70px;
 	
-	.col-md-4 {
-		text-align: center;
-		img { 
-			height: 230px;
-		}
+	img { 
+		height: 255px;
 	}
 	
-	.col-md-8 {
-		vertical-align: middle;
-		padding: 40px 20px;
-		span {
-			vertical-align: middle;
-			font-size: 85px;
-			font-weight: bold;
-			border-bottom: 10px solid $yellow;
-		}
+	span {
+		margin-left: 80px;
+		font-size: 90px;
+		font-weight: bold;
+		border-bottom: 10px solid $yellow;
 		@media all and (max-width: 1199px) {
 			text-align: center;
 		}
@@ -45,6 +44,10 @@ p {
 }
 
 .title-line {
-	margin-top: 100px;
+	border-top: 8px solid $text;
+}
+
+#gray-bg {
+	background: $bg-gray;
 }
 
