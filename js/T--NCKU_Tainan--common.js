@@ -15,21 +15,26 @@ $(window).on("load", function(){
       updateColsHeight(col1, col2);
   }
 
-    /* add content page's comment */
-    var content = container.getElementsByClassName("title-line");
-    var comment = container.getElementsByClassName("block");
-    for(var i=0; i < content.length; ++i) {
-        var item1 = content.item(i);
-        var item2 = comment.item(i);
-        var Top = item1.offsetTop;
+	/* fix side-menu after scroll */
+	var bodyTop = document.body.getBoundingClientRect().top;
+	var tmp = document.getElementById("sidemenu");
 
-        if (item2) {
-          item2.style.position = "absolute";
-          item2.style.top = Top+"px";
-          item2.style.width = "90%";
-    }
-    }
+	$(window).scroll( function(){
+		var sidemenuTop = document.getElementById("sidemenu").getBoundingClientRect().top;
+		var sidemenu = document.getElementById("sidemenu");
+		var Width = sidemenu.offsetWidth;
+		var Top = sidemenu.parentElement.getBoundingClientRect().top;
+		if(Top<=0) {
+			sidemenu.style.position = "fixed";
+			sidemenu.style.width = Width;
+			sidemenu.style.top = "0";
+		} else {
+			sidemenu.style.position = "relative";
+			sidemenu.style.top = "";
+		}
+	});
 });
+
 
 function updateColsHeight(col1, col2) {
     var h1 = col1.offsetHeight, h2 = col2.offsetHeight;
