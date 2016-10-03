@@ -25,6 +25,9 @@
 .content {
 	margin-top: 145px;
 
+	.col-md-3 {
+		background: $bg-gray;
+	}
 	.col-md-9 {
 		background: $bg-color;
 		padding: 30px 10% 30px 30px;
@@ -48,8 +51,25 @@
 
 	}
 
-	.col-md-3 {
+	#sidemenu {
+		margin: 0 auto;
+		width: 80%;
+		padding: 20px 25px;
 		background: $bg-gray;
+		border-top: 10px solid $text;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 30px;
+		li {
+			list-style-type: none;
+			a {
+				text-decoration: none;
+				color: $text;
+				&:hover {
+					opacity: .8;
+				}
+			}
+		}
 	}
 
 }
