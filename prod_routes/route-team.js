@@ -1,4 +1,4 @@
-var teamData = require('../team.json');
+var teamData = require('../team-product.json');
 var typecss = '?ctype=text/css&action=raw';
 
 module.exports = [
