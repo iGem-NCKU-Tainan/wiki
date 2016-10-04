@@ -9,10 +9,10 @@
 			#photo-left { background-image: url("{{sample2}}"); }
 		</style>
 		<div class="container-fluid" style="margin-top:100px">
-				<div class="head">Project / Parts</div>
+			<div class="head">Project / Parts</div>
 				<div class="content row">
 					<div class="col-md-9">
-            <h5 class="title-line">Basic Part</h5>
+            <h5 class="title-line" id="Basic">Basic Part</h5>
             <table>
               <tr>
                 <th>promoter</th>
@@ -66,7 +66,7 @@
                 <td>terminater</td><td>B0015</td><td></td><td></td>
               </tr>
             </table>
-            <h5 class="title-line">Composite Part</h5>
+            <h5 class="title-line" id="Composite">Composite Part</h5>
             <h6>Glucose Detection Circuit</h6>
             <table>
               <tr>
@@ -116,6 +116,12 @@
               <tr><td><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920005">BBa_K1920005</a></td><td>Device</td><td>PoPS->lysis</td><td>Chia-En Wong</td><td>343</td></tr>
               <tr><td><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920006">BBa_K1920006</a></td><td>Device</td><td>pBAD-RBS-lysis-B0015</td><td>CHIA-EN,WONG</td><td>437</td></tr>
             </table>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onClick="toEvent('Basic');">Basic Part</a></li>
+							<li><a href="#" onClick="toEvent('Composite');">Composite Part</a></li>
+						</ul>
 					</div>
 				</div>
 		</div> <!-- /.container-fluid -->
