@@ -6,64 +6,54 @@
 			#photo-left { background-image: url("/wiki/images/T--NCKU_Tainan--sample2.jpg"); }
 		</style>
 		<div class="container-fluid" style="margin-top:100px">
-				<div class="head">Project / Parts</div>
+			<div class="head">Project / Parts</div>
 				<div class="content row">
 					<div class="col-md-9">
-            <h5 class="title-line">Basic Part</h5>
+            <h5 class="title-line" id="Basic">Basic Part</h5>
             <table>
               <tbody><tr>
-                <th>promoter</th>
-                <th>number</th>
                 <th>name</th>
-                <th></th>
+                <th>type</th>
+                <th>description</th>
               </tr>
               <tr>
-                <td></td><td>J23101</td><td></td><td>consitutive promoter</td>
+                <td><a href="http://parts.igem.org/Part:BBa_J23101">BBa_J23101</a></td><td rowspan="5">promoter</td><td>consitutive promoter</td>
               </tr>
               <tr>
-                <td></td><td>J23110</td><td></td><td>consitutive promoter</td>
+                <td><a href="http://parts.igem.org/Part:BBa_J23110">BBa_J23110</a></td><td>consitutive promoter</td>
               </tr>
               <tr>
-                <td></td><td>K861171</td><td>Pcar</td><td>glucose induced promoter</td>
+                <td><a href="http://parts.igem.org/Part:BBa_K861171">BBa_K861171</a>: Pcar</td><td>glucose induced promoter</td>
               </tr>
               <tr>
-                <td></td><td>K861170</td><td>PI</td><td>glucose induced promoter</td>
+                <td><a href="http://parts.igem.org/Part:BBa_K861170">BBa_K861170</a>: PI</td><td>glucose induced promoter</td>
               </tr>
               <tr>
-                <td></td><td>K206000</td><td>pBAD</td><td>arabinose induced promoter</td>
+                <td><a href="http://parts.igem.org/Part:BBa_K206000">BBa_K206000</a>: pBAD</td><td>arabinose induced promoter</td>
               </tr>
               <tr>
-                <td></td><td></td><td></td><td></td>
+                <td><a href="http://parts.igem.org/Part:BBa_B0034">BBa_B0034</a></td><td rowspan="3">RBS</td><td>1</td>
               </tr>
               <tr>
-                <td>RBS</td><td>B0034</td><td></td><td>1</td>
+                <td><a href="http://parts.igem.org/Part:BBa_B0032">BBa_B0032</a></td><td>0.3</td>
               </tr>
               <tr>
-                <td></td><td>B0032</td><td></td><td>0.3</td>
+                <td><a href="http://parts.igem.org/Part:BBa_B0031">BBa_B0031</a></td><td>0.07</td>
               </tr>
               <tr>
-                <td></td><td>B0031</td><td></td><td>0.07</td>
+                <td><a href="http://parts.igem.org/Part:BBa_E1010">BBa_E1010</a>: RFP</td><td rowspan="3">CDS</td><td>red fluroscent protent</td>
               </tr>
               <tr>
-                <td></td><td></td><td></td><td></td>
+                <td><a href="http://parts.igem.org/Part:BBa_K592009">BBa_K592009</a>: AmilCP</td><td>blue chromoprotein</td>
               </tr>
               <tr>
-                <td>CDS</td><td>E1010</td><td>RFP</td><td>red fluroscent protent</td>
+                <td><a href="http://parts.igem.org/Part:BBa_K117000">BBa_K117000</a>: lysis</td><td>suicide gene</td>
               </tr>
               <tr>
-                <td></td><td>K592009</td><td>AmilCP</td><td>blue chromoprotein</td>
-              </tr>
-              <tr>
-                <td></td><td>K117000</td><td>lysis</td><td>suicide gene</td>
-              </tr>
-              <tr>
-                <td></td><td></td><td></td><td></td>
-              </tr>
-              <tr>
-                <td>terminater</td><td>B0015</td><td></td><td></td>
+                <td><a href="http://parts.igem.org/Part:BBa_B0015">BBa_B0015</a></td><td>terminater</td><td></td>
               </tr>
             </tbody></table>
-            <h5 class="title-line">Composite Part</h5>
+            <h5 class="title-line" id="Composite">Composite Part</h5>
             <h6>Glucose Detection Circuit</h6>
             <table>
               <tbody><tr>
@@ -113,6 +103,12 @@
               <tr><td><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920005">BBa_K1920005</a></td><td>Device</td><td>PoPS-&gt;lysis</td><td>Chia-En Wong</td><td>343</td></tr>
               <tr><td><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K1920006">BBa_K1920006</a></td><td>Device</td><td>pBAD-RBS-lysis-B0015</td><td>CHIA-EN,WONG</td><td>437</td></tr>
             </tbody></table>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onclick="toEvent('Basic');">Basic Part</a></li>
+							<li><a href="#" onclick="toEvent('Composite');">Composite Part</a></li>
+						</ul>
 					</div>
 				</div>
 		</div> <!-- /.container-fluid -->
