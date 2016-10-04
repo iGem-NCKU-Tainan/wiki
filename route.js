@@ -30,7 +30,6 @@ var route = []
       "img": "",
       "description": "",
       "cssHP": "/wiki/css/T--NCKU_Tainan--HP.css",
-      "sample2": "/wiki/images/T--NCKU_Tainan--sample2.jpg",
       "sample3": "/wiki/images/T--NCKU_Tainan--sample3.png"
     },
     "layout":  "./view/Human_Practices/index.hbs",
@@ -96,7 +95,8 @@ var commonData = {
   teamAttributions: '/wiki/team/attributions',
   teamAcknowledgement: '/wiki/team/acknowledgement',
   judgingMedal: '/wiki/judging/medal',
-  judgingSafetyForm: '/wiki/judging/safety_form'
+  judgingSafetyForm: '/wiki/judging/safety_form',
+  sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 
 // add commonData to all data in route
