@@ -52,6 +52,7 @@ var commonData = {
   hp: "/Team:NCKU_Tainan/Human_Practices",
   projParts: '/Team:NCKU_Tainan/Parts',
   projResults: '/Team:NCKU_Tainan/Results',
+  projModeling: '/Team:NCKU_Tainan/Model',
   team: '/Team:NCKU_Tainan/Team',
   teamCollaborations: '/Team:NCKU_Tainan/Collaborations',
   teamAttributions: '/Team:NCKU_Tainan/Attributions',

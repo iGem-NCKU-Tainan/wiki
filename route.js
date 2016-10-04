@@ -90,6 +90,7 @@ var commonData = {
   hp: "/wiki/Human_Practices",
   projParts: '/wiki/Project/parts',
   projResults: '/wiki/Project/results',
+  projModeling: '/wiki/Project/modeling',
   team: '/wiki/team',
   teamCollaborations: '/wiki/team/collaborations',
   teamAttributions: '/wiki/team/attributions',
