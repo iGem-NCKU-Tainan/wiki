@@ -6,7 +6,13 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Human_Practices.css",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
+			overview1: "/wiki/images/T--NCKU_Tainan--hpOverview1.jpg",
+			overview2: "/wiki/images/T--NCKU_Tainan--hpOverview2.jpg",
+			conf1: "/wiki/images/T--NCKU_Tainan--hpConf1.jpg",
+			conf2: "/wiki/images/T--NCKU_Tainan--hpConf2.jpg",
+			conf3: "/wiki/images/T--NCKU_Tainan--hpConf3.jpg",
+			conf4: "/wiki/images/T--NCKU_Tainan--hpConf4.jpg",
+			conf5: "/wiki/images/T--NCKU_Tainan--hpConf5.jpg",
     },
     layout:  "./view/Human_Practices/index.hbs",
     filename: "./docs/Human_Practices/index.html"
@@ -17,11 +23,30 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Integrated_Practice.css",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
+      css: "/wiki/css/T--NCKU_Tainan--Human_Practices.css",
+			visiting1: "/wiki/images/T--NCKU_Tainan--hpVisiting1.jpg",
+			visiting2: "/wiki/images/T--NCKU_Tainan--hpVisiting2.jpg",
+			exp1: "/wiki/images/T--NCKU_Tainan--hpExp1.jpg",
+			exp2: "/wiki/images/T--NCKU_Tainan--hpExp2.jpg",
+			exp3: "/wiki/images/T--NCKU_Tainan--hpExp3.jpg",
+			round1: "/wiki/images/T--NCKU_Tainan--hpRound1.jpg",
+			round2: "/wiki/images/T--NCKU_Tainan--hpRound2.jpg",
+			round3: "/wiki/images/T--NCKU_Tainan--hpRound3.jpg",
     },
     layout:  "./view/Human_Practices/integrated.hbs",
     filename: "./docs/Human_Practices/integrated.html"
+  },
+  {
+    data: {
+      title: "Engagement - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      css: "/wiki/css/T--NCKU_Tainan--Human_Practices.css",
+			img: "/wiki/images/T--NCKU_Tainan--hpEngagement.jpg"
+    },
+    layout:  "./view/Human_Practices/engagement.hbs",
+    filename: "./docs/Human_Practices/engagement.html"
   }
  ];
 

@@ -32,18 +32,25 @@
 		background: $bg-color;
 		padding: 30px 10% 30px 30px;
 
+	  h5 {
+	    font-weight: bold;
+	  }
+	  p {
+	    padding: 5px 15px;
+	  }
+	  table {
+	    margin: 10px 10px 20px;
+	  }
 		img {
 			width: 100%;
 			margin: 20px 0;
 		}
-		
 		.title-line {
 			width: 40%;
 			margin-top: 50px;
 			padding: 10px 0;
 			font-size: 16px;
 		}
-
 		.intro {
 			font-weight: bold;
 			font-size: 14px;
