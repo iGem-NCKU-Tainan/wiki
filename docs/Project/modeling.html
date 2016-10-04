@@ -189,7 +189,8 @@
                     <p>Hence, we can find \(t_0 \gt t_{0.05,10}\) at every time.</p>
                     <p>Conclusion:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can say there are the difference groups (0.1 vs 5 mmol/L or 0.1 vs 120mmol/L) in part 1 with the data. And then, we need to find an accurate value which can distinguish between two groups.</p>
                     <p class="code"></p><pre><code>data0.1&lt;-read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/0.1urine.csv",header=T)<br>data120&lt;-read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/120urine.csv",header=T)<br>difference&lt;-cbind(data120[,2]-data0.1[,2],data120[,3]-data0.1[,3],data120[,4]-data0.1[,4],data120[,5]-data0.1[,5],data120[,6]-data0.1[,6],data120[,8]-data0.1[,8],data120[,9]-data0.1[,9],data120[,10]-data0.1[,10],data120[,11]-data0.1[,11],data120[,12]-data0.1[,12],data120[,13]-data0.1[,13])<br>dbar&lt;-difference%*% rep(1/11,11)<br>var&lt;- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10<br>sd&lt;-var^0.5<br>t&lt;-(dbar/sd)*(11^0.5)</code></pre><p></p>
-                    <div class="title-line" id="reg">Regression &amp; Prediction interval</div>
+                    <div class="title-line" id="reg" style="padding-bottom:0"></div>
+										<div style="font-size:16px;font-weight:bold">Regression &amp; Prediction interval</div>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mmol/L and 5mmol/L from exceeding 0.1mmol/L becomes the most important problem. We use the skill of the prediction interval in this part.</p>
                     <br>
                     <p>Procedure</p>
