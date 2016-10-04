@@ -5,7 +5,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-    	css: "/wiki/css/T--NCKU_Tainan--Project.css"
+    	css: "/wiki/css/T--NCKU_Tainan--Project.css",
+    	diabetes1: "/wiki/images/T--NCKU_Tainan--projDiabetes1.png",
+    	diabetes2: "/wiki/images/T--NCKU_Tainan--projDiabetes2.jpg",
     },
     layout:  "./view/Project/index.hbs",
     filename: "./docs/Project/index.html",
