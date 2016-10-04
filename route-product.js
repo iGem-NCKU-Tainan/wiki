@@ -28,7 +28,7 @@ var route = []
       "url": "",
       "img": "",
       "description": "",
-      "cssHP": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--HP_css?ctype=text/css&action=raw",
+      "cssHP": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Human_Practices_css?ctype=text/css&action=raw",
     },
     "partials": './partials.js',
     "layout":  "./view/Human_Practices/index.hbs",

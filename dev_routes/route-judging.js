@@ -1,7 +1,7 @@
 module.exports = [
  {
     data: {
-      title: "Judging Mdeal - iGEM NCKU",
+      title: "Judging Medal - iGEM NCKU",
       url: "",
       img: "",
       description: "",

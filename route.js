@@ -3,11 +3,13 @@ var url = require('url');
 var routeProject = require('./dev_routes/route-project');
 var routeTeam = require('./dev_routes/route-team');
 var routeJudging = require('./dev_routes/route-judging');
+var routeHP = require('./dev_routes/route-hp');
 
 var route = []
 .concat(routeProject)
 .concat(routeTeam)
 .concat(routeJudging)
+.concat(routeHP)
 .concat([
   {
     data: {
@@ -23,19 +25,6 @@ var route = []
     "layout":  "./view/index.hbs",
     "filename": "./docs/index.html"
   },
-  {
-    data: {
-      "title": "Human Practices - iGEM NCKU",
-      "url": "",
-      "img": "",
-      "description": "",
-      "cssHP": "/wiki/css/T--NCKU_Tainan--HP.css",
-      "sample3": "/wiki/images/T--NCKU_Tainan--sample3.png"
-    },
-    "layout":  "./view/Human_Practices/index.hbs",
-    "filename": "./docs/Human_Practices/index.html"
-  }
-  ,
   {
         data: {
         "title": "Modeling - iGEM NCKU",
@@ -87,6 +76,7 @@ var commonData = {
   wetlab: "/wiki/Wetlab",
   drylab: "/wiki/Drylab",
   hp: "/wiki/Human_Practices",
+	hpIntegrated: "/wiki/Human_Practices/integrated",
   projParts: '/wiki/Project/parts',
   projResults: '/wiki/Project/results',
   projModeling: '/wiki/Project/modeling',
