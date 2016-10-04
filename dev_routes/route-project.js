@@ -5,9 +5,10 @@ module.exports = [
       url: "",
       img: "",
       description: "",
+    	css: "/wiki/css/T--NCKU_Tainan--Project.css"
     },
     layout:  "./view/Project/index.hbs",
-    filename: "./docs/Project/index.html"
+    filename: "./docs/Project/index.html",
   },
   {
     data: {
