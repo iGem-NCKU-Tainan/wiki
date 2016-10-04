@@ -24,13 +24,16 @@ $(window).on("load", function(){
 		var sidemenu = document.getElementById("sidemenu");
 		var Width = sidemenu.offsetWidth;
 		var Top = sidemenu.parentElement.getBoundingClientRect().top;
+		var Left = sidemenu.parentElement.getBoundingClientRect().left+Width*.2;
 		if(Top<=0) {
 			sidemenu.style.position = "fixed";
 			sidemenu.style.width = Width;
 			sidemenu.style.top = "0";
+			sidemenu.style.left = Left;
 		} else {
 			sidemenu.style.position = "relative";
 			sidemenu.style.top = "";
+			sidemenu.style.left = "";
 		}
 	});
 });
@@ -44,4 +47,8 @@ function updateColsHeight(col1, col2) {
     else {
       col2.style.height = h1;
   }
+}
+
+function toEvent(section){
+	$('html, body').animate({ scrollTop: $("#"+section).offset().top }, 1000);
 }
