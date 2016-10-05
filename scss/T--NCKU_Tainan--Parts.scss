@@ -11,4 +11,18 @@
   font-size: 14px;
 }
 
+#BasicTable {
+	td:first-child {
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 20px;
+	}
+}
+
+#glucoseTable, #safetyTable {
+	td:nth-child(3) {
+		white-space: nowrap;
+	}
+}
+
 
