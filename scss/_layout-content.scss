@@ -23,12 +23,14 @@
 }
 
 .content {
-	margin-top: 145px;
+	margin: 145px auto 0 4%;
 
-	.col-md-3 {
+	&>.col-md-3 {
+		width: 30%;
 		background: $bg-gray;
 	}
-	.col-md-9 {
+	&>.col-md-9 {
+		width: 70%;
 		background: $bg-color;
 		padding: 30px 10% 30px 30px;
 
@@ -84,7 +86,6 @@
 .hljs-line-numbers {
     text-align: right;
     border-right: 1px solid #ccc;
-    color: #999;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
