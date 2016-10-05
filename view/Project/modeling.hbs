@@ -6,13 +6,28 @@
   </head>
   <body>
     {{> header }}
-		<style>
-			#photo-left { background-image: url("{{sample2}}"); }
-		</style>
+    <style>
+      #photo-left { background-image: url("{{sample2}}"); }
+    </style>
         <div class="container-fluid" style="margin-top:100px">
                 <div class="head">PROJECT / Model</div>
                 <div class="content row">
                     <div class="col-md-9">
+                        <div class="head2">Outline</div>
+                        <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
+                        <p class="center"> Figure1 (to be update ... ) </p>
+                        <p class="center">Fig 1 , the network of induction of glucose induced promoter Pl.</p>
+                        <br/>
+                        <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
+                        <p class="center"> Figure2 (to be update ... ) </p>
+                        <p class="center">Fig2, Two different pathway in the network.</p>
+                        <br/>
+                        <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
+                        <p class="center"> Figure3 (to be update ... ) </p>
+                        <p class="center">Fig3, The overall impact when glucose is added.</p>
+                        <br/>
+                        <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
+                        <br/><br/><br/>
                         <div class="head2">Modeling : Statistics Analysis</div>
                         <div class="title-line" id="intro">Introduction</div>
                         <p>In medicine, the blood glucose exceeding 5mmole/L implies having diabetes, and it exceeding 120mmol/L implies being a severe patient. Finding the person whose glucose concentration is over 5mmol/L or 120mmol/L is our target. First, we prove that there has difference between 0.1mmol/L and 5mmol/L (120mmol/L) in the <a href="#pair">paired-difference T test</a> part. And, we use the regression and prediction intervals to distinguish exceeding 120mmol/L and 5mmol/L from exceeding 0.1mmol/L. From the result, 5mmol/L can be distinguished from 0.1mmol/L after 101 minutes, and 120mmol/L can be distinguished from 0.1mmol/L after 88 minutes.</p>
@@ -206,7 +221,7 @@ var<- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10
 sd<-var^0.5
 t<-(dbar/sd)*(11^0.5)</code></pre>
                     <div class="title-line" id="reg" style="padding-bottom:0"></div>
-										<div style="font-size:16px;font-weight:bold">Regression & Prediction interval</div>
+                    <div style="font-size:16px;font-weight:bold">Regression & Prediction interval</div>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mmol/L and 5mmol/L from exceeding 0.1mmol/L becomes the most important problem. We use the skill of the prediction interval in this part.</p>
                     <br/>
                     <p>Procedure</p>
@@ -306,20 +321,21 @@ title(main="0.1 vs 120mmol/L",cex.main=4)
 Name<-c(expression(paste("0.1mmol/L")),expression(paste("120mmol/L")))
 legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), bg = 'gray90')</code></pre>
                     </div>
-										<div class="col-md-3">
-											<ul id="sidemenu">
-												<li><a href="#" onClick="toEvent('intro');">Introduction</a></li>
-												<li><a href="#" onClick="toEvent('pair');">Paired-difference T test</a></li>
-												<li><a href="#" onClick="toEvent('reg');">Regression & Prediction interval</a></li>
-											</ul>
-										</div>
+                    <div class="col-md-3">
+                      <ul id="sidemenu">
+                        <li><a href="#" onClick="toEvent('outline');">Outline</a></li>
+                        <li><a href="#" onClick="toEvent('intro');">Introduction</a></li>
+                        <li><a href="#" onClick="toEvent('pair');">Paired-difference T test</a></li>
+                        <li><a href="#" onClick="toEvent('reg');">Regression & Prediction interval</a></li>
+                      </ul>
+                    </div>
                 </div>
         </div> <!-- /.container-fluid -->
         {{> footer }}
         <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-				<script src="/wiki/highlight/highlight.pack.js"></script>
-				<script src="/wiki/highlight/highlightjs-line-numbers.js"></script>
-				<script>hljs.initHighlightingOnLoad();
-				hljs.initLineNumbersOnLoad();</script>
+        <script src="/wiki/highlight/highlight.pack.js"></script>
+        <script src="/wiki/highlight/highlightjs-line-numbers.js"></script>
+        <script>hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad();</script>
     </body>
 </html>
