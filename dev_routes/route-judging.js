@@ -13,15 +13,15 @@ module.exports = [
   },
   {
     data: {
-      title: "Judging Safety Form - iGEM NCKU",
+      title: "Judging Safety - iGEM NCKU",
       url: "",
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
       sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
     },
-    layout:  "./view/judging/safety_form.hbs",
-    filename: "./docs/judging/safety_form.html"
+    layout:  "./view/judging/safety.hbs",
+    filename: "./docs/judging/safety.html"
   }
 
  ];

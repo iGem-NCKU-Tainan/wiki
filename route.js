@@ -87,7 +87,7 @@ var commonData = {
   teamAttributions: '/wiki/team/attributions',
   teamAcknowledgement: '/wiki/team/acknowledgement',
   judgingMedal: '/wiki/judging/medal',
-  judgingSafetyForm: '/wiki/judging/safety_form',
+  judgingSafety: '/wiki/judging/safety',
   sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 

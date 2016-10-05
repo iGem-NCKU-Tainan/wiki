@@ -1,0 +1,34 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">JUDGING / Safety</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="title-line" id="method">Method</div>
+						<h5>How we are addressing any safety issues in our project?</h5>
+						<ul><li>Choosing a <b>non-pathogenic chassis</b>: E. coli  DH5α, E. coli BL21 (DE3)</li>
+								<li>In our product, the chassis is in small <b>enclosed space</b> as a barrier to prevent contamination.</li>
+								<li>In the enclosed space, there are <b>“suicide-gene” inducers</b> to kill E. coli  in the bio-sensing strip.</li>
+						</ul>
+						<div class="title-line" id="plan">Safety plan</div>
+						<p>Our  E. coli will sensor urea glucose. When the glucose level is high, the bacteria can express red fluorescent protein (RFP) as reporter to give an signal. The signal from fluorescence can be detected using excitation. After the processing,  the “suicide-gene” inducers, arabinose, will induce the pBAD promoter (<a href="http://parts.igem.org/Part:BBa_K206000">BBa_K206000</a>) and then activate the transcription of Lysis protein (<a href="http://parts.igem.org/Part:BBa_K117000">BBa_K117000</a>).</p>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onClick="toEvent('method');">Method</a></li>
+							<li><a href="#" onClick="toEvent('safety');">Safety</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
+</html>
