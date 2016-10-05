@@ -1,0 +1,32 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">PROJECT / Description</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="head2">U-KNOW - Our Project</div>
+						<div class="title-line" id="overview">Overview</div>
+						<p>U Know is a portable device combined with urine test strip, providing measurement results to user's smart phone. The test strips are coated with specialized E. coli, which can detect glucose and reponse with RFP accurately. With U Know, we're determined to enhance preventions of diabetes and raise social awareness of this ever-growing issue.</p>
+						<div class="title-line" id="detect">Detection of glucose</div>
+						<p>When we started discussing the detection of glucose, we were not sure which kind of indication is more suitable to the device we were trying to make. At the time, we came up with two candidates: amilCP, RFP.</p>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu" style="width:90%;">
+							<li><a href="#" onClick="toEvent('overview');">Overview</a></li>
+							<li><a href="#" onClick="toEvent('detect');">Detection of glucose</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
+</html>
+

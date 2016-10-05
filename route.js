@@ -79,6 +79,7 @@ var commonData = {
 	hpIntegrated: "/wiki/Human_Practices/integrated",
 	hpEngagement: "/wiki/Human_Practices/engagement",
   projOverview: '/wiki/Project/',
+  projDescription: '/wiki/Project/description',
   projParts: '/wiki/Project/parts',
   projResults: '/wiki/Project/results',
   projModeling: '/wiki/Project/modeling',

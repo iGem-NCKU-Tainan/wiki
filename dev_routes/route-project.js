@@ -18,6 +18,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
+    	css: "/wiki/css/T--NCKU_Tainan--Layout.css",
     },
     layout:  "./view/Project/description.hbs",
     filename: "./docs/Project/description.html"
