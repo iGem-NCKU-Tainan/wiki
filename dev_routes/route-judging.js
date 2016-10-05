@@ -17,7 +17,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Safety.css",
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css",
       sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/judging/safety_form.hbs",

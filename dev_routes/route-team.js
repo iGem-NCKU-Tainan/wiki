@@ -32,7 +32,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Acknowledgement.css"
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
     },
     layout:  "./view/Team/acknowledgement.hbs",
     filename: "./docs/team/acknowledgement.html"
@@ -43,7 +43,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Collaborations.css"
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
     },
     layout:  "./view/Team/collaborations.hbs",
     filename: "./docs/team/collaborations.html"
