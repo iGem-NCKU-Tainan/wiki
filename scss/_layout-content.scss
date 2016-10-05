@@ -92,3 +92,11 @@
     -ms-user-select: none;
     user-select: none;
 }
+pre {
+    overflow: auto;
+    word-break: normal;
+    word-wrap: normal;
+}
+pre code {
+    white-space: pre;
+}
