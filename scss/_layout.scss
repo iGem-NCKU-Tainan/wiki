@@ -65,8 +65,12 @@ html,body {
 	font-weight: bold;
 }
 
-p {
+p,li {
 	word-wrap: break-word;
+	word-break: break-word;
+	hyphens: auto;
+	text-align: justify;
+	text-justify:inter-ideograph;
 }
 
 /* below are special to igem's template */
