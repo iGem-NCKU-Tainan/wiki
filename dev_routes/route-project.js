@@ -37,7 +37,7 @@ module.exports = [
   },
   {
     data: {
-      title: "Project Modeling - iGEM NCKU",
+      title: "Project Modeling : Statistics Analysis - iGEM NCKU",
       url: "",
       img: "",
       description: "",
@@ -63,8 +63,8 @@ module.exports = [
       image19: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg",
       image20: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image20.jpg"
     },
-    layout:  "./view/Project/modeling.hbs",
-    filename: "./docs/Project/modeling.html"
+    layout:  "./view/Project/Model_Statistics_Analysis.hbs",
+    filename: "./docs/Project/Model_Statistics_Analysis.html"
   },
   {
     data: {
