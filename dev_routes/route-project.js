@@ -68,6 +68,17 @@ module.exports = [
   },
   {
     data: {
+      title: "Project Modeling : Fitting Theory - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      cssModeling: "/wiki/css/T--NCKU_Tainan--Model.css"
+    },
+    layout:  "./view/Project/Model_Fitting_Theory.hbs",
+    filename: "./docs/Project/Model_Fitting_Theory.html"
+  },
+  {
+    data: {
       title: "Project Parts - iGEM NCKU",
       url: "",
       img: "",
