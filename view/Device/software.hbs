@@ -1,0 +1,34 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">DEVICE / Software</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="title-line" id="analysis">Automatically analysis</div>
+						<p>In order to make U.coli works automatically, we develop software that can calculate the data obtained by our device and translate into the glucose concentration with a user-friendly interface.</p>
+						<p>The logic of the code is as follow: Calculating the production rate whenever a new data is inputted, when the production rate starts to decline, automatically find out the value production rate and calculate the corresponding glucose concentration value by the formula we introduce in <a href="{{projModeling}}">modeling.</a></p>
+						<p>The result can be divided into three parts: Safe, In danger and Emergency. As you can see in <a href="#fig1" onClick="toEvent('fig1');">Figure 1</a>, when glucose concentration is between 1ml/ML and 30ml/ML, our device can numerically report the glucose concentration with mean value and standard deviation, see <a href="#fig2" onClick="toEvent('fig2');">Figure 2</a>. </p>
+						<img id="fig1" src="{{fig1}}" />
+						<img id="fig2" src="{{fig2}}" />
+						<p>If the concentrate is outside of this range, the software will report ‘‘Safe” if the concentration is too low or ‘‘Emergency’’ if the concentration is too high, see <a href="#fig3" onClick="toEvent('fig3');">Figure 3</a>.</p>
+						<img id="fig3" src="{{fig3}}" />
+						<p>By using this code, we can let computer automatically analysis the data and give a report weekly so that our user can adjust their life style by knowing the body condition.</p>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu" style="width:100%">
+							<li><a href="#" onClick="toEvent('analysis');">Automatically analysis</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
+</html>

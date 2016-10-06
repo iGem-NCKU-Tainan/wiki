@@ -1,12 +1,14 @@
 var path = require('path');
 var url = require('url');
 var routeProject = require('./dev_routes/route-project');
+var routeDevice = require('./dev_routes/route-device');
 var routeTeam = require('./dev_routes/route-team');
 var routeJudging = require('./dev_routes/route-judging');
 var routeHP = require('./dev_routes/route-hp');
 
 var route = []
 .concat(routeProject)
+.concat(routeDevice)
 .concat(routeTeam)
 .concat(routeJudging)
 .concat(routeHP)
@@ -49,6 +51,7 @@ var commonData = {
   projParts: '/wiki/Project/parts',
   projResults: '/wiki/Project/results',
   projModeling: '/wiki/Project/modeling',
+  deviceSoftware: '/wiki/Device/software',
   team: '/wiki/team',
   teamCollaborations: '/wiki/team/collaborations',
   teamAttributions: '/wiki/team/attributions',
