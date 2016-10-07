@@ -244,35 +244,36 @@ t<-(dbar/sd)*(11^0.5)</code></pre>
                     <h1 class="center">Appendix</h1>
                     <pre><code class="R">#0.1 vs 5
 #0.1 urine plot
-data<- read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
+data<-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
 x1<-rep(data[,1],12)
 x2<-x1^2
 x3<-x1^3
-y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10],data[,11],data[,12],data[,13])
+y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
 model<-lm(y1~x1+x2+x3)
 yhat0.1<-model$fit
 plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
 #lines(data[,1], yhat0.1[1:121],lwd=3,col=2)
-n=121*12
-mse<-sum((y1-yhat0.1)^2)/(n-3) # calculate MS_Res(=σ^2)
+n=121*12 
+mse<-sum((y1-yhat0.1)^2)/(n-3)  # calculate MS_Res(=σ^2)
 X<-cbind(1,x1,x2,x3)
 se<-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
 up0.1<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low0.1<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficiens[4]+qt(.025,df=n-2)*se
+low0.1<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.025,df=n-2)*se
 lines(data[,1], up0.1[1:121], col=2,lwd=3)
 lines(data[,1], low0.1[1:121],col=2,lwd=3)
 #5 urine plot
-data<- read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/5urine.csv",header=T)x1<-rep(data[,1],12)
+data<-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/5urine.csv",header=T)
+x1<-rep(data[,1],12)
 x2<-x1^2
 x3<-x1^3
-y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10],data[,11],data[,12],data[,13])
+y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
 model<-lm(y1~x1+x2+x3)
-yhat5<-model$fit
+yhat5<-model$fit 
 par(new=TRUE)
 plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
 #lines(data[,1], yhat5[1:121],lwd=3,col=2)
-n=121*12
-mse<-sum((y1-yhat5)^2)/(n-3) # calculate MS_Res(=σ^2)
+n=121*12 
+mse<-sum((y1-yhat5)^2)/(n-3)  # calculate MS_Res(=σ^2)
 X<-cbind(1,x1,x2,x3)
 se<-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
 up5<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
@@ -284,16 +285,17 @@ Name<-c(expression(paste("0.1mM/L")),expression(paste("5mM/L")))
 legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), bg = 'gray90')
 #0.1 vs 120
 #0.1 urine plot
-data<- read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
+data<-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
 x1<-rep(data[,1],12)
 x2<-x1^2
 x3<-x1^3
-y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10],data[,11],data[,12],data[,13])
+y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
 model<-lm(y1~x1+x2+x3)
 yhat0.1<-model$fit
-plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)#lines(data[,1], yhat0.1[1:121],lwd=3,col=2)
-n=121*12
-mse<-sum((y1-yhat0.1)^2)/(n-3) # calculate MS_Res(=σ^2)
+plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
+#lines(data[,1], yhat0.1[1:121],lwd=3,col=2)
+n=121*12 
+mse<-sum((y1-yhat0.1)^2)/(n-3)  # calculate MS_Res(=σ^2)
 X<-cbind(1,x1,x2,x3)
 se<-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
 up0.1<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
@@ -301,20 +303,22 @@ low0.1<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+
 lines(data[,1], up0.1[1:121], col=2,lwd=3)
 lines(data[,1], low0.1[1:121],col=2,lwd=3)
 #120 urine plot
-data<- read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/120urine.csv",header=T)
+data<-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/120urine.csv",header=T)
 x1<-rep(data[,1],10)
 x2<-x1^2
 x3<-x1^3
-y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,9],data[,10],data[,11],data[,12],data[,13])model<-lm(y1~x1+x2+x3)
-yhat120<-model$fit
+y1<-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,9],data[,10],data[,11],data[,12],data[,13])
+model<-lm(y1~x1+x2+x3)
+yhat120<-model$fit 
 par(new=TRUE)
 plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
 #lines(data[,1], yhat120[1:121],lwd=3,col=2)
-n=121*10mse<-sum((y1-yhat120)^2)/(n-3) # calculate MS_Res(=σ^2)
+n=121*10 
+mse<-sum((y1-yhat120)^2)/(n-3)  # calculate MS_Res(=σ^2)
 X<-cbind(1,x1,x2,x3)
 se<-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
 up120<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low120<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficiens[4]+qt(.025,df=n-2)*se
+low120<-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.025,df=n-2)*se
 lines(data[,1], up120[1:121], col=4,lwd=3)
 lines(data[,1], low120[1:121], col=4,lwd=3)
 title(main="0.1 vs 120mM/L",cex.main=4)
