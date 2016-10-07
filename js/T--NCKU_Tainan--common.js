@@ -18,13 +18,16 @@ $(window).on("load", function(){
 	/* fix side-menu after scroll */
 	var bodyTop = document.body.getBoundingClientRect().top;
 	var tmp = document.getElementById("sidemenu");
+	var sidepercent = tmp.style.width;
 
 	$(window).scroll( function(){
 		var sidemenuTop = document.getElementById("sidemenu").getBoundingClientRect().top;
 		var sidemenu = document.getElementById("sidemenu");
 		var Width = sidemenu.offsetWidth;
 		var Top = sidemenu.parentElement.getBoundingClientRect().top;
-		var Left = sidemenu.parentElement.getBoundingClientRect().left+Width*.2;
+		var Left = sidemenu.parentElement.getBoundingClientRect().left;
+		if(sidepercent[0]=='8' || sidepercent=='') Left+=Width*.2;
+		else if(sidepercent[0]=='9') Left+=Width*.1;
 		if(Top<=0) {
 			sidemenu.style.position = "fixed";
 			sidemenu.style.width = Width;
