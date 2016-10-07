@@ -10,11 +10,11 @@
     </style>
 
 		<div class="container-fluid" style="margin-top:100px">
-				<div class="head">TEAM / Attibution</div>
-				<div class="content row">
-          <div class="col-md-9">
-            <div class="exp">
-            <div class="head2">Experiments </div>
+			<div class="head">TEAM / Attibution</div>
+			<div class="content row">
+        <div class="col-md-9">
+          <div class="exp">
+            <div class="head2" id="exp">Experiments </div>
             <div class="rect">
               <h5>Biobrick Construction</h5>
               <p>洪迎馨 Ying Hsin Hong</p>
@@ -59,9 +59,8 @@
               <p>蔡孟軒</p>
               <p>陳乙軒</p>
             </div>
-            </div>
 
-            <div class="head2">Dry Lab</div>
+            <div class="head2" id="drylab">Drylab</div>
             <div class="rect">
               <h5>Modeling</h5>
               <p>陳書宇 Shu-Yu Chen</p>
@@ -89,7 +88,7 @@
               <p>游方暐 Fang-Wei Yu</p>
             </div>
 
-						<div class="head2">Presentation and Poster</div>
+						<div class="head2" id="pre">Presentation and Poster</div>
             <div class="rect single">
               <p>Prof. 葉靜怡</p>
               <p>蕭荷青</p>
@@ -100,12 +99,15 @@
               <p>林協霆 Tim, Hsieh Ting Lin</p>
             </div>
 
-            <div class="head2">Wiki</div>
+            <div class="head2" id="wiki">Wiki</div>
             <div class="rect single">
               <p>林協霆 Tim, Hsieh Ting Lin</p>
+							<p>Chihsuan Huang</p>
+              <p>Jingfei Yang</p>
+              <p>Shih-Yu Chen
             </div>
 
-            <div class="head2">Human Practice and Policies</div>
+            <div class="head2" id="hp">Human Practice and Policies</div>
             <div class="rect single">
               <p>蕭荷青</p>
               <p>蔡孟軒 Meng Hsuan Tsai</p>
@@ -114,12 +116,23 @@
               <p>鄭詠鏹</p>
             </div>
 
-          <div class="head2">Fund Raising</div>
-            <div class="rect">
-              <p>Prof. 吳意珣 I-Son Ng</p>
-            </div>
+        	  <div class="head2" id="fund">Fund Raising</div>
+        	  <div class="rect">
+        	    <p>Prof. 吳意珣 I-Son Ng</p>
+        	  </div>
 					</div>
 				</div>
+				<div class="col-md-3">
+					<ul id="sidemenu" style="width:90%;">
+						<li><a href="#" onClick="toEvent('exp');">Experiments</a></li>
+						<li><a href="#" onClick="toEvent('drylab');">Drylab</a></li>
+						<li><a href="#" onClick="toEvent('pre');">Presentation, Poster</a></li>
+						<li><a href="#" onClick="toEvent('wiki');">Wiki</a></li>
+						<li><a href="#" onClick="toEvent('hp');">HP and Policies</a></li>
+						<li><a href="#" onClick="toEvent('fund');">Fund Raising</a></li>
+					</ul>
+				</div>
+			</div> <!-- /.row -->
 		</div> <!-- /.container-fluid -->
 		{{> footer }}
 	</body>

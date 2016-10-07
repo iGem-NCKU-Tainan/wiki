@@ -21,7 +21,6 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Attributions.css",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/Team/attributions.hbs",
     filename: "./docs/team/attributions.html"
@@ -32,7 +31,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
+      css: "/wiki/css/T--NCKU_Tainan--Attributions.css",
     },
     layout:  "./view/Team/acknowledgement.hbs",
     filename: "./docs/team/acknowledgement.html"

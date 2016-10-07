@@ -7,24 +7,94 @@
     {{> header }}
 		<style>
 			#photo-left { background-image: url("{{sample2}}"); }
-		</style>
+    </style>
+
 		<div class="container-fluid" style="margin-top:100px">
-				<div class="head">Human Practices</div>
+				<div class="head">TEAM / Acknowledgement</div>
 				<div class="content row">
-					<div class="col-md-9">
-						<div class="head2">head2</div>
-						<p class="intro">introduction~~~<br/><br/></p>
-						<div class="title-line">head3</div>
-						<p>dihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxso</p>
-						<img src="{{sample3}}" />
-						<div class="title-line">head3</div>
-						<p>dihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxsoqjhxstdihtsnbkklxhgwxajxso</p>
-						<img src="{{sample3}}" />
+          <div class="col-md-9">
+					 	 	// TODO: 改掉中文字
+            <div class="exp">
+           	 <div class="head2" id="general">General Support </div>
+           	 <div class="rect single">
+           	   <p>蘇慧貞校長</p>
+           	   <p>陳東陽副校長</p>
+           	   <p>賴明德教務長</p>
+           	   <p>張志涵主任</p>
+					 	 	<p>邱繼正教授</p>
+           	 </div>
+
+            <div class="head2" id="fund">Fundraising help and advice</div>
+            <div class="rect">
+              <h5>Golden Support</h5>
+              <p>鑽石生技投資</p>
+            </div>
+
+						<div class="rect">
+							<h5>Silver Support</h5>
+							<p>陶氏化學</p>
+							<p>國立成功大學NCKU</p>
+						</div>
+
+						<div class="head2" id="lab">Lab Support</div>
+            <div class="rect">
+              <h5>Student</h5>
+              <p>何岳霖</p>
+							<p>吳佩璇</p>
+							<p>賴健誠</p>
+							<p>顏嘉寶</p>
+            </div>
+
+            <div class="rect">
+              <h5>Professor</h5>
+              <p>顏賢章</p>
+							<p>譚世一</p>
+							<p>高培勛</p>
+            </div>
+
+            <div class="rect">
+              <h5>Department</h5>
+              <p>dept. of life science</p>
+							<p>dept. of physiology</p>
+							<p>dept. of chemical engineering </p>
+            </div>
+
+          	<div class="head2" id="equip">Equipment Support</div>
+            <div class="rect single">
+              <p>department of life science</p>
+							<p>department of physiology</p>
+							<p>department of chemical engineering</p>
+							<p>prof. 顏賢章</p>
+            </div>
+
+          	<div class="head2" id="hardware">Hardware Support</div>
+            <div class="rect single">
+							<p>prof. Chia-Fu Lee</p>
+            </div>
+
+          	<div class="head2" id="hp">Human Practices Support</div>
+            <div class="rect single">
+							<p>交流會志工</p>
+            </div>
+
+          	<div class="head2" id="special">Special Support</div>
+            <div class="rect single">
+							<p>Prof King-Low Chow</p>
+							<p>Prof張傳雄</p>
+							<p>Prof陳文亮</p>
+            </div>
 					</div>
-					<div class="col-md-3">
-						<div class="block">Criteria:<br/>EVERYTHING<br/>is<br/>AWESOME</div>
-						<div class="block">KEYPOINT:<br/>EVERYTHING<br/>is<br/>AWESOME</div>
-					</div>
+				</div>
+				<div class="col-md-3">
+					<ul id="sidemenu" style="width:90%;">
+						<li><a href="#" onClick="toEvent('general');">General Support</a></li>
+						<li><a href="#" onClick="toEvent('fund');">Fundraising Help</a></li>
+						<li><a href="#" onClick="toEvent('lab');">Lab Support</a></li>
+						<li><a href="#" onClick="toEvent('equip');">Equipment Support</a></li>
+						<li><a href="#" onClick="toEvent('hardware');">Hardware Support</a></li>
+						<li><a href="#" onClick="toEvent('hp');">Human Practices Support</a></li>
+						<li><a href="#" onClick="toEvent('special');">Special Support</a></li>
+					</ul>
 				</div>
 		</div> <!-- /.container-fluid -->
 		{{> footer }}
