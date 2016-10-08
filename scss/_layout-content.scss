@@ -113,3 +113,15 @@ pre {
 pre code {
     white-space: pre;
 }
+
+.content {
+  img {
+    cursor: pointer;
+  }
+  img.clicked {
+    transition: all 200ms ease-in;
+    transform: scale(1.4);
+    z-index: 100;
+  }
+}
+

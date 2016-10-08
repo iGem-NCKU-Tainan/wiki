@@ -1,9 +1,17 @@
+var activeImg = null;
+var body;
+var icover;
+
 (function() {
     /* igem official template */
     $("#HQ_page").attr("id","");
 })();
 
 $(window).on("load", function(){
+  body = document.querySelector('body');
+  icover = document.querySelector('.ig-cover');
+  addImgEventlistener();
+
 	/* dropdown menu */
 	var url = window.location.href;
 	var dropNum = -1, submenu, submenuWidth;
@@ -24,7 +32,7 @@ $(window).on("load", function(){
 		submenu.parentElement.classList.add("open");
 		submenuWidth = submenu.offsetWidth;
 	}
-	
+
   var container = document.getElementsByClassName("content")[0];
   if (container === undefined) return;
 
@@ -45,6 +53,8 @@ $(window).on("load", function(){
 		/* dropdown */
 		if (!submenu) return;
 
+		var aTag = submenu.getElementsByTagName("A");
+
 		var Top = submenu.parentElement.getBoundingClientRect().bottom;
 		var header = document.getElementsByClassName('navbar-header')[0];
 		var Left = header.getBoundingClientRect().right;
@@ -54,7 +64,8 @@ $(window).on("load", function(){
 			submenu.style.top = "8px";
 			header.style.top = "-30px";
 			submenu.style.width = "100%";
-			var aTag = submenu.getElementsByTagName("A");
+
+		  if (!aTag) return;
 			for(var i in aTag) aTag[i].style.fontSize="18px";
 		} else {
 			submenu.style.position = "absolute";
@@ -63,7 +74,8 @@ $(window).on("load", function(){
 			submenu.style.top = "38px";
 			header.style.top = "0";
 			submenu.style.width = submenuWidth;
-			var aTag = submenu.getElementsByTagName("A");
+
+		  if (!aTag) return;
 			for(var i in aTag) aTag[i].style.fontSize="12px";
 		}
 
@@ -89,8 +101,33 @@ $(window).on("load", function(){
 			}
 		}
 	});
+
 });
 
+
+function addImgEventlistener() {
+  var imgs = document.querySelectorAll('.content img');
+  if (imgs) {
+    imgs.forEach(function(img) {
+      img.addEventListener('click', onClickImg);
+    });
+  }
+
+  body.addEventListener('click', function() {
+    if (activeImg) activeImg.classList.remove('clicked');
+  });
+}
+
+function onClickImg() {
+  var self = this;
+  if (self.classList.contains('clicked'))
+      return;
+
+  setTimeout(function() {
+    self.classList.add('clicked');
+    activeImg = self;
+  }, 100);
+}
 
 function updateColsHeight(col1, col2) {
     var h1 = col1.offsetHeight, h2 = col2.offsetHeight;
