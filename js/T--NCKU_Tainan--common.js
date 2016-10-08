@@ -33,11 +33,9 @@ $(window).on('load', function(){
 
 function addImgEventlistener() {
   var imgs = document.querySelectorAll('.content img');
-  if (imgs) {
-    imgs.forEach(function(img) {
-      img.addEventListener('click', onClickImg);
-    });
-  }
+  imgs.forEach(function(img) {
+    img.addEventListener('click', onClickImg);
+  });
 
   document.body.addEventListener('click', function() {
     if (activeImg) activeImg.classList.remove('clicked');
@@ -115,18 +113,17 @@ function updateSubMenu() {
 }
 
 function updateSideMenu() {
-  /* sidemenu */
   var sidemenuTop = sidemenu.getBoundingClientRect().top;
   var sidepercent = sidemenu.style.width;
   var width = sidemenu.offsetWidth;
   var top = sidemenu.parentElement.getBoundingClientRect().top;
-  var left = sidemenu.parentElement.getBoundingClientRect().left
-  ;
+  var left = sidemenu.parentElement.getBoundingClientRect().left;
+
   if(sidepercent[0] === '8' || sidepercent === '') {
-    left += width*.2;
+    left += width * 0.2;
   }
   else if (sidepercent[0] === '9') {
-    left += width*.1;
+    left += width * 0.1;
   }
   else if(sidepercent[0] === '1') {
     left += 15;
