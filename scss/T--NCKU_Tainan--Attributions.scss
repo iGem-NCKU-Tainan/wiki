@@ -12,7 +12,7 @@
 }
 
 .exp .rect {
-  min-height: 255px;
+  min-height: 300px;
 }
 
 .rect {
@@ -48,6 +48,10 @@
 
 .single {
   width: 100%;
+}
+
+.exp .small-size {
+  min-height: 150px;
 }
 
 @media all and (max-width: 575px) {
