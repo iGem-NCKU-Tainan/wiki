@@ -82,9 +82,9 @@
 
 li .dropdown-menu {
   box-shadow: none;
-  border: none;
+  border: 0;
   background: transparent;
-  width: 518px;
+  width: 540px;
   padding-top: 8px;
 }
 
@@ -151,6 +151,10 @@ li .dropdown-menu {
     left: 0;
     border-bottom: 1px solid #eee;
 
+    #navbar {
+      margin-left: 130px;
+    }
+
     .navbar-nav > li > a {
       display: none;
     }
@@ -169,7 +173,9 @@ li .dropdown-menu {
 
     .dropdown-menu {
       top: -40px;
-      font-size: 20px;
+      li > a {
+        font-size: 14px;
+      }
     }
   }
 }
