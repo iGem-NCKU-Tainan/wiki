@@ -7,6 +7,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+    	diabetes1: "/wiki/images/c/c6/T--NCKU_Tainan--projDiabetes1.png",
+    	diabetes2: "http://2016.igem.org/wiki/images/a/a8/T--NCKU_Tainan--projDiabetes2.jpg",
     },
     layout:  "./view/Project/index.hbs",
     filename: "./product/Project/index.html"

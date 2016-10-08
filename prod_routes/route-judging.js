@@ -21,7 +21,7 @@ module.exports = [
       css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Safety_css" + typecss,
       sample2: "/Team:NCKU_Tainan/images/T--NCKU_Tainan--sample2.jpg"
     },
-    layout:  "./view/judging/safety_form.hbs",
+    layout:  "./view/judging/safety.hbs",
     filename: "./product/Safety.html"
   }
 

@@ -17,7 +17,7 @@ var route = []
       "description": "",
       "cssHome": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--home_css?ctype=text/css&action=raw",
       "logoUrl": "/wiki/images/4/4b/T--NCKU_Tainan--ulogo.png",
-      "sample1": "/wiki/images/a/ad/T--NCKU_Tainan--sample1.png"
+			"home_bg": "/wiki/images/e/e4/T--NCKU_Tainan--home_bg.jpg",
     },
     "layout":  "./view/index.hbs",
     "filename": "./product/index.html"
@@ -48,8 +48,8 @@ var commonData = {
   font: "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
   icon: "/wiki/images/8/80/T--NCKU_Tainan--favicon.png",
   home: "/Team:NCKU_Tainan",
-  project: "/Team:NCKU_Tainan/Project",
   hp: "/Team:NCKU_Tainan/Human_Practices",
+  projOverview: '/Team:NCKU_Tainan/Project',
   projParts: '/Team:NCKU_Tainan/Parts',
   projResults: '/Team:NCKU_Tainan/Results',
   projModeling: '/Team:NCKU_Tainan/Model',
@@ -58,7 +58,7 @@ var commonData = {
   teamAttributions: '/Team:NCKU_Tainan/Attributions',
   teamAcknowledgement: '/Team:NCKU_Tainan/Acknowledgement',
   judgingMedal: '/Team:NCKU_Tainan/Medal',
-  judgingSafetyForm: '/Team:NCKU_Tainan/Safety'
+  judgingSafety: '/Team:NCKU_Tainan/Safety'
 };
 
 

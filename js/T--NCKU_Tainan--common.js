@@ -112,7 +112,7 @@ function updateSideMenu() {
   if(top <= 0) {
     sidemenu.style.position = 'fixed';
     sidemenu.style.width = width;
-    sidemenu.style.top = '55px';
+    sidemenu.style.top = '71px';
   } else {
     sidemenu.style.position = 'relative';
     sidemenu.style.top = '';
