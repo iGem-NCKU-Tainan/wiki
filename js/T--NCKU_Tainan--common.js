@@ -23,21 +23,23 @@ $(window).on("load", function(){
 	$(window).scroll( function(){
 		var sidemenuTop = document.getElementById("sidemenu").getBoundingClientRect().top;
 		var sidemenu = document.getElementById("sidemenu");
-		var Width = sidemenu.offsetWidth;
-		var Top = sidemenu.parentElement.getBoundingClientRect().top;
-		var Left = sidemenu.parentElement.getBoundingClientRect().left;
-		if(sidepercent[0]=='8' || sidepercent=='') Left+=Width*.2;
-		else if(sidepercent[0]=='9') Left+=Width*.1;
-		else if(sidepercent[0]=='1') Left+=15;
-		if(Top<=0) {
-			sidemenu.style.position = "fixed";
-			sidemenu.style.width = Width;
-			sidemenu.style.top = "0";
-			sidemenu.style.left = Left;
-		} else {
-			sidemenu.style.position = "relative";
-			sidemenu.style.top = "";
-			sidemenu.style.left = "";
+		if(sidemenu) {
+			var Width = sidemenu.offsetWidth;
+			var Top = sidemenu.parentElement.getBoundingClientRect().top;
+			var Left = sidemenu.parentElement.getBoundingClientRect().left;
+			if(sidepercent[0]=='8' || sidepercent=='') Left+=Width*.2;
+			else if(sidepercent[0]=='9') Left+=Width*.1;
+			else if(sidepercent[0]=='1') Left+=15;
+			if(Top<=0) {
+				sidemenu.style.position = "fixed";
+				sidemenu.style.width = Width;
+				sidemenu.style.top = "0";
+				sidemenu.style.left = Left;
+			} else {
+				sidemenu.style.position = "relative";
+				sidemenu.style.top = "";
+				sidemenu.style.left = "";
+			}
 		}
 	});
 });
