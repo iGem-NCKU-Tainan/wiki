@@ -55,12 +55,12 @@ function onClickImg() {
 }
 
 function updateColsHeight(col1, col2) {
-    var h1 = col1.offsetHeight, h2 = col2.offsetHeight;
-    if (h2 > h1) {
-      col1.style.height = h2;
+  var h1 = col1.offsetHeight, h2 = col2.offsetHeight;
+  if (h2 > h1) {
+    col1.style.height = h2;
   }
-    else {
-      col2.style.height = h1;
+  else {
+    col2.style.height = h1;
   }
 }
 
@@ -94,7 +94,9 @@ function getDropNum() {
 function updateSubMenu() {
   var nav = document.getElementsByTagName('nav')[0];
   if(window.scrollY >= 10){
-		document.getElementsByClassName('open')[0].className = "";
+		var opened = document.getElementsByClassName('open')[0];
+		if (opened) opened.className = "";
+
     submenu.parentElement.classList.add('open');
     nav.classList.add('fixed');
   } else {
