@@ -106,6 +106,7 @@ function getDropNum() {
 function updateSubMenu() {
   var nav = document.getElementsByTagName('nav')[0];
   if(window.scrollY >= 10){
+		document.getElementsByClassName('open')[0].className = "";
     submenu.parentElement.classList.add('open');
     nav.classList.add('fixed');
   } else {
