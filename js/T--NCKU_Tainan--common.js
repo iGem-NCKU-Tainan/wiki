@@ -106,6 +106,7 @@ function getDropNum() {
 function updateSubMenu() {
   var nav = document.getElementsByTagName('nav')[0];
   if(window.scrollY >= 10){
+    submenu.parentElement.classList.add('open');
     nav.classList.add('fixed');
   } else {
     nav.classList.remove('fixed');
@@ -140,5 +141,6 @@ function updateSideMenu() {
 }
 
 function toEvent(section){
-  $('html, body').animate({ scrollTop: $('#'+section).offset().top }, 1000);
+  $('html, body').animate({ scrollTop: $('#'+section).offset().top, }, 1000, updateSubMenu);
+  return false;
 }
