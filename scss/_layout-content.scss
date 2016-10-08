@@ -131,3 +131,9 @@ pre code {
   }
 }
 
+.MathJax .math {
+	&>span:nth-child(2) {
+		border-left: none !important;
+	}
+}
+
