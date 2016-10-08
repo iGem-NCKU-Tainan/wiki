@@ -74,6 +74,7 @@
 			list-style-type: none;
 			a {
 				text-decoration: none;
+				border:none; 
 				color: $text;
 				&:hover {
 					opacity: .8;

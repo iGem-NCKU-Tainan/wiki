@@ -8,6 +8,17 @@ html,body {
   font-family: 'NotoSansCJKtc-Regular', 'Noto Sans', "微軟雅黑","Microsoft YaHei", Helvetica, 'sans-serif';
 }
 
+a {
+	font-weight: bold;
+	color: $text;
+	border-bottom: 2px solid $yellow;
+	&:hover {
+		text-decoration: none;
+		color: $text;
+		opacity: .8;
+	}
+}
+
 #container-big {
 	height: 500px;
 	width: 100%;
