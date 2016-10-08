@@ -1,0 +1,46 @@
+@import "./_layout-content";
+@import "./_form";
+
+.content > .col-md-9 > .title-line {
+	padding-bottom: 0;
+}
+.title-content {
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom: 10px;
+}
+
+.content > .col-md-9 > p {
+	margin-left: 40px;
+	margin-bottom: 0;
+	padding: 2px 25px;
+	text-indent: -10px;
+	i {
+		margin-right: 5px;
+		margin-left: 10px;
+	}
+  &::before {
+    content: '- ';
+  }
+}
+
+h5 {
+  opacity: 0.6;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222222;
+	margin: 25px 50px 0px;
+
+  &::before {
+    width: 2px;
+    height: 10px;
+    color: #FAD509;
+    background: #fad509;
+    display: inline-block;
+    content: "";
+    position: relative;
+    right: 8px;
+    transform: rotate(22deg);
+  }
+}
+

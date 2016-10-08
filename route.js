@@ -5,6 +5,7 @@ var routeDevice = require('./dev_routes/route-device');
 var routeTeam = require('./dev_routes/route-team');
 var routeJudging = require('./dev_routes/route-judging');
 var routeHP = require('./dev_routes/route-hp');
+var routeNotebook = require('./dev_routes/route-notebook');
 
 var route = []
 .concat(routeProject)
@@ -12,6 +13,7 @@ var route = []
 .concat(routeTeam)
 .concat(routeJudging)
 .concat(routeHP)
+.concat(routeNotebook)
 .concat([
   {
     data: {
@@ -61,6 +63,7 @@ var commonData = {
   teamAcknowledgement: '/wiki/team/acknowledgement',
   judgingMedal: '/wiki/judging/medal',
   judgingSafety: '/wiki/judging/safety',
+	notebookConstruction: '/wiki/Notebook/construction',
   sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 

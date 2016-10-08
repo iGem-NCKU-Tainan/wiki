@@ -1,0 +1,60 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">NOTEBOOK / Construction</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="head2">Notebook - Construction</div>
+						<div class="title-line" id="0330"></div>
+						<div class="title-content">Extracted plasmid from the bacteria provided by XMU<br/>(pSB1C3-BBa_B0034, pSB1C3-BBa_B0015, pSB1C3-BBa_K592009)</div>
+						<h5>2016.03.30</h5>
+						<p>We got the bacteria with Biobrick from XMU.</p>
+						<h5>2016.04.01</h5>
+						<p>Pre-culture: 3 ml of LB (with Chloramphenicol) was inoculated with one colony from LB agar plate.</p>
+						<h5>2016.04.02</h5>
+						<p>Culture: 10 ml of LB (with Chloramphenicol) culture with 100\(ml/\mu L\) pre-cultured bacteria. </p>
+						<p>And grow up at 37 degree for 10-12 hours.</p>
+						<h5>2016.04.03</h5>
+						<p>Extracted the plasmid, and measured the concentration.</p>
+						<p>Store the plasmid at -20 degree.</p>
+
+						<div class="title-line" id="0330"></div>
+						<div class="title-content">Got the glucose sensitive promoter (PpI ,Pcar) by PCR</div>
+						<h5>2016.4.16</h5>
+						<p>PCR for PpI & Pcar.<br/>
+               <i class="glyphicon glyphicon-ok"></i>Result: After gel purified, the concentration of the DNA was too low to do construction.</p>
+						<h5>2016.4.17</h5>
+						<p>PCR for PpI & Pcar again (in big scale).</p>
+            <p>Purified the PCR product and cloned to T-vector.</p>
+						<h5>2016.4.18</h5>
+						<p>Confirmed the white colony by PCR (using M13F & M13R as the primer)<br/>
+               <i class="glyphicon glyphicon-ok"></i>Result: Some of the colonies were correct.</p>
+            <p>Pre-culture: 3 ml of LB (with Ampicillin) was inoculated with one correct colony from the agar plate.</p>
+						<h5>2016.4.19</h5>
+						<p>Extracted plasmid and confirmed plasmid size by gel electrophoresis.<br/>
+               <i class="glyphicon glyphicon-ok"></i>Result: The size of pMD19T-PpI and pMD19T-Pcar were correct.</p>
+						<h5>2016.4.20</h5>
+						<p>Culture: 10 ml of LB (with Ampicillin) cultured with 100 l pre-cultured bacteria.</p>
+            <p>Grow up at 37 degree for 8 hours and stored the bacteria at -70 refrigerator.</p>
+
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onClick="toEvent('section1');">Section 1</a></li>
+							<li><a href="#" onClick="toEvent('section2');">Section 2</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		{{> footer }}
+	</body>
+</html>
