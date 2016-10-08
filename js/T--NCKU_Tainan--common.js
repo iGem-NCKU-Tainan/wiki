@@ -106,40 +106,11 @@ function getDropNum() {
 }
 
 function updateSubMenu() {
-  var header = document.getElementsByClassName('navbar-header')[0];
-  var Left = header.getBoundingClientRect().right;
-
-  var Top = submenu.parentElement.getBoundingClientRect().bottom;
-  var aTag = submenu.getElementsByTagName('A');
-
-
-  if(Top <= 0){
-    /* Fixed submenu */
-    updateStyle(submenu, {
-      position: 'fixed',
-      top: '8px',
-      left: Left,
-      width: '100%'
-    });
-    updateStyle(header, {
-      position: 'fixed',
-      top: '-30px'
-    });
-    updateTagsFontSize(aTag, '18px');
-
+  var nav = document.getElementsByTagName('nav')[0];
+  if(window.scrollY >= 10){
+    nav.classList.add('fixed');
   } else {
-    /* Unfixed submenu */
-    updateStyle(submenu, {
-        position: 'absolute',
-        top: '38px',
-        left: '',
-        width: submenuWidth
-    });
-    updateStyle(header, {
-      position: 'relative',
-      top: '0'
-    });
-    updateTagsFontSize(aTag, '12px');
+    nav.classList.remove('fixed');
   }
 }
 
@@ -147,29 +118,27 @@ function updateSideMenu() {
   /* sidemenu */
   var sidemenuTop = sidemenu.getBoundingClientRect().top;
   var sidepercent = sidemenu.style.width;
-  var Width = sidemenu.offsetWidth;
-  var Top = sidemenu.parentElement.getBoundingClientRect().top;
-  var Left = sidemenu.parentElement.getBoundingClientRect().left
+  var width = sidemenu.offsetWidth;
+  var top = sidemenu.parentElement.getBoundingClientRect().top;
+  var left = sidemenu.parentElement.getBoundingClientRect().left
   ;
   if(sidepercent[0] === '8' || sidepercent === '') {
-    Left += Width*.2;
+    left += width*.2;
   }
   else if (sidepercent[0] === '9') {
-    Left += Width*.1;
+    left += width*.1;
   }
   else if(sidepercent[0] === '1') {
-    Left += 15;
+    left += 15;
   }
 
-  if(Top <= 0) {
+  if(top <= 0) {
     sidemenu.style.position = 'fixed';
-    sidemenu.style.width = Width;
-    sidemenu.style.top = '0';
-    sidemenu.style.left = Left;
+    sidemenu.style.width = width;
+    sidemenu.style.top = '55px';
   } else {
     sidemenu.style.position = 'relative';
     sidemenu.style.top = '';
-    sidemenu.style.left = '';
   }
 }
 
