@@ -1,342 +1,168 @@
 <html><head>
     <meta charset="utf-8"><link rel="shortcut icon" href="/wiki/T--NCKU_Tainan--favicon.ico" type="image/x-icon"><link rel="icon" type="image/png" href="/wiki/T--NCKU_Tainan--favicon.ico"><link rel="icon" type="image/x-icon" href="/wiki/T--NCKU_Tainan--favicon.ico"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Project Modeling : Statistics Analysis - iGEM NCKU"><meta property="og:site_name" content="Project Modeling : Statistics Analysis - iGEM NCKU"><meta property="og:description" content=""><title>Project Modeling : Statistics Analysis - iGEM NCKU</title><meta http-equiv="Content-Type" content="text/html" charset="utf-8"><meta property="og:image" content=""><meta property="og:image:type" content="image/png"><link rel="stylesheet" href="/wiki/css/frame/T--NCKU_Tainan--bootstrap.min.css"><link href="/wiki/font/T--NCKU_Tainan--NotoSans.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/wiki/font/T--NCKU_Tainan--font-awesome.min.css">        <link rel="stylesheet" href="/wiki/css/T--NCKU_Tainan--Model.css">
-        <link rel="stylesheet" href="/wiki/highlight/github.css">
   </head>
   <body>
     <style>@font-face {  font-family: 'NotoSansCJKtc-Regular';  src: url("/wiki/font/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff") format('woff');}</style><nav class="navbar navbar-default"><div class="container-fluid" style="width:72%">  <div class="navbar-header">      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">        <span class="sr-only">Toggle navigation</span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>      </button>      <a class="navbar-brand" href="/wiki">        <h1>NCKU</h1><h4>Tainan</h4>      </a>   </div>  <div id="navbar" class="navbar-collapse collapse">    <ul class="nav navbar-nav">      <li>        <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="/wiki/Project">Project</a><div class="nav-underline"></div>        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">          <li><a href="/wiki/Project/">Overview</a></li>          <li><a href="/wiki/Project/description">Description</a></li>          <li><a href="/wiki/Project/results">Results</a></li>          <li><a href="/wiki/Project/modeling">Modeling</a></li>          <li><a href="/wiki/Project/parts">Parts</a></li>        </ul>      </li>      <li>        <a class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="">Device</a><div class="nav-underline"></div>        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">          <li><a href="/wiki/Device/hardware">Hardware</a></li>          <li><a href="/wiki/Device/software">Software</a></li>          <li><a href="">Demonstrate</a></li>        </ul>      </li>       <li>        <a class="dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="">Judging</a><div class="nav-underline"></div>        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">          <li><a href="/wiki/judging/medal">Medal</a></li>          <li><a href="/wiki/judging/safety">Safety</a></li>        </ul>        </li>      <li>        <a class="dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="/wiki/team">Team</a><div class="nav-underline"></div>        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">          <li><a href="/wiki/team">Team</a></li>          <li><a href="/wiki/team/attributions">Attributions</a></li>          <li><a href="/wiki/team/acknowledgement">Acknowledgement</a></li>          <li><a href="">Collaborations</a></li>        </ul>        </li>      <li>        <a class="dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expa="" nded="true" href="/wiki/Human_Practices">Human Practices</a><div class="nav-underline"></div>        <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">          <li><a href="/wiki/Human_Practices">Overview</a></li>          <li><a href="/wiki/Human_Practices/integrated">Integrated Practices</a></li>          <li><a href="/wiki/Human_Practices/engagement">Engagement</a></li>        </ul>      </li>      <li>        <a href="">Notebook</a><div class="nav-underline"></div>      </li>    </ul>    <ul class="nav navbar-nav navbar-right">    </ul>  </div><!--/.nav-collapse --></div><!--/.container-fluid --></nav><div id="container-big"><div id="line-left"></div><div id="line-left2"></div><div id="line-right"></div><div id="photo-left"></div></div><!--/.container-big -->    <style>
       #photo-left { background-image: url("/wiki/images/T--NCKU_Tainan--sample2.jpg"); }
     </style>
         <div class="container-fluid" style="margin-top:100px">
-                <div class="head">PROJECT / Model / Statistics Analysis</div>
+                <div class="head">PROJECT / Model / Fitting Theory</div>
                 <div class="content row">
                     <div class="col-md-9">
-                        <div class="head2">Model: Statistics Analysis</div>
-                        <div class="title-line" id="outline">Outline</div>
-                        <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
-                        <p class="center"> Figure1 (to be update ... ) </p>
-                        <p class="center">Fig 1 , the network of induction of glucose induced promoter Pl.</p>
-                        <br>
-                        <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
-                        <p class="center"> Figure2 (to be update ... ) </p>
-                        <p class="center">Fig2, Two different pathway in the network.</p>
-                        <br>
-                        <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
-                        <p class="center"> Figure3 (to be update ... ) </p>
-                        <p class="center">Fig3, The overall impact when glucose is added.</p>
-                        <br>
-                        <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
-                        <br><br><br>
-                        <div class="title-line" id="intro">Introduction</div>
-                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onclick="toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onclick="toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
-                        <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg">
-                        <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg">
-                        <div class="title-line" id="pair">Paired-difference T test</div>
-                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Hence, we use paired-difference test to analyze whether the difference of these two groups (0.1 vs 5mM/L or 0.1 vs 120mM/L) have statistical significance in this part.</p>
-                        <br><br>
-                        <p>Procedure</p>
-                        <br>
-                        <p>1. Guessing that there is difference over 90 minutes, we analyze the data of 0.1mM/L and 5mM/L at 90 minutes first.</p>
-                        <p>(Data)</p>
-                        <table>
-                            <tbody><tr>
-                              <th class="dial size1" style="vertical-align:top"><div class="right">Experiment</div><br><br><div class="left">Types</div></th>
-                              <th class="size2">First</th>
-                              <th class="size2">Second</th>
-                              <th class="size3">...</th>
-                              <th class="size2">Twelfth</th>
-                            </tr>
-                            <tr>
-                              <td>0.1mM/L</td>
-                              <td>358</td>
-                              <td>368</td>
-                              <td>...</td>
-                              <td>338</td>
-                            </tr>
-                            <tr>
-                              <td>5mM/L</td>
-                              <td>369</td>
-                              <td>386</td>
-                              <td>...</td>
-                              <td>385</td>
-                            </tr>
-                        </tbody></table>
-                        <br>
-                        <p>Because the experiments of 0.1mM/L and 5mM/L have correlation and they are small sample, we choose the paired-difference test to examine whether there is difference in two groups at 90 minutes.</p>
-                        <br>
-                        <p>Analysis:<br>(use one-tailed test)<br></p>
-                        <p>\(H_0:\mu_0\le0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ H_\alpha:\mu_0\ge0\)</p>
-                        <p>Because the sample is small, we choose the t distribution to test.</p>
-                        <table>
-                            <tbody><tr>
-                              <td class="size1">d(=5mM/L-0.1mM/L)</td>
-                              <td class="size2">11</td>
-                              <td class="size2">18</td>
-                              <td class="size3">...</td>
-                              <td class="size2">47</td>
-                            </tr>
-                        </tbody></table>
-                        <p>\(n\) (Number of paired differences)=12<br>\(\bar{d}\) (Mean of the sample differences)= 26.16666667<br>\(s_d\) (Standard deviation of the sample differences) = \(\sqrt{\frac{\sum(d_i-\bar{d})^2}{n-1}}\) = 13.19664788</p>
-                        <p>Test statistic t = \(\frac{\bar{d}-0}{s_d/\sqrt{n}}\) = 6.868713411 \(\gt t_{0.05,11}\) = 1.795885<br>P(t\(\gt\)6.868713411)= 1.995084e-05<br>Hence, We conclude that there is a difference between 0.1 and 5mM/L.</p>
-                        <p>2. Find the minimal time at which there is statistical significance by paired-difference test.(use R program &amp; α=0.05)</p>
-                        <p>(Data)</p>
-                        <table>
-                            <tbody><tr>
-                              <th class="size1 dial"><div class="right">Types</div><br><div class="left">Time(min)</div></th>
-                              <th class="size2">0.1mM/L</th>
-                              <th class="size3">...</th>
-                              <th class="size2">0.1mM/L</th>
-                              <th class="size2">5mM/L</th>
-                              <th class="size3">...</th>
-                              <th class="size2">5mM/L</th>
-                            </tr>
-                            <tr>
-                              <td>0</td>
-                              <td>295</td>
-                              <td>...</td>
-                              <td>276</td>
-                              <td>292</td>
-                              <td>...</td>
-                              <td>291</td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>296</td>
-                              <td>...</td>
-                              <td>276</td>
-                              <td>290</td>
-                              <td>...</td>
-                              <td>291</td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>301</td>
-                              <td>...</td>
-                              <td>277</td>
-                              <td>292</td>
-                              <td>...</td>
-                              <td>287</td>
-                            </tr>
-                            <tr>
-                              <td>.<br>.<br>.</td>
-                              <td>.<br>.<br>.</td>
-                              <td>...</td>
-                              <td>.<br>.<br>.</td>
-                              <td>.<br>.<br>.</td>
-                              <td>...</td>
-                              <td>.<br>.<br>.</td>
-                            </tr>
-                            <tr>
-                              <td>119</td>
-                              <td>392</td>
-                              <td>...</td>
-                              <td>372</td>
-                              <td>420</td>
-                              <td>...</td>
-                              <td>443</td>
-                            </tr>
-                            <tr>
-                              <td>120</td>
-                              <td>392</td>
-                              <td>...</td>
-                              <td>374</td>
-                              <td>427</td>
-                              <td>...</td>
-                              <td>439</td>
-                            </tr>
-                        </tbody></table>
-                        <br>
-                        <p>By using R program<br>\(t_{0.05,11}\) = 1.795885</p>
-                        <table>
-                            <tbody><tr>
-                              <th class="dial size1"><div class="right">statistic</div><div class="left">Time(min)</div></th>
-                              <th class="size1"><p>T statistic (\(t_0\))</p></th>
-                            </tr>
-                            <tr>
-                              <td>0</td>
-                              <td>2.283227</td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>1.992688</td>
-                            </tr>
-                            <tr>
-                              <td>.<br>.<br>.</td>
-                              <td>.<br>.<br>.</td>
-                            </tr>
-                            <tr>
-                              <td>119</td>
-                              <td>11.908155</td>
-                            </tr>
-                            <tr>
-                              <td>120</td>
-                              <td>15.538544</td>
-                            </tr>
-                        </tbody></table>
-                        <p>Hence, we can find \(t_0 \gt t_{0.05,11}\) at every time.</p>
-                        <pre><code class="R">data0.1&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
-data5&lt;-read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/5urine.csv",header=T)
-difference&lt;-cbind(data5[,2]-data0.1[,2],data5[,3]-data0.1[,3],data5[,4]-data0.1[,4],data5[,5]-data0.1[,5],data5[,6]-data0.1[,6],data5[,7]-data0.1[,7],data5[,8]-data0.1[,8],data5[,9]-data0.1[,9],data5[,10]-data0.1[,10],data5[,11]-data0.1[,11],data5[,12]-data0.1[,12],data5[,13]-data0.1[,13])
-dbar&lt;-difference%*% rep(1/12,12)
-var&lt;- ((difference -rep(dbar, 12))^2%*%rep(1,12))/11
-sd&lt;-var^0.5
-t&lt;-(dbar/sd)*(12^0.5)</code></pre>
-                        <p>3. Same with procedure 2, find the minimal time at which there is statistical significance by paired-difference test. (use R program, α=0.05, remove a outlier data)</p>
-                        <p>By using R program<br>\(t_{0.05,10}\) = 1.812461</p>
-                        <table>
-                            <tbody><tr>
-                              <th class="dial size1"><div class="right">statistic</div><div class="left">Time(min)</div></th>
-                              <th class="size1"><p>T statistic (\(t_0\))</p></th>
-                            </tr>
-                            <tr>
-                              <td>0</td>
-                              <td>4.720629</td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>4.580426</td>
-                            </tr>
-                            <tr>
-                              <td>.<br>.<br>.</td>
-                              <td>.<br>.<br>.</td>
-                            </tr>
-                            <tr>
-                              <td>119</td>
-                              <td>12.428324</td>
-                            </tr>
-                            <tr>
-                              <td>120</td>
-                              <td>14.240245</td>
-                            </tr>
-                        </tbody></table>
-                    <p>Hence, we can find \(t_0 \gt t_{0.05,10}\) at every time.</p>
-                    <p>Conclusion:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can say there are the difference groups (0.1 vs 5 mM/L or 0.1 vs 120mM/L) in part 1 with the data. And then, we need to find an accurate value which can distinguish between two groups.</p>
-                    <pre><code class="R">data0.1&lt;-read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
-data120&lt;-read.csv("C:/Users/Rick/Desktop/ NCKUactivity/iGEM/819test/120urine.csv",header=T)
-difference&lt;-cbind(data120[,2]-data0.1[,2],data120[,3]-data0.1[,3],data120[,4]-data0.1[,4],data120[,5]-data0.1[,5],data120[,6]-data0.1[,6],data120[,8]-data0.1[,8],data120[,9]-data0.1[,9],data120[,10]-data0.1[,10],data120[,11]-data0.1[,11],data120[,12]-data0.1[,12],data120[,13]-data0.1[,13])
-dbar&lt;-difference%*% rep(1/11,11)
-var&lt;- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10
-sd&lt;-var^0.5
-t&lt;-(dbar/sd)*(11^0.5)</code></pre>
-                    <div class="title-line" id="reg" style="padding-bottom:0"></div>
-                    <div style="font-size:16px;font-weight:bold">Regression &amp; Prediction interval</div>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L becomes the most important problem. We use the skill of the prediction interval in this part.</p>
-                    <br>
-                    <p>Procedure</p>
-                    <p>1. Use the regression to find the model of 0.1, 5, 120mM/L, and show the prediction interval plot.</p>
-                    <p class="center">(0.1mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg"></p>
-                    <p>(summary)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image4.jpg"></p>
-                    <p>(residual plot)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image5.jpg"></p>
-                    <p>(Q-Q plot)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image6.jpg"></p>
-                    <p>This model conforms the assumption and R-square is equal to 0.9541, so we think the cubic polynomial regression model is suitable.</p> 
-                    <p>(prediction interval)<br>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image7.jpg"></p>
-                    <p>And look the following, the procedure is same in the 5mM/L and 120mM/L.</p><p class="center">(5mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image8.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image9.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image10.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image11.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image12.jpg">(120mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image13.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image14.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image15.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image16.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image17.jpg"></p>
-                    <p>2. According to the previous part, we can say that 0.1mM/L and 5mM/L are difference group by the statistical significance. In order to precisely distinguish these two groups, choose the time at which the 5mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image18.jpg"></p>
-                    <p>By the above tables, we can see that 5mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 101 mins. Hence, it can be expected to have a higher accuracy to take the data after 101 mins.</p>
-                    <br>
-                    <p>(prediction interval of 0.1 &amp;5 mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg"></p>
-                    <p>3. Same with procedure 2, choose the time at which the 120mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg"></p>
-                    <p>By the above tables, we can find that 120mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 88 mins. Hence, it can be expected to have a higher accuracy to take the data in 88 mins.</p>
-                    <br>
-                    <p>(prediction interval of 0.1 &amp;120 mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg"></p>
-                    <h1 class="center">Appendix</h1>
-                    <pre><code class="R">#0.1 vs 5
-#0.1 urine plot
-data&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
-x1&lt;-rep(data[,1],12)
-x2&lt;-x1^2
-x3&lt;-x1^3
-y1&lt;-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
-model&lt;-lm(y1~x1+x2+x3)
-yhat0.1&lt;-model$fit
-plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
-#lines(data[,1], yhat0.1[1:121],lwd=3,col=2)
-n=121*12 
-mse&lt;-sum((y1-yhat0.1)^2)/(n-3)  # calculate MS_Res(=σ^2)
-X&lt;-cbind(1,x1,x2,x3)
-se&lt;-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
-up0.1&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low0.1&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.025,df=n-2)*se
-lines(data[,1], up0.1[1:121], col=2,lwd=3)
-lines(data[,1], low0.1[1:121],col=2,lwd=3)
-#5 urine plot
-data&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/5urine.csv",header=T)
-x1&lt;-rep(data[,1],12)
-x2&lt;-x1^2
-x3&lt;-x1^3
-y1&lt;-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
-model&lt;-lm(y1~x1+x2+x3)
-yhat5&lt;-model$fit 
-par(new=TRUE)
-plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
-#lines(data[,1], yhat5[1:121],lwd=3,col=2)
-n=121*12 
-mse&lt;-sum((y1-yhat5)^2)/(n-3)  # calculate MS_Res(=σ^2)
-X&lt;-cbind(1,x1,x2,x3)
-se&lt;-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
-up5&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low5&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4] +qt(.025,df=n-2)*se
-lines(data[,1], up5[1:121], col=3,lwd=3)
-lines(data[,1], low5[1:121], col=3,lwd=3)
-title(main="0.1 vs 5mM/L",cex.main=4)
-Name&lt;-c(expression(paste("0.1mM/L")),expression(paste("5mM/L")))
-legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), bg = 'gray90')
-#0.1 vs 120
-#0.1 urine plot
-data&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
-x1&lt;-rep(data[,1],12)
-x2&lt;-x1^2
-x3&lt;-x1^3
-y1&lt;-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,7], data[,8],data[,9],data[,10], data[,11],data[,12],data[,13])
-model&lt;-lm(y1~x1+x2+x3)
-yhat0.1&lt;-model$fit
-plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
-#lines(data[,1], yhat0.1[1:121],lwd=3,col=2)
-n=121*12 
-mse&lt;-sum((y1-yhat0.1)^2)/(n-3)  # calculate MS_Res(=σ^2)
-X&lt;-cbind(1,x1,x2,x3)
-se&lt;-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
-up0.1&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low0.1&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficiens[4]+qt(.025,df=n-2)*se
-lines(data[,1], up0.1[1:121], col=2,lwd=3)
-lines(data[,1], low0.1[1:121],col=2,lwd=3)
-#120 urine plot
-data&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/120urine.csv",header=T)
-x1&lt;-rep(data[,1],10)
-x2&lt;-x1^2
-x3&lt;-x1^3
-y1&lt;-c(data[,2],data[,3],data[,4],data[,5],data[,6],data[,9],data[,10],data[,11],data[,12],data[,13])
-model&lt;-lm(y1~x1+x2+x3)
-yhat120&lt;-model$fit 
-par(new=TRUE)
-plot(x1,y1,ylim=c(250,450),xlab= "time(mins) ",ylab= "Fluorescent", cex.lab=1.5)
-#lines(data[,1], yhat120[1:121],lwd=3,col=2)
-n=121*10 
-mse&lt;-sum((y1-yhat120)^2)/(n-3)  # calculate MS_Res(=σ^2)
-X&lt;-cbind(1,x1,x2,x3)
-se&lt;-sqrt(mse*(1+X[1,]%*%solve(t(X)%*%X)%*%X[1,]))
-up120&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.975,df=n-2)*se
-low120&lt;-model$coefficients[1]+x1*model$coefficients[2]+x2*model$coefficients[3]+x3*model$coefficients[4]+qt(.025,df=n-2)*se
-lines(data[,1], up120[1:121], col=4,lwd=3)
-lines(data[,1], low120[1:121], col=4,lwd=3)
-title(main="0.1 vs 120mM/L",cex.main=4)
-Name&lt;-c(expression(paste("0.1mM/L")),expression(paste("120mM/L")))
-legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), bg = 'gray90')</code></pre>
+                  <div class="head2">Model: Fitting Theory</div>
+                  <div class="title-line" id="intro">Introduction</div>
+                  <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
+                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg">
+                  <p class="center">Fig 1 , the network of induction of glucose induced promoter Pl.</p>
+                  <br>
+                  <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
+                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg">
+                  <p class="center">Fig2, Two different pathway in the network.</p>
+                  <br>
+                  <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
+                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg">
+                  <p class="center">Fig3, The overall impact when glucose is added.</p>
+                  <br>
+                  <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
+                  <br><br><br>
+                  <div class="title-line" id="theory">Theory</div>
+                  <p>According to reference (1) we can list the following reaction to simply represent the reaction chain involve in the whole process.</p>
+                  <br>
+                  <p class="center">\((PEP-Pi)+E1\leftrightarrow PEP+(E1-Pi)\)</p>
+                  <p class="center">\((E_1-Pi)+HPr\leftrightarrow E_1+(HPr-Pi)\)</p>
+                  <p class="center">\((HPr-Pi)+E2A\leftrightarrow (E2A-Pi)+HPr\)</p>
+                  <p> when glucose participate:</p>
+                  <p class="center">\((E2A-Pi)+E2B\leftrightarrow E2A+(E2B-Pi)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(A)\)</p>
+                  <p class="center">\((E2B-Pi)+Glucose\overset{E2C}{\rightarrow} E2B+G6P\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(B)\)</p>
+                  <p class="center">\(G6P\underset{Respiration}{\rightarrow}Energy\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(C)\)</p>
+                  <br>
+                  <p> when glucose absence:</p>
+                  <p class="center">\((E2A-Pi)+AC\leftrightarrow E2A+(AC-Pi)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(D)\)</p>
+                  <p class="center">\(ATP\overset{(AC-Pi)}{\rightarrow} cAMP\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(E)\)</p>
+                  <p class="center">\(cAMP+CRPx\leftrightarrow CRP\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(F)\)</p>
+                  <p class="center">\(CRP+Pl\leftrightarrow Plx\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(G)\)</p>
+                  <p class="center">\(Pl+polymerase+\{nucleotides\}\rightarrow Pl+polymerase+mRNA\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(---(H)\)</p>
+                  <hr>
+                  <p>Before we get everything started, we first make an assumption so that we can simplify this dynamics considerably.</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br>The variation of \(\frac{\Delta[E2A]}{[E2A]}\) is quite small, so we ignore the influence of E2A production reaction chain.</p>
+                  <p>The following derivation can only be valid if the assumption above is reasonable.</p>
+                  <p>Note: k represent reaction rate constant , K represent reaction equilibrium constant.</p>
+                  <hr>
+                  <p>Because reaction E,F,G and B,C involve enzyme reaction, which means the steady state will be reached in a very short time (~seconds), we will deal with them first at <a href="#part1" onclick="toEvent('part1');">Part I</a> to <a href="#part3" onclick="toEvent('part3');">Part III</a>.</p>
+
+                                    <div class="title-line" id="part1" style="padding-bottom:0"></div>
+                  <div style="font-size:16px;font-weight:bold">Part I: Gene inhibitor activated transcription</div>
+                  <p>If we only see reaction (F) to (H), it can be seen as a modified form of induced system whereas CRP is an inhibitor activated by cAMP.</p>
+                  <p class="center">\(\frac{d[mRNA]}{dt}=k_H[Pl][Poly]\prod \{nucleotides\}\)</p>
+                  <p class="center">\(\frac{d[Pl]}{dt}=-k_G[CRP][Pl]+k_{-G}[Plx]\)</p>
+                  <p>if Pl reach its steady state in a very short time, compared to the change of [CRP], that</p>
+                  <p class="center">\(\frac{d[Pl]}{dt}=0\)</p>
+                  <p>then,</p>
+                  <p class="center">\([Pl]=\frac{k_{-G}}{k_G[CRP]+k_{-G}}[Pl_{total}]=\frac{1}{1+K_G[CPR]}[Pl_{total}]\)</p>
+                  <p> where \(K_G=k_G/k_{-G}\), \([Pl_{total}]=[Pl]+[Plx]\)</p>
+                  <p>Then the transcription rate will become</p>
+                  <p class="center">\(\frac{d[mRNA]}{dt}=k_H[Pl][Poly]\prod \{nucleotides\}=\frac{k_H[Poly]\prod\{nucleotides\}}{1+K_G[CRP]}[Pl_{total}]\)</p>
+                  <p>Because nucleotides in biology system is large enough, we can treat it as a constant during the reaction.</p>
+                  <p>Set \(V_s=k_H[Pl][Ploy]\prod\{nucleotides\}[Pl_{total}]\), then</p>
+                  <p class="center">\(\frac{d[mRNA]}{dt}=\frac{V_s}{1+K_G[CRP]}\)</p>
+                  <br>
+                  <p>Then we turn to the dynamics of [CRP]</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From reaction (F)</p>
+                  <p class="center">\(\frac{d[CRP]}{dt}=k_F[cAMP][CRPx]-k_{-F}[CRP]\)</p>
+                  <p> When [CRP] reach its steady state,</p>
+                  <p class="center">\([CRP]=\frac{[CRP_{total}][cAMP]}{K_F+[cAMP]}\)</p>
+                  <p> so the transcription rate become </p>
+                  <p class="center">\(\frac{d[mRNA]}{dt}=\frac{V_s}{1+K_G[CRP]}=\frac{V_s(K_F+[cAMP])}{(K_F+[cAMP])+K_G[CRP_{total}][cAMP]}\)<br>\(=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\)</p>
+                  <p>We can see that the transcription rate of genes is a function of [cAMP]</p>
+                                    <div class="title-line" id="part2" style="padding-bottom:0"></div>
+                  <div style="font-size:16px;font-weight:bold">Part II: The equilibrium of ATP, cAMP</div>
+                  <p>cAMP actually participate many biological system not listed here. But briefly, we can assume that it is a first order reaction,</p>
+                  <p class="center">\(\frac{d[cAMP]}{dt}|_{consume}=-d_{cAMP}[cAMP]\)</p>
+                  <p>according to reaction (E) and (F),</p>
+                  <p class="center">\(\frac{d[cAMP]}{dt}=k_E\frac{AC'_{total}[ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}\)</p>
+                  <p>Because in <a href="#part1" onclick="toEvent('part1');">part I</a>, [CRP] in steady state require the concentration of cAMP, which means the whole process will be very complicated if [cAMP] will keep changing with [CRP], so an assumption is needed to make the calculation simpler.</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 2:<br>The reaction of [CRP] contribute very small to [cAMP], that is, <br>\(k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}\approx k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]\)</p>
+                  <br>
+                  <p> Under the assumption, the equilibrium of [cAMP] will be very easy to get,</p>
+                  <p class="center">\(\frac{d[cAMP]}{dt}=k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]\)</p>
+                  <p> so, </p>
+                  <p class="center">\([cAMP]=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E]}[AC'_{total}]\)</p>
+                                    <div class="title-line" id="part3" style="padding-bottom:0"></div>
+                  <div style="font-size:16px;font-weight:bold">Part III: Respiration of <i>E. coli</i> effect on E2B’</div>
+                  <p>The Glucose transmission and digestion are described in reference [1], </p>
+                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image4.jpg">
+                  <p class="center">Fig4, The pathway of glucose digestion.</p>
+                  <p>If we write reaction (B) in a more detail way,</p>
+                  <p class="center">\(E2B'+Glucose+E2C\leftrightarrow complex+Glucose\overset{k_{cat}}{\rightarrow}E2B+E2C+G6P\)</p>
+                  <p> then</p>
+                  <p class="center">\(\frac{d[complex]}{dt}=k_B[E2B'][Glucose][E2C]-(k_{-B}+k_{cat}[complex][Glucose])\)</p>
+                  <p>When [complex] reach its steady state so that </p>
+                  <p class="center">\(\frac{d[complex]}{dt}=0\)</p>
+                  <p> then</p>
+                  <p class="center">\([complex]=\frac{k_B[E2B'][E2C]}{(k_{-B}+k_{cat})}\)</p>
+                  <p>here we introduce an assumption</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 3:<br>[complex] is very dilute so that [Glucose] will keep its concentration during the reaction chain.</p>
+                  <p>We combine this result and calculate reaction (A) and get</p>
+                  <p class="center">\(\frac{d[E2B']}{dt}=-k_B[E2B'][Glucose][E2C]+k_{-B}[complex][Glucose]+k_A[E2A'][E2B]-k_A[E2A][E2B'c]\)</p>
+                  <p>When E2B’ reach its steady state so that</p>
+                  <p class="center">\(\frac{d[E2B']}{dt}\)=0</p>
+                  <p>then</p>
+                  <p class="center">\([E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B]}{k_B[E2C][Glucose]+k_{-A}[E2A]}\)</p>
+                  <p class="center">\([E2B]=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+k_{-A}[E2A]}-\frac{k_A[E2A'][E2B']}{k_B[E2C][Glucose]+k_{-A}[E2A]}\)</p>
+                  <p class="center">\([E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+(k_{-A}[E2A_{total}]+(k_A-k_{-A})[E2A'])}\)</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 4:<br>Because [E2A] and [E2A’] are regulated by a lot of chemical compound, which makes [E2A’] and [E2A] not change considerably after a few amount of Glucose is added into the system.</p>
+                  <hr>
+                  <p>At reaction (A) and (D), reaction don’t involve enzyme reaction, so we will calculate in <a href="#part4" onclick="toEvent('part4');">Part IV</a> and treat it as a most time-consuming reaction in the whole process.</p>
+                                    <div class="title-line" id="part4" style="padding-bottom:0"></div>
+                  <div style="font-size:16px;font-weight:bold">Part IV: E2B, E2A and AC</div>
+                  <p>Here, our target is to find our [AC’] when it reaches steady state.From (A) and (D). Obviously, it is a competitive reaction.</p>
+                  <p>We here have two equilibrium constants</p>
+                  <p class="center">\(K_A=\frac{[E2A][E2B']}{[E2A'][E2B]}\)</p>
+                  <p class="center">\(K_B=\frac{[E2A][AC']}{[E2A'][AC]}\)</p>
+                  <p>so</p>
+                  <p class="center">\(\frac{K_A}{K_B}=\frac{[E2B'][AC]}{[E2B][AC']}=\frac{[E2B']([AC_{total}]-[AC'])}{([E2B_{total}])[AC']}\)</p>
+                  <p>Reassemble and get</p>
+                  <p class="center">\([AC']=\frac{K_B[B2B'][AC_{total}]}{K_A([E2B_{total}]-[E2B'])+K_B[E2B']}=\frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}\)</p>
+                  <p>Here we have calculated the concentration of [AC’], [E2B’] and [cAMP] in <a href="#part2" onclick="toEvent('part2');">Part II</a> ~ <a href="TODO:no part VI">Part VI</a>, and we also derive a formula that can express the transcription rate of the genes following to the promoter Pl in <a href="#part1" onclick="toEvent('part1');">Part I</a>. </p>
+                  <br>
+                  <p>First, we substitute [E2B’] into [AC’] and get</p>
+                  <p class="center">\( [AC'] = \frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}=\frac{a[Glucose]+b}{[Glucose]+c}  \)</p>
+                  <p>where</p>
+                  <p class="center">\(a=\frac{K_B[AC_{total}]k_{-B}[complex]}{K_A[E2B_{total}]+(K_B-K_A)k_{-B}[complex]}\)</p>
+                  <p class="center">\(b=\frac{K_B[AC_{total}]k_A[E2A'][E2B_{total}]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}\)</p>
+                  <p class="center">\(c=\frac{K_A[E2B_{total}](k_{-A}[E2A_{total}+(k_A-k_{-A})[E2A']])+(K_B-K_A)k_A[E2A'][E2B_{total}]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}\)</p>
+                  <br>
+                  <p>Then put this into [cAMP]</p>
+                  <p class="center">\([cAMP]=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E}\times \frac{a[Glucose]+b}{[Glucose]+c}=\frac{a'[Glucose]+b}{[Glucose]+c}\)</p>
+                  <p class="center">\(a'=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E}\times \frac{K_B[AC_{total}]k_{-B}[complex]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}\)</p>
+                  <br><br>
+                  <p>then, we can substitute [cAMP] into the formula of transcription</p>
+                  <p class="center">\(\frac{dY}{dt}=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\)<br>\(=\frac{K_F([Glucose]+c)+(a'[Glucose]+b)}{\frac{K_F}{V_S}([Glucose]+c)+\frac{K_G[CRP_{total}]}{V_S}(a'[Glucose]+b)}\)<br>\(=\frac{(K_F+a')[Glucose]+(b+K_Fc)}{(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})[Glucose]+(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)}\)<br>\(=\frac{c1[Glucose]+c2}{[Glucose]+c3}\)</p>
+                  <p>where</p>
+                  <p class="center">\(c1=(K_F+a')/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
+                  <p class="center">\(c2=(b+K_Fc)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
+                  <p class="center">\(c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
+                  <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
+                  <p class="center">\(\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
+                  <div class="title-line" id="ref">Reference</div>
+                  <p>[1] Glucose Transport in Escherichia coli Mutant Strains with Defects in Sugar Transport Systems, Journal of Bacteriology, Sonja Steinsiek and Katja Bettenbrock</p>
+                  <p>[2] Glucose uptake regulation in <i>E. coli</i> by the small RNA SgrS: comparative analysis of <i>E. coli</i> K-12 (JM109 and MG1655) and <i>E. coli</i> B (BL21), Microbial Cell Factories,Alejandro Negrete, Weng-Ian Ng, Joseph Shiloach</p>
+
                     </div>
                     <div class="col-md-3">
-                      <ul id="sidemenu" style="width:100%">
-                        <li><a href="#" onclick="toEvent('outline');">Outline</a></li>
+                      <ul id="sidemenu">
                         <li><a href="#" onclick="toEvent('intro');">Introduction</a></li>
-                        <li><a href="#" onclick="toEvent('pair');">Paired-difference T test</a></li>
-                        <li><a href="#" onclick="toEvent('reg');">Regression &amp; Prediction</a></li>
+                        <li><a href="#" onclick="toEvent('theory');">Theory</a></li>
+                        <li><a href="#" onclick="toEvent('part1');">Part I</a></li>
+                        <li><a href="#" onclick="toEvent('part2');">Part II</a></li>
+                        <li><a href="#" onclick="toEvent('part3');">Part III</a></li>
+                        <li><a href="#" onclick="toEvent('part4');">Part IV</a></li>
+                        <li><a href="#" onclick="toEvent('ref');">Reference</a></li>
                       </ul>
                     </div>
                 </div>
         </div> <!-- /.container-fluid -->
         <script src="/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js"></script><script src="/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js"></script><script src="/wiki/js/T--NCKU_Tainan--common.js"></script>        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script src="/wiki/highlight/highlight.pack.js"></script>
-        <script src="/wiki/highlight/highlightjs-line-numbers.js"></script>
-        <script>hljs.initHighlightingOnLoad();
-        hljs.initLineNumbersOnLoad();</script>
     
 
 </body></html>

@@ -30,7 +30,21 @@ module.exports = [
       img: "",
       description: "",
       sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
-      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css",
+      img1: '/wiki/images/result/T--NCKU_Tainan--image001.png',
+      img2: '/wiki/images/result/T--NCKU_Tainan--image002.png',
+      img3: '/wiki/images/result/T--NCKU_Tainan--image003.png',
+      img4: '/wiki/images/result/T--NCKU_Tainan--image004.jpg',
+      img5: '/wiki/images/result/T--NCKU_Tainan--image005.gif',
+      img7: '/wiki/images/result/T--NCKU_Tainan--image007.gif',
+      img8: '/wiki/images/result/T--NCKU_Tainan--image008.png',
+      img9: '/wiki/images/result/T--NCKU_Tainan--image009.gif',
+      img10: '/wiki/images/result/T--NCKU_Tainan--image010.jpg',
+      img11: '/wiki/images/result/T--NCKU_Tainan--image011.gif',
+      img12: '/wiki/images/result/T--NCKU_Tainan--image012.png',
+      img13: '/wiki/images/result/T--NCKU_Tainan--image013.gif',
+      img14: '/wiki/images/result/T--NCKU_Tainan--image014.png',
+      img15: '/wiki/images/result/T--NCKU_Tainan--image015.gif'
     },
     layout:  "./view/Project/results.hbs",
     filename: "./docs/Project/results.html"

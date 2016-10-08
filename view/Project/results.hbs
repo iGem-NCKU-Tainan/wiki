@@ -30,18 +30,25 @@
             <h5>characterization of glucose induced RFP expression</h5>
             <p>To preliminary test the function of our Detection circuit , we induced our U coli for 12 hours with final glucose concentration of : 0, 5 ,15 ,30 , 60 mM/L </p>
 
-
-            <p>Fig2 result: PI_RBS_RFP_TT  transformed in <i>E.coli</i> BL21 DE3 . After 12-hour induction with final glucose concentration of : 0, 5 ,15 ,30 , 60 mM/L , the fluroscence is observed under excitation ray of 470 nm and with the filter “LEE filter 019”</p>
+            <img src="{{img1}}" alt="fig2 result: PI_RBS_RFP_TT">
+            <p>Fig.2 result: PI_RBS_RFP_TT  transformed in <i>E.coli</i> BL21 DE3 . After 12-hour induction with final glucose concentration of : 0, 5 ,15 ,30 , 60 mM/L , the fluroscence is observed under excitation ray of 470 nm and with the filter “LEE filter 019”</p>
 
             <p>To further quantify the fluorescent intensity ,and simultaneously the growth curve of U coli ,  we used final glucose concentration of : 0, 5 ,15 ,30 mM/L to induce our U coli for 8 hours with total volume of 20 ml , and measure the fluorescent intensity at excitation/emission wavelength 562nm/599nm and OD600 for growth curve.</p>
 
-            <p>Fig3 result: above is the growth curve and fluorescent intensity , the experiments were done in <i>E.coli</i> BL21 DE3 in modified M9 medium , the cell were cultured in modified M9 medium for 2 hours and  glucose of final concentration  : 0, 5 ,15 ,30 mM/L were add to induce the expression of RFP . The fluorescent intensity were measured every 2 hours , after total time exceeds 10 hours , experiments with 5 ,15 ,30 mM/L glucose  has 2~4 fold induction compared to control 〈0 mM/L〉. The presence of glucose also affects the growth curve of our U.coli compared to control , but the growth curves of 5 ,15 ,30 mM/L does not show significant difference .
+            <div class="two-img">
+              <img src="{{img2}}" alt="fig3 result">
+              <img src="{{img3}}" alt="fig3 result">
+            </div>
+
+            <p>Fig.3 result: above is the growth curve and fluorescent intensity , the experiments were done in <i>E.coli</i> BL21 DE3 in modified M9 medium , the cell were cultured in modified M9 medium for 2 hours and  glucose of final concentration  : 0, 5 ,15 ,30 mM/L were add to induce the expression of RFP . The fluorescent intensity were measured every 2 hours , after total time exceeds 10 hours , experiments with 5 ,15 ,30 mM/L glucose  has 2~4 fold induction compared to control 〈0 mM/L〉. The presence of glucose also affects the growth curve of our U.coli compared to control , but the growth curves of 5 ,15 ,30 mM/L does not show significant difference .
             </p>
 
             <h5>Proof of Concept : Differentiating diabetic urine with normal</h5>
             <p>To proof that our Ucoli do have the function of differentiating diabetic urine sample with control , we calculated the average prediction interval of fluorescent intensity  corresponding to each glucose concentration and we used the upper limit of control as the threshold of “positive” , that is , if the fluorescent intensity of a urine sample surpass the upper limit of control , we can refer the urine sample “diabetic “ , and the diabetic test has sensitivety : / spreciticity : </p>
 
-            <p>Fig4 result: the 95% prediction interval of glucose positive 〈5mM/L〉urine sample 〈green〉and glucose negative〈0.1mM/L〉 urine sample〈red〉，the two intervals can be separated after T> 101 mins . To verify the function , by applying the upper limit of the 95% prediction interval of glucose negative urine sample〈red〉as the “diabetic threshold “ , we performed a test to clarify whether our U coli can differentiate diabetes from control . At time T= 101mis with n= 84,  our result shows sensitivity= 95% and if we delay the testing time to T=120mins , the sensitivity will be 100%.〈n=84〉, which proved that our Ucoli do Differentiate diabetic urine with norma
+            <img src="{{img5}}" alt="fig4 result">
+
+            <p>Fig.4 result: the 95% prediction interval of glucose positive 〈5mM/L〉urine sample 〈green〉and glucose negative〈0.1mM/L〉 urine sample〈red〉，the two intervals can be separated after T> 101 mins . To verify the function , by applying the upper limit of the 95% prediction interval of glucose negative urine sample〈red〉as the “diabetic threshold “ , we performed a test to clarify whether our U coli can differentiate diabetes from control . At time T= 101mis with n= 84,  our result shows sensitivity= 95% and if we delay the testing time to T=120mins , the sensitivity will be 100%.〈n=84〉, which proved that our Ucoli do Differentiate diabetic urine with norma
             </p>
 
             <p>To further elaborate our proof of concept ,we have a <a href="{{projModel2}}">statistical calculation</a></p>
@@ -50,9 +57,15 @@
             <p>After successfully differentiating diabetic urine sample with control ,we want determine the amount of glucose present in urine sample. Thus,  we used final glucose concentration of : 0,1,3 5 ,15 ,30,45 mM/L to induce our U coli for 12 hours in 96 well and measure the fluorescent intensity at excitation/emission wavelength 562nm/599nm , the difference of fluorescent intensity between each and every group become significant at time T= 8hr.
             </p>
 
+            <img src="{{img7}}" alt="fig5 result">
+
             <p>
-              Fig5 result : fluorescence intensity with 95% confidence interval after 8 hour induction with final glucose concentration 0,1,3 5 ,15 ,30,45 mM/L , all differences between each group shows statistical significance with P < 0.05 , proving that out U.coli do differentiate urine sample containing various amount of glucose , ranging from 0~45 mM/L.
+              Fig.5 result : fluorescence intensity with 95% confidence interval after 8 hour induction with final glucose concentration 0,1,3 5 ,15 ,30,45 mM/L , all differences between each group shows statistical significance with P < 0.05 , proving that out U.coli do differentiate urine sample containing various amount of glucose , ranging from 0~45 mM/L.
               </p>
+
+              <p>Based on the results above, we derived a prediction formula , to calculate the urine glucose concentration 〈C〉</p>
+              <img src="{{img8}}" alt="fig6 result">
+              <img src="{{img10}}">
 
               <p>To verify the formula , we performed a test to clarify whether our U coli can predict and quantify the concentration of urine glucose. </p>
               <p>Reuslt : with n=63, the average recovery rate is 104%〈95% ~114%〉. which proved that our Ucoli do predict and quantify the concentration of urine glucose</p>
@@ -67,7 +80,9 @@
               <h5>Growth Inhibition and Lysis activated by Arabinose</h5>
               <p>Promoter pBAD , is activated by arabinose and repressed by glucose . when activated the downstream lysis gene will lyse and kill the Ucoli , to preliminary test the function of our Safety circuit , we induced our U coli 3 hours with the following condition ,and kinetically measure the OD 600 as the indicator of bacteria concetration</p>
 
-              <p>Fig: expression of promoter pBAD in different arabinose and gucose concentration , the prescense of glucose will repress promoter pBAD even when arabionse is present</p>
+              <img src="{{img12}}" alt="fig7">
+
+              <p>Fig.7: expression of promoter pBAD in different arabinose and gucose concentration , the prescense of glucose will repress promoter pBAD even when arabionse is present</p>
 
               <table>
                 <tr><th>Group</th><th>Final ara. Conc. mM/L</th><th>Final glu. Conc. mM/mol</th></tr>
@@ -76,7 +91,9 @@
                 <tr><td>Gray</td><td>10</td><td>50</td></tr>
               </table>
 
-              <p>Fig7:  result: pBAD-RBS-lysis-TT transformed in <i>E.coli</i> BL21 DE3 , was culture for 6 hr and transfferd〈1%〉to modified M9 meduim containing different concentration of arabionse and glucose , and OD600 was measured kinetically by 96well plate reader. Compared to control , arabinose significantly inhibited the growth of U.coli after time T>50 mins . In addition ,when glucose and arabinose are both present , glucose will repress the growth inhibitory effect of arabinose , making the cells continue to growth . Still , compared to control , the growth rate is slightly decreased by arabinose , even with the presence of glucose.
+              <img src="{{img14}}" alt="fig8">
+
+              <p>Fig8:  result: pBAD-RBS-lysis-TT transformed in <i>E.coli</i> BL21 DE3 , was culture for 6 hr and transfferd〈1%〉to modified M9 meduim containing different concentration of arabionse and glucose , and OD600 was measured kinetically by 96well plate reader. Compared to control , arabinose significantly inhibited the growth of U.coli after time T>50 mins . In addition ,when glucose and arabinose are both present , glucose will repress the growth inhibitory effect of arabinose , making the cells continue to growth . Still , compared to control , the growth rate is slightly decreased by arabinose , even with the presence of glucose.
               </p>
 
               <p>To further validate the effect of our Safety circuit , we performed a CFU assay .
