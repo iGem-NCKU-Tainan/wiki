@@ -10,10 +10,10 @@
       #photo-left { background-image: url("{{sample2}}"); }
     </style>
         <div class="container-fluid" style="margin-top:100px">
-                <div class="head">PROJECT / Model</div>
+                <div class="head">PROJECT / Model / Statistics Analysis</div>
                 <div class="content row">
                     <div class="col-md-9">
-                        <div class="head2">Modeling : Statistics Analysis</div>
+                        <div class="head2">Model: Statistics Analysis</div>
                         <div class="title-line" id="outline">Outline</div>
                         <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
                         <p class="center"> Figure1 (to be update ... ) </p>
@@ -30,7 +30,7 @@
                         <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
                         <br/><br/><br/>
                         <div class="title-line" id="intro">Introduction</div>
-                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onClick="toEvent('pair');">paired-difference T test</a> part. And, we use the regression and prediction intervals to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
+                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onClick="toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onClick="toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
                         <img src="{{image1}}" />
                         <img src="{{image2}}" />
                         <div class="title-line" id="pair">Paired-difference T test</div>
@@ -326,11 +326,11 @@ Name<-c(expression(paste("0.1mM/L")),expression(paste("120mM/L")))
 legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), bg = 'gray90')</code></pre>
                     </div>
                     <div class="col-md-3">
-                      <ul id="sidemenu">
+                      <ul id="sidemenu" style="width:100%">
                         <li><a href="#" onClick="toEvent('outline');">Outline</a></li>
                         <li><a href="#" onClick="toEvent('intro');">Introduction</a></li>
                         <li><a href="#" onClick="toEvent('pair');">Paired-difference T test</a></li>
-                        <li><a href="#" onClick="toEvent('reg');">Regression & Prediction interval</a></li>
+                        <li><a href="#" onClick="toEvent('reg');">Regression & Prediction</a></li>
                       </ul>
                     </div>
                 </div>

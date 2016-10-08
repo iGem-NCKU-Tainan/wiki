@@ -51,6 +51,8 @@ var commonData = {
   projParts: '/wiki/Project/parts',
   projResults: '/wiki/Project/results',
   projModeling: '/wiki/Project/modeling',
+  projModel1: '/wiki/Project/Model_Fitting_Theory',
+  projModel2: '/wiki/Project/Model_Statistics_Analysis',
   deviceHardware: '/wiki/Device/hardware',
   deviceSoftware: '/wiki/Device/software',
   team: '/wiki/team',

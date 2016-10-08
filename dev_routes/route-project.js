@@ -37,6 +37,18 @@ module.exports = [
   },
   {
     data: {
+      title: "Project Model - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
+    },
+    layout:  "./view/Project/modeling.hbs",
+    filename: "./docs/Project/modeling.html"
+  },
+  {
+    data: {
       title: "Project Modeling : Statistics Analysis - iGEM NCKU",
       url: "",
       img: "",

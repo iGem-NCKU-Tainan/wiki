@@ -1,0 +1,30 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">PROJECT / Model</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="title-line" id="fitting">Fitting Theory</div>
+						<p>TODO: overview 1... (<a href="{{projModel1}}">Read more...</a>)</p>
+						<div class="title-line" id="statistics">Statistics Analysis</div>
+						<p>TODO: overview 2... (<a href="{{projModel2}}">Read more...</a>)</p>
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onClick="toEvent('fitting');">Fitting Theory</a></li>
+							<li><a href="#" onClick="toEvent('statistics');">Statistics Analysis</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		{{> footer }}
+	</body>
+</html>
