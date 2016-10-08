@@ -2,3 +2,13 @@
 <script src="{{jsLink2}}"></script>
 <script src="http://2015.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="{{commonjs}}"></script>
+<script>
+(function() {
+	/* change icon */
+	var link = document.createElement('link');
+	link.type = 'image/x-icon';
+	link.rel = 'shortcut icon';
+	link.href = '{{icon}}';
+	document.getElementsByTagName('head')[0].appendChild(link);
+}());
+</script>
