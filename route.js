@@ -64,6 +64,8 @@ var commonData = {
   judgingMedal: '/wiki/judging/medal',
   judgingSafety: '/wiki/judging/safety',
 	notebookConstruction: '/wiki/Notebook/construction',
+	notebookFunctional: '/wiki/Notebook/functional_test',
+	notebookDevice: '/wiki/Notebook/device_design',
   sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 

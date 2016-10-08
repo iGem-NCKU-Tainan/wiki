@@ -1,0 +1,41 @@
+<html>
+  <head>
+    {{> head}}
+		<link rel="stylesheet" href="{{css}}">
+  </head>
+  <body>
+    {{> header }}
+		<style>
+			#photo-left { background-image: url("{{sample2}}"); }
+		</style>
+		<div class="container-fluid" style="margin-top:100px">
+				<div class="head">NOTE / Functional Test</div>
+				<div class="content row">
+					<div class="col-md-9">
+						<div class="head2">Notebook - Functional Test</div>
+						<div class="title-line" id="sec1"></div>
+						<div class="title-content"></div>
+						<h5></h5>
+						<p></p>
+						<h5></h5>
+						<p></p>
+						<h5></h5>
+						<p></p>
+						<p></p>
+						<h5></h5>
+						<p></p>
+						<p></p>
+
+					</div>
+					<div class="col-md-3">
+						<ul id="sidemenu">
+							<li><a href="#" onClick="toEvent('section1');">Section 1</a></li>
+							<li><a href="#" onClick="toEvent('section2');">Section 2</a></li>
+						</ul>
+					</div>
+				</div>
+		</div> <!-- /.container-fluid -->
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		{{> footer }}
+	</body>
+</html>
