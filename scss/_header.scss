@@ -9,6 +9,10 @@
   background-color: #fff;
   border-color: transparent;
 
+	.navbar-header {
+		z-index: 20;
+	}
+
   .navbar-toggle {
     margin-top: 32px;
   }
@@ -119,10 +123,6 @@ li .dropdown-menu {
   padding-bottom: 0;
   margin-bottom: 0;
   border: 0;
-}
-
-#bodyContent h4 {
-  padding: 0;
 }
 
 @media all and (max-width: 767px) {

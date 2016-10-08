@@ -4,14 +4,35 @@
 })();
 
 $(window).on("load", function(){
-    var container = document.getElementsByClassName("content")[0];
-    if (container === undefined) return;
+	/* dropdown menu */
+	var url = window.location.href;
+	var dropNum = -1, submenu, submenuWidth;
+	var submenuAr = {
+		0: ["Project", "Description", "Result", "Model", "Part"],
+		1: ["Hardware", "Software", "Demo"],
+		2: ["Medal", "Safety"],
+		3: ["Team", "Attribution", "Acknowledgement", "Collaboration"],
+		4: ["Human", "Practice", "Engagement"],
+		5: ["Notebook"]
+	};
+	for(var index in submenuAr)
+		for(var i=0; i<submenuAr[index].length; ++i)
+			if(url.indexOf(submenuAr[index][i])!==-1)
+				dropNum = index;
+	if(dropNum!==-1) {
+		submenu = document.getElementsByClassName('dropdown-menu')[dropNum];
+		submenu.parentElement.classList.add("open");
+		submenuWidth = submenu.offsetWidth;
+	}
+	
+  var container = document.getElementsByClassName("content")[0];
+  if (container === undefined) return;
 
-    /* content's height */
-    var col1 = container.getElementsByClassName("col-md-9")[0];
-    var col2 = container.getElementsByClassName("col-md-3")[0];
+  /* content's height */
+  var col1 = container.getElementsByClassName("col-md-9")[0];
+  var col2 = container.getElementsByClassName("col-md-3")[0];
 
-    if (col1 !== undefined && col2 !== undefined) {
+  if (col1 !== undefined && col2 !== undefined) {
       updateColsHeight(col1, col2);
   }
 
@@ -21,6 +42,30 @@ $(window).on("load", function(){
 	var sidepercent = tmp.style.width;
 
 	$(window).scroll( function(){
+		/* dropdown */
+		var Top = submenu.parentElement.getBoundingClientRect().bottom;
+		var header = document.getElementsByClassName('navbar-header')[0];
+		var Left = header.getBoundingClientRect().right;
+		if(Top<=0){
+			submenu.style.position = header.style.position = "fixed";
+			submenu.style.left = Left;
+			submenu.style.top = "8px";
+			header.style.top = "-30px";
+			submenu.style.width = "100%";
+			var aTag = submenu.getElementsByTagName("A");
+			for(var i in aTag) aTag[i].style.fontSize="18px";
+		} else {
+			submenu.style.position = "absolute";
+			header.style.position = "relative";
+			submenu.style.left = "";
+			submenu.style.top = "38px";
+			header.style.top = "0";
+			submenu.style.width = submenuWidth;
+			var aTag = submenu.getElementsByTagName("A");
+			for(var i in aTag) aTag[i].style.fontSize="12px";
+		}
+
+		/* sidemenu */
 		var sidemenuTop = document.getElementById("sidemenu").getBoundingClientRect().top;
 		var sidemenu = document.getElementById("sidemenu");
 		if(sidemenu) {
