@@ -71,6 +71,8 @@ function onScroll() {
 
 function getDropNum() {
   var url = window.location.href;
+	url = url.split("/");
+	url = url[url.length-1]=="" ? url[url.length-2] : url[url.length-1];
   var dropNum = -1;
   var submenuAr = {
     0: ['Project', 'Description', 'Result', 'Model', 'Part'],
