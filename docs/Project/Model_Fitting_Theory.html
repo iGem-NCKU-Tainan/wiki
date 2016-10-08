@@ -12,17 +12,20 @@
                   <div class="head2">Model: Fitting Theory</div>
                   <div class="title-line" id="intro">Introduction</div>
                   <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
-                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
-                  <p class="center">Fig 1 , the network of induction of glucose induced promoter Pl.</p>
-                  <br>
+									<div class="img">
+	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
+  	                <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
+									</div>
                   <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
-                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
-                  <p class="center">Fig2, Two different pathway in the network.</p>
-                  <br>
+									<div class="img">
+	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
+  	                <div>Fig2, Two different pathway in the network.</div>
+                  </div>
                   <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
-                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg">
-                  <p class="center">Fig3, The overall impact when glucose is added.</p>
-                  <br>
+									<div class="img">
+	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg">
+  	                <div>Fig3, The overall impact when glucose is added.</div>
+                  </div>
                   <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
                   <br><br><br>
                   <div class="title-line" id="theory">Theory</div>
@@ -46,7 +49,7 @@
                   <p>Before we get everything started, we first make an assumption so that we can simplify this dynamics considerably.</p>
                   <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br>The variation of \(\frac{\Delta[E2A]}{[E2A]}\) is quite small, so we ignore the influence of E2A production reaction chain.</p>
                   <p>The following derivation can only be valid if the assumption above is reasonable.</p>
-                  <p>Note: k represent reaction rate constant , K represent reaction equilibrium constant.</p>
+                  <p>Note: k represent reaction rate constant, K represent reaction equilibrium constant.</p>
                   <hr>
                   <p>Because reaction E,F,G and B,C involve enzyme reaction, which means the steady state will be reached in a very short time (~seconds), we will deal with them first at <a href="#part1" onclick="toEvent('part1');">Part I</a> to <a href="#part3" onclick="toEvent('part3');">Part III</a>.</p>
 
@@ -90,8 +93,10 @@
                                     <div class="title-line" id="part3" style="padding-bottom:0"></div>
                   <div style="font-size:16px;font-weight:bold">Part III: Respiration of <i>E. coli</i> effect on E2B’</div>
                   <p>The Glucose transmission and digestion are described in reference [1], </p>
-                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg">
-                  <p class="center">Fig4, The pathway of glucose digestion.</p>
+									<div class="img">
+	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg">
+  	                <div>Fig4, The pathway of glucose digestion.</div>
+									</div>
                   <p>If we write reaction (B) in a more detail way,</p>
                   <p class="center">\(E2B'+Glucose+E2C\leftrightarrow complex+Glucose\overset{k_{cat}}{\rightarrow}E2B+E2C+G6P\)</p>
                   <p> then</p>

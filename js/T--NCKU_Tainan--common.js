@@ -96,7 +96,6 @@ function updateSubMenu() {
   if(window.scrollY >= 10){
 		var opened = document.getElementsByClassName('open')[0];
 		if (opened) opened.className = "";
-
     submenu.parentElement.classList.add('open');
     nav.classList.add('fixed');
   } else {
