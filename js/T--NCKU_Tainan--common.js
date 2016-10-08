@@ -43,6 +43,8 @@ $(window).on("load", function(){
 
 	$(window).scroll( function(){
 		/* dropdown */
+		if (!submenu) return;
+
 		var Top = submenu.parentElement.getBoundingClientRect().bottom;
 		var header = document.getElementsByClassName('navbar-header')[0];
 		var Left = header.getBoundingClientRect().right;
