@@ -119,6 +119,10 @@ li .dropdown-menu {
 .navbar-nav > li:nth-child(4) .dropdown-menu {
   left: -95px;
 }
+// adjust `Notebook` submenu
+.navbar-nav > li:nth-child(6) .dropdown-menu {
+  left: -200px;
+}
 
 #content h1 {
   padding-bottom: 0;

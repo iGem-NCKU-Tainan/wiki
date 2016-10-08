@@ -78,7 +78,7 @@ function getDropNum() {
     2: ['Medal', 'Safety'],
     3: ['Team', 'Attribution', 'Acknowledgement', 'Collaboration'],
     4: ['Human', 'Practice', 'Engagement'],
-    5: ['Notebook']
+    5: ['Construction', 'Functional', 'Design', 'Protocols']
   };
 
   for(var index in submenuAr) {
