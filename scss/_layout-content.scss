@@ -139,3 +139,27 @@ pre code {
 	}
 }
 
+
+@media all and (max-width: 767px) {
+  li, p {
+    text-align: start;
+  }
+
+  #sidemenu {
+    display: none;
+  }
+
+  .content > .col-md-3 {
+    display: none;
+  }
+
+
+  .content > .col-md-9 {
+    width: 90%;
+  }
+
+  .head {
+    font-size: 26px;
+    margin-left: 45%;
+  }
+}

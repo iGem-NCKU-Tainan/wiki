@@ -100,3 +100,13 @@ body > #globalWrapper {
 		margin-top: -10px;
 	}
 }
+
+
+@media all and (max-width: 767px) {
+
+  .container-fluid {
+    width: 100%;
+  }
+
+
+}

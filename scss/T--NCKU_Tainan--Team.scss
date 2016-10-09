@@ -68,7 +68,7 @@ p {
 
 @media all and (max-width: 767px) {
   .rect {
-    flex-wrap: wrap;
+    display: block;
   }
   .content .member {
     width: 100%;
