@@ -43,5 +43,17 @@ module.exports = [
     layout:  "./view/Notebook/device_design.hbs",
     filename: "./docs/Notebook/device_design.html"
   },
-
+ {
+    data: {
+      title: "Notebook Protocols - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			fig1: "/wiki/images/Notebook/T--NCKU_Tainan--notebook1.png",
+			fig2: "/wiki/images/Notebook/T--NCKU_Tainan--notebook2.png",
+    },
+    layout:  "./view/Notebook/protocols.hbs",
+    filename: "./docs/Notebook/protocols.html"
+  },
  ];

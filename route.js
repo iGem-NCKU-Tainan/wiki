@@ -67,6 +67,7 @@ var commonData = {
 	notebookConstruction: '/wiki/Notebook/construction',
 	notebookFunctional: '/wiki/Notebook/functional_test',
 	notebookDevice: '/wiki/Notebook/device_design',
+	notebookProtocol: '/wiki/Notebook/protocols',
   sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 
