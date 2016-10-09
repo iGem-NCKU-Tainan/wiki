@@ -15,19 +15,19 @@
                   <div class="head2">Model: Fitting Theory</div>
                   <div class="title-line" id="intro">Introduction</div>
                   <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
-									<div class="img">
-	                  <img src="{{image1}}" />
-  	                <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
-									</div>
+                  <div class="img">
+                    <img src="{{image1}}" />
+                    <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
+                  </div>
                   <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
-									<div class="img">
-	                  <img src="{{image2}}" />
-  	                <div>Fig2, Two different pathway in the network.</div>
+                  <div class="img">
+                    <img src="{{image2}}" />
+                    <div>Fig2, Two different pathway in the network.</div>
                   </div>
                   <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
-									<div class="img">
-	                  <img src="{{image3}}" />
-  	                <div>Fig3, The overall impact when glucose is added.</div>
+                  <div class="img">
+                    <img src="{{image3}}" />
+                    <div>Fig3, The overall impact when glucose is added.</div>
                   </div>
                   <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
                   <br/><br/><br/>
@@ -96,10 +96,10 @@
                                     <div class="title-line" id="part3" style="padding-bottom:0"></div>
                   <div style="font-size:16px;font-weight:bold">Part III: Respiration of <i>E. coli</i> effect on E2B’</div>
                   <p>The Glucose transmission and digestion are described in <a href="#ref" onClick="return toEvent('ref');">reference [1]</a>, </p>
-									<div class="img">
-	                  <img src="{{image4}}" />
-  	                <div>Fig4, The pathway of glucose digestion.</div>
-									</div>
+                  <div class="img">
+                    <img src="{{image4}}" />
+                    <div>Fig4, The pathway of glucose digestion.</div>
+                  </div>
                   <p>If we write reaction (B) in a more detail way,</p>
                   <p class="center">\(E2B'+Glucose+E2C\leftrightarrow complex+Glucose\overset{k_{cat}}{\rightarrow}E2B+E2C+G6P\)</p>
                   <p> then</p>
@@ -154,7 +154,7 @@
                   <p class="center">\(\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
                   <div class="title-line" id="result">Fitting and result</div>
                   <p>After a derivation of transcription rate in single cell, we now have to exam if the function can correctly match the experimental data well.</p>
-                  <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than \(60 ml/\mu L\) and get <br/>\(\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}\)</p>
+                  <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than \(60 mg/\mu L\) and get <br/>\(\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}\)</p>
                   <img src="{{image5}}" />
                   <div>Fig 5, the fitting curve of the glucose concentration and maxima transcription rate.</div>
                   <br/><br/>
@@ -177,7 +177,7 @@
                         <li><a href="#" onClick="toEvent('part2');">Part II</a></li>
                         <li><a href="#" onClick="toEvent('part3');">Part III</a></li>
                         <li><a href="#" onClick="toEvent('part4');">Part IV</a></li>
-
+                        <li><a href="#" onClick="toEvent('result');">Fitting and result</a></li>
                         <li><a href="#" onClick="toEvent('ref');">Reference</a></li>
                       </ul>
                     </div>
