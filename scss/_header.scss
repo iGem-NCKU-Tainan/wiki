@@ -176,8 +176,13 @@ li .dropdown-menu {
       }
     }
 
-    .dropdown-menu {
+		.navbar-nav > li:nth-child(6) > .dropdown-menu {
+			left: -100px;
+		}
+
+    .navbar-nav > li > .dropdown-menu {
       top: -40px;
+			width: 600px;
       li > a {
         font-size: 14px;
       }

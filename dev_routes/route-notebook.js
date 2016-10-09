@@ -19,7 +19,7 @@ module.exports = [
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
     },
     layout:  "./view/Notebook/construction.hbs",
-    filename: "./docs/Notebook/Construction.html"
+    filename: "./docs/Notebook/construction.html"
   },
  {
     data: {
