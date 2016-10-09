@@ -12,19 +12,19 @@
                   <div class="head2">Model: Fitting Theory</div>
                   <div class="title-line" id="intro">Introduction</div>
                   <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
-									<div class="img">
-	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
-  	                <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
-									</div>
+                  <div class="img">
+                    <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
+                    <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
+                  </div>
                   <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
-									<div class="img">
-	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
-  	                <div>Fig2, Two different pathway in the network.</div>
+                  <div class="img">
+                    <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
+                    <div>Fig2, Two different pathway in the network.</div>
                   </div>
                   <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
-									<div class="img">
-	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg">
-  	                <div>Fig3, The overall impact when glucose is added.</div>
+                  <div class="img">
+                    <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg">
+                    <div>Fig3, The overall impact when glucose is added.</div>
                   </div>
                   <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
                   <br><br><br>
@@ -93,10 +93,10 @@
                                     <div class="title-line" id="part3" style="padding-bottom:0"></div>
                   <div style="font-size:16px;font-weight:bold">Part III: Respiration of <i>E. coli</i> effect on E2B’</div>
                   <p>The Glucose transmission and digestion are described in <a href="#ref" onclick="return toEvent('ref');">reference [1]</a>, </p>
-									<div class="img">
-	                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg">
-  	                <div>Fig4, The pathway of glucose digestion.</div>
-									</div>
+                  <div class="img">
+                    <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg">
+                    <div>Fig4, The pathway of glucose digestion.</div>
+                  </div>
                   <p>If we write reaction (B) in a more detail way,</p>
                   <p class="center">\(E2B'+Glucose+E2C\leftrightarrow complex+Glucose\overset{k_{cat}}{\rightarrow}E2B+E2C+G6P\)</p>
                   <p> then</p>
@@ -149,9 +149,21 @@
                   <p class="center">\(c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
                   <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
                   <p class="center">\(\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
+                  <div class="title-line" id="result">Fitting and result</div>
+                  <p>After a derivation of transcription rate in single cell, we now have to exam if the function can correctly match the experimental data well.</p>
+                  <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than 60 mg/μL and get <br>\(\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}\)</p>
+                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.jpg">
+                  <div>Fig 5, the fitting curve of the glucose concentration and maxima transcription rate.</div>
+                  <br><br>
+                  <p>The result shows that the fitting curve can fit the data well.</p>
+                  <br>
+                  <p>In our case, we want to use the formula to calculate the glucose concentration using the given fluorescence value. It is obvious that if the detected glucose concentration is lower than 30 mg/μL, U.coli can predict the glucose concentration with relatively high robustness. But if the inputted glucose concentration is higher than 30 mg/μL, it is hard to exam the glucose concentration numerically</p>
+
                   <div class="title-line" id="ref">Reference</div>
                   <p>[1] Glucose Transport in Escherichia coli Mutant Strains with Defects in Sugar Transport Systems, Journal of Bacteriology, Sonja Steinsiek and Katja Bettenbrock</p>
                   <p>[2] Glucose uptake regulation in <i>E. coli</i> by the small RNA SgrS: comparative analysis of <i>E. coli</i> K-12 (JM109 and MG1655) and <i>E. coli</i> B (BL21), Microbial Cell Factories,Alejandro Negrete, Weng-Ian Ng, Joseph Shiloach</p>
+                 
+
 
                     </div>
                     <div class="col-md-3">
@@ -162,11 +174,12 @@
                         <li><a href="#" onclick="toEvent('part2');">Part II</a></li>
                         <li><a href="#" onclick="toEvent('part3');">Part III</a></li>
                         <li><a href="#" onclick="toEvent('part4');">Part IV</a></li>
+                        <li><a href="#" onclick="toEvent('result');">Fitting and result</a></li>
                         <li><a href="#" onclick="toEvent('ref');">Reference</a></li>
                       </ul>
                     </div>
                 </div>
         </div> <!-- /.container-fluid -->
-        <script src="/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js"></script><script src="/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},  "HTML-CSS": {scale: 100},  CommonHTML: {scale: 100},  SVG: {scale:100}});</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/wiki/js/T--NCKU_Tainan--common.js"></script><script>(function() {    /* change icon */    var link = document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = '/wiki/T--NCKU_Tainan--favicon.ico';    document.getElementsByTagName('head')[0].appendChild(link);}());</script>    
+        <script src="/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js"></script><script src="/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js"></script><script src="/wiki/js/T--NCKU_Tainan--MathjaxConfigLocal.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/wiki/js/T--NCKU_Tainan--common.js"></script><script>(function() {    /* change icon */    var link = document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = '/wiki/T--NCKU_Tainan--favicon.ico';    document.getElementsByTagName('head')[0].appendChild(link);}());</script>    
 
 </body></html>
