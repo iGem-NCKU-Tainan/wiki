@@ -85,7 +85,8 @@ function getDropNum() {
 
   for(var index in submenuAr) {
     for(var i = 0; i < submenuAr[index].length; ++i) {
-      if(url.toLowerCase().indexOf(submenuAr[index][i].toLowerCase()) !== -1) {
+      if(url.toLowerCase().indexOf(submenuAr[index][i].toLowerCase()) !== -1
+				&& url.indexOf("Team:NCKU")===-1 ) {
         dropNum = index;
       }
     }
