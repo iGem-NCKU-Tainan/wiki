@@ -120,6 +120,7 @@ function updateSideMenu() {
 }
 
 function toEvent(section){
-  $('html, body').animate({ scrollTop: $('#'+section).offset().top, }, 1000, updateSubMenu);
+	var toTop = $('#'+section).offset().top - 66;
+  $('html, body').animate({ scrollTop: toTop+"px" }, 1000, updateSubMenu);
   return false;
 }
