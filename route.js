@@ -59,6 +59,7 @@ var commonData = {
 	video1: "/wiki/images/Device/T--NCKU_Tainan--Demonstration.mp4",
   deviceHardware: '/wiki/Device/hardware',
   deviceSoftware: '/wiki/Device/software',
+  deviceDemo: '/wiki/Device/demonstrate',
   team: '/wiki/team',
   teamCollaborations: '/wiki/team/collaborations',
   teamAttributions: '/wiki/team/attributions',

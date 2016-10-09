@@ -35,7 +35,8 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Layout.css",
+			video2: "/wiki/images/Device/T--NCKU_Tainan--UrineCollector.mp4",
+      css: "/wiki/css/T--NCKU_Tainan--Demo.css",
     },
     layout:  "./view/Device/demonstrate.hbs",
     filename: "./docs/Device/demonstrate.html"
