@@ -1,13 +1,19 @@
 var path = require('path');
 var url = require('url');
 var routeProject = require('./prod_routes/route-project');
+var routeDevice = require('./prod_routes/route-device');
 var routeTeam = require('./prod_routes/route-team');
+var routeHP = require('./prod_routes/route-hp');
 var routeJudging = require('./prod_routes/route-judging');
+var routeNotebook = require('./prod_routes/route-notebook');
 
 var route = []
 .concat(routeProject)
+.concat(routeDevice)
 .concat(routeTeam)
+.concat(routeHP)
 .concat(routeJudging)
+.concat(routeNotebook)
 .concat([
   {
     data: {
@@ -21,18 +27,6 @@ var route = []
     },
     "layout":  "./view/index.hbs",
     "filename": "./product/index.html"
-  },
-  {
-    data: {
-      "title": "Human Practices - iGEM NCKU",
-      "url": "",
-      "img": "",
-      "description": "",
-      "cssHP": "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Human_Practices_css?ctype=text/css&action=raw",
-    },
-    "partials": './partials.js',
-    "layout":  "./view/Human_Practices/index.hbs",
-    "filename": "./product/Human_Practices.html"
   }
 ]);
 
@@ -45,24 +39,34 @@ var commonData = {
   MathJaxConfigjs:"/Team:NCKU_Tainan/js/T--NCKU_Tainan--MathjaxConfigIgem_js?ctype=text/javascript&action=raw",
 	MathJaxjs: "/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
   commonjs: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--common_js?ctype=text/javascript&action=raw",
-  sample2: "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
-  sample3: "/wiki/images/2/29/T--NCKU_Tainan--sample3.png",
   font: "/wiki/images/0/0b/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
   icon: "/wiki/images/8/80/T--NCKU_Tainan--favicon.png",
   home: "/Team:NCKU_Tainan",
   hp: "/Team:NCKU_Tainan/Human_Practices",
+	hpIntegrated: "/Team:NCKU_Tainan/Integrated_Practices",
+	hpEngagement: "/Team:NCKU_Tainan/Engagement",
   projOverview: '/Team:NCKU_Tainan/Project',
+  projDescription: '/Team:NCKU_Tainan/Description',
   projParts: '/Team:NCKU_Tainan/Parts',
   projResults: '/Team:NCKU_Tainan/Results',
   projModeling: '/Team:NCKU_Tainan/Model',
   projModel1: '/Team:NCKU_Tainan/Model_Fitting_Theory',
   projModel2: '/Team:NCKU_Tainan/Model_Statistics_Analysis',
+	video1: "/wiki/images/4/44/T--NCKU_Tainan--Demonstration.mp4",
+  deviceHardware: '/Team:NCKU_Tainan/Hardware',
+  deviceSoftware: '/Team:NCKU_Tainan/Software',
+  deviceDemo: '/Team:NCKU_Tainan/Demonstrate',
   team: '/Team:NCKU_Tainan/Team',
   teamCollaborations: '/Team:NCKU_Tainan/Collaborations',
   teamAttributions: '/Team:NCKU_Tainan/Attributions',
   teamAcknowledgement: '/Team:NCKU_Tainan/Acknowledgement',
+	notebookConstruction: '/Team:NCKU_Tainan/Notebook_Construction',
+	notebookFunctional: '/Team:NCKU_Tainan/Notebook_Functional_Test',
+	notebookDevice: '/Team:NCKU_Tainan/Notebook_Device_Design',
+	notebookProtocol: '/Team:NCKU_Tainan/Notebook_Protocols',
   judgingMedal: '/Team:NCKU_Tainan/Medal',
-  judgingSafety: '/Team:NCKU_Tainan/Safety'
+  judgingSafety: '/Team:NCKU_Tainan/Safety',
+  sample2: "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
 };
 
 

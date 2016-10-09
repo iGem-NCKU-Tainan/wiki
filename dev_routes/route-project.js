@@ -29,7 +29,6 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
       img1: '/wiki/images/result/T--NCKU_Tainan--image001.png',
       img2: '/wiki/images/result/T--NCKU_Tainan--image002.png',
@@ -117,7 +116,6 @@ module.exports = [
       img: "",
       description: "",
       cssParts: "/wiki/css/T--NCKU_Tainan--Parts.css",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg"
     },
     layout:  "./view/Project/parts.hbs",
     filename: "./docs/Project/parts.html"

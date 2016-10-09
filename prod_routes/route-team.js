@@ -31,7 +31,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Acknowledgement_css" + typecss
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Attributions_css" + typecss,
     },
     layout:  "./view/Team/acknowledgement.hbs",
     filename: "./product/Acknowledgement.html"
@@ -42,7 +42,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Collaborations_css" + typecss
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			fig1: "/wiki/images/d/d8/T--NCKU_Tainan--collaborations1.jpg",
+			fig2: "/wiki/images/8/8f/T--NCKU_Tainan--collaborations2.jpg",
     },
     layout:  "./view/Team/collaborations.hbs",
     filename: "./product/Collaborations.html"
