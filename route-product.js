@@ -42,6 +42,7 @@ var commonData = {
   cssLink3: "/Team:NCKU_Tainan/font/T--NCKU_Tainan--font-awesome_min_css?ctype=text/css&action=raw",
   jsLink1: "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--jquery-1_12_0_min_js?ctype=text/javascript&action=raw",
   jsLink2: "/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--bootstrap_min_js?ctype=text/javascript&action=raw",
+	MathJaxjs: "/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
   commonjs: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--common_js?ctype=text/javascript&action=raw",
   sample2: "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
   sample3: "/wiki/images/2/29/T--NCKU_Tainan--sample3.png",
