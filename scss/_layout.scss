@@ -103,10 +103,11 @@ body > #globalWrapper {
 
 
 @media all and (max-width: 767px) {
+  li, p {
+    text-align: start;
+  }
 
   .container-fluid {
     width: 100%;
   }
-
-
 }
