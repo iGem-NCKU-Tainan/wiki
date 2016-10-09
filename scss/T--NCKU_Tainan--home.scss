@@ -94,3 +94,18 @@
   margin: auto;
   display: block;
 }
+
+
+@media all and (max-width: 767px) {
+
+  #big-title span {
+    font-size: 50px;
+    margin: auto;
+    display: block;
+  }
+
+  .grayBg h1 {
+    font-size: 32px;
+  }
+
+}
