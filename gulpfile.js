@@ -80,4 +80,10 @@ gulp.task('font', function () {
   .pipe(gulp.dest('./product/font/'));
 })
 
-gulp.task('default', ['scripts',  'scss', 'image', 'font', 'watch']);
+gulp.task('ref', function () {
+  return gulp.src(['./ref/**/*'])
+  .pipe(gulp.dest('./docs/ref/'))
+  .pipe(gulp.dest('./product/ref/'));
+})
+
+gulp.task('default', ['scripts',  'scss', 'image', 'font', 'ref', 'watch']);

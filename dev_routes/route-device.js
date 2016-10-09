@@ -25,6 +25,8 @@ module.exports = [
 			fig2: "/wiki/images/Device/T--NCKU_Tainan--deviceHW2.png",
 			fig3: "/wiki/images/Device/T--NCKU_Tainan--deviceHW3.png",
 			fig4: "/wiki/images/Device/T--NCKU_Tainan--deviceHW4.png",
+			ref1: "/wiki/ref/T--NCKU_Tainan--ref1.pdf",
+			ref2: "/wiki/ref/T--NCKU_Tainan--ref2.pdf",
     },
     layout:  "./view/Device/hardware.hbs",
     filename: "./docs/Device/hardware.html"
