@@ -44,3 +44,16 @@ h5 {
   }
 }
 
+.content #sidemenu {
+	width: 100%;
+	border: none;
+	margin-top: -20px;
+	li:first-child {
+		margin: 0;
+	}
+	li {
+		border-top: 10px solid $text;
+		margin: 20px 0;
+	}
+}
+

@@ -151,7 +151,7 @@ li .dropdown-menu {
   .navbar-default.fixed {
     position: fixed;
     z-index: 999;
-    top: 0;
+    top: 16px;
     left: 0;
     border-bottom: 1px solid #eee;
 
@@ -172,11 +172,17 @@ li .dropdown-menu {
       }
       h1, h4 {
         margin: 0;
+				padding: 0;
       }
     }
 
-    .dropdown-menu {
+		.navbar-nav > li:nth-child(6) > .dropdown-menu {
+			left: -100px;
+		}
+
+    .navbar-nav > li > .dropdown-menu {
       top: -40px;
+			width: 600px;
       li > a {
         font-size: 14px;
       }

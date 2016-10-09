@@ -42,7 +42,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css",
+			fig1: "/wiki/images/Team/T--NCKU_Tainan--collaborations1.jpg",
+			fig2: "/wiki/images/Team/T--NCKU_Tainan--collaborations2.jpg",
     },
     layout:  "./view/Team/collaborations.hbs",
     filename: "./docs/team/collaborations.html"

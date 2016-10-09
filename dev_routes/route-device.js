@@ -23,6 +23,8 @@ module.exports = [
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
 			fig1: "/wiki/images/Device/T--NCKU_Tainan--deviceHW1.png",
 			fig2: "/wiki/images/Device/T--NCKU_Tainan--deviceHW2.png",
+			fig3: "/wiki/images/Device/T--NCKU_Tainan--deviceHW3.png",
+			fig4: "/wiki/images/Device/T--NCKU_Tainan--deviceHW4.png",
     },
     layout:  "./view/Device/hardware.hbs",
     filename: "./docs/Device/hardware.html"

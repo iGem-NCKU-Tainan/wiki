@@ -71,6 +71,8 @@ function onScroll() {
 
 function getDropNum() {
   var url = window.location.href;
+	url = url.split("/");
+	url = url[url.length-1]=="" ? url[url.length-2] : url[url.length-1];
   var dropNum = -1;
   var submenuAr = {
     0: ['Project', 'Description', 'Result', 'Model', 'Part'],
@@ -110,7 +112,7 @@ function updateSideMenu() {
   if(top <= 0) {
     sidemenu.style.position = 'fixed';
     sidemenu.style.width = width;
-    sidemenu.style.top = '55px';
+    sidemenu.style.top = '71px';
   } else {
     sidemenu.style.position = 'relative';
     sidemenu.style.top = '';
@@ -118,6 +120,7 @@ function updateSideMenu() {
 }
 
 function toEvent(section){
-  $('html, body').animate({ scrollTop: $('#'+section).offset().top, }, 1000, updateSubMenu);
+	var toTop = $('#'+section).offset().top - 66;
+  $('html, body').animate({ scrollTop: toTop+"px" }, 1000, updateSubMenu);
   return false;
 }

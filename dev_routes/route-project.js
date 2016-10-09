@@ -55,8 +55,13 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-      sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
-      css: "/wiki/css/T--NCKU_Tainan--Layout.css"
+      css: "/wiki/css/T--NCKU_Tainan--Layout.css",
+      image1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
+      image2: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
+      image3: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
+      image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
+      image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
+      image6: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg",
     },
     layout:  "./view/Project/modeling.hbs",
     filename: "./docs/Project/modeling.html"
@@ -102,7 +107,8 @@ module.exports = [
       image1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
       image2: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
       image3: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
-      image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg"
+      image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg",
+      image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.jpg"
     },
     layout:  "./view/Project/Model_Fitting_Theory.hbs",
     filename: "./docs/Project/Model_Fitting_Theory.html"

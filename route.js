@@ -23,8 +23,7 @@ var route = []
       "description": "",
       "cssHome": "/wiki/css/T--NCKU_Tainan--home.css",
       "logoUrl": "/wiki/images/T--NCKU_Tainan--ulogo.png",
-      "sample1": "/wiki/images/T--NCKU_Tainan--sample1.png",
-      "sample4": "/wiki/images/T--NCKU_Tainan--sample4.png",
+			"home_bg": "/wiki/images/T--NCKU_Tainan--home_bg.jpg",
     },
     "layout":  "./view/index.hbs",
     "filename": "./docs/index.html"
@@ -38,6 +37,8 @@ var commonData = {
   cssLink3: "/wiki/font/T--NCKU_Tainan--font-awesome.min.css",
   jsLink1: "/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js",
   jsLink2: "/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js",
+  MathJaxConfigjs: "/wiki/js/T--NCKU_Tainan--MathjaxConfigLocal.js",
+	MathJaxjs: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
   commonjs: "/wiki/js/T--NCKU_Tainan--common.js",
   font: "/wiki/font/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
   icon: "/wiki/T--NCKU_Tainan--favicon.ico",
@@ -64,6 +65,9 @@ var commonData = {
   judgingMedal: '/wiki/judging/medal',
   judgingSafety: '/wiki/judging/safety',
 	notebookConstruction: '/wiki/Notebook/construction',
+	notebookFunctional: '/wiki/Notebook/functional_test',
+	notebookDevice: '/wiki/Notebook/device_design',
+	notebookProtocol: '/wiki/Notebook/protocols',
   sample2: "/wiki/images/T--NCKU_Tainan--sample2.jpg",
 };
 
