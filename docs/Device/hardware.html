@@ -11,23 +11,23 @@
 					<div class="col-md-9">
 						<div class="head2">Hardware</div>
 						<div class="title-line" id="acc">Accomplishments</div>
-							<ul><li>Build a functional and affordable prototype of urine testing health care system and characterize it</li>
-									<li>Create an instructional video, handbook manual and a bill of materials</li>
-									<li>Implement Bio-safety to our device</li>
-									<li>Integration with <a href="/wiki/Project/modeling">modeling</a></li>
-									<li>Corporate with <a href="http://2016.igem.org/Team:TCU_Taiwan" target="_blank">Tzu Chi University</a></li>
+							<ul><li>Built and characterized a functional and affordable prototype for urine testing in the health care system</li>
+									<li>Created an instructional video, a manual and bill of materials</li>
+									<li>Implemented Bio-safety to our device</li>
+									<li>Integrated with <a href="/wiki/Project/modeling">modeling</a></li>
+									<li>Cooperated with <a href="http://2016.igem.org/Team:TCU_Taiwan" target="_blank">Tzu Chi University</a></li>
 						<div class="title-line" id="intro">Introduction</div>
-						<p>Measuring fluorescence is an essential part of our project. The fluorescence level indicates the concentration of the reporter protein activated by glucose. However, the commercial devices of measuring fluorescence such as ELISA and fluorescent microscopy are too expensive and not user-friendly for the public’s daily use. Therefore, we, iGEM NCKU, create a cost-friendly device, which is suitable for both public and DIY enthusiasts. This device would build the gap between scientific research to public. </p>
+						<p>Measuring fluorescence is an essential part of our project. The fluorescence level indicates the concentration of the reporter protein activated by glucose. However, the commercial devices of measuring fluorescence such as ELISA and fluorescent microscopy are too expensive and not user-friendly for the daily use. Therefore, we, iGEM NCKU, created a cost-friendly device, which is suitable for both public and DIY enthusiasts. This device would bridge the gap between scientific research and public acceptability. </p>
 						<div class="title-line" id="mot">Motivation</div>
-						<p>When brainstorming for our device, we confronted two problems. First, how would users approach the urine test occasionally? No one in daily life would run into a hospital or a pharmacy just for a urine test. It is time consuming and a waste of resources to use a single testing without any long term tracing. Second, how can we bring this kind of knowledge beyond the lab? Not everyone has the lab resources, engineering background and most important, a lot of money, to assemble this device. Hence, we want to make this device available to the every one of us.</p>
+						<p>When brainstorming for our device, we confronted two problems. First, how would users approach the urine test for a glucose level occasionally? Normally, people do not usually go to a hospital or a pharmacy just for a urine glucose test when they are not diagnosed with diabetes. It is time consuming and a waste of resources to use a single testing without any long term tracing. The second question is how we can bring this kind of knowledge beyond the lab? Not everyone has the lab resources, engineering background and most important, a lot of money, to assemble this device. Hence, we want to make this device available to the every one of us.</p>
 						<div class="title-line" id="measure">Measuring principle </div>
-						<p>The measuring principle of fluorescence is shown below. We use 435nm blue laser to excite our samples. Then the excited samples will emit 605nm red light thorough the filter. The filter is designed to block the blue laser being seen when reflected by the samples. We chose cut-off filter at cutting wavelength of 580nm to eliminate the exciting light. The 605nm red light then passes through the focusing lens to our detector to maximize the sensitivity of our device.</p>
+						<p>The measuring principle of fluorescence is shown below. We use 435nm blue laser to excite our samples. Then the excited samples will emit 605nm red light thorough the filter which is designed to block the blue laser when reflected by the samples. We chose cut-off filter at cutting wavelength of 580nm to eliminate the exciting light. The 605nm red light then passes through the focusing lens to our detector to maximize the sensitivity of our device.</p>
 						<img src="/wiki/images/Device/T--NCKU_Tainan--deviceHW1.png">
 						<div class="title-line" id="design">Device Design</div>
 						<p>The structure of our device would contain four parts, detection, processing, and transmission. </p>
 						<ol>
 							<li>Sample Collection
-								<p>To simplify the using process, we designed a urine collecting equipment connected with our device. It’s a plastic tube that fixed to the toilet wall. With the specific angle, it is feasible for men and women to use. The stepper motor will draw urines in and we use both nozzle and features of stepper motor to control the accuracy.</p>
+								<p>We designed a urine collector connected to our device. It is a plastic tube fixed on the toilet wall. With the specific angles, it is feasible to collect urine for both men and women. The stepper motor will draw urines in and we use both nozzle and features of stepper motor to control the accuracy.</p>
 								<div class="img">
 									<img src="/wiki/images/Device/T--NCKU_Tainan--deviceHW3.png">
 									<div>The palstic tube is fixed to the to toilet wall with specific angle which allow men and women to use.</div>
@@ -35,11 +35,11 @@
 								<p>Another design is the smart panel witch can do the whole process with pressing just one bottom. </p>
 								<img src="/wiki/images/Device/T--NCKU_Tainan--deviceHW4.png">
 							</li><li>Detection
-								<p>As we have mentioned in the previous section. The detector of our device transforms the light intensity to the signal frequency and sends to the processor. </p></li>
+								<p>As mentioned in the previous section, the detector of our device transforms the light intensity to the signal frequency and sends to the processor. </p></li>
 							<li>Processing
-								<p>Our core processor is the arduino. Arduino is an open-source prototyping platform based on easy-to-use hardware and software. We code our arduino to be able to initialize our detection, to filter our input signal and to measure the result kinetically.</p></li>
+								<p>The signal then is sent to processor. We choose Arduino as the processor, because Arduino is an open-source prototyping platform featuring as easy-to-use hardware and software. We coded our Arduino to initialize our detection, to filter our input signal and to measure the result kinetically.</p></li>
 							<li>Transmission 
-								<p>To visualize our data better, we design an app on mobile phone to display the result. We establish the connection between arduino and mobile phone via bluetooth. We also enable users to control our device on the mobile phone by a user-friendly interface. </p></li>
+								<p>To visualize our data better, we designed an App on mobile phone to show the result. We used Bluetooth to transmit the digital and analog output to the smart devices. Also, the users are empowered to control the device through the smart devices on a user-friendly interface.</p></li>
 						</ol>
 						<img src="/wiki/images/Device/T--NCKU_Tainan--deviceHW2.png">
 						<div class="title-line" id="material">Materials </div>
