@@ -64,6 +64,7 @@ module.exports = [
 			image2: "/wiki/images/f/f7/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
 			image3: "/wiki/images/0/08/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
 			image4: "/wiki/images/3/34/T--NCKU_Tainan--project-modeling-fitting-image4.jpg",
+      image5: "/wiki/images/3/36/T--NCKU_Tainan--project-modeling-fitting-image5.jpg"
     },
     layout:  "./view/Project/Model_Fitting_Theory.hbs",
     filename: "./product/Model_Fitting_Theory.html"
