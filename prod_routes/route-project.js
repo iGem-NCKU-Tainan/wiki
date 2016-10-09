@@ -12,7 +12,7 @@ module.exports = [
     	diabetes2: "http://2016.igem.org/wiki/images/a/a8/T--NCKU_Tainan--projDiabetes2.jpg",
     },
     layout:  "./view/Project/index.hbs",
-    filename: "./product/Project/index.html"
+    filename: "./product/Project.html"
   },
   {
     data: {
