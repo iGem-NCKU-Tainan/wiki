@@ -53,6 +53,8 @@ var commonData = {
   projParts: '/Team:NCKU_Tainan/Parts',
   projResults: '/Team:NCKU_Tainan/Results',
   projModeling: '/Team:NCKU_Tainan/Model',
+  projModel1: '/Team:NCKU_Tainan/Model_Fitting_Theory',
+  projModel2: '/Team:NCKU_Tainan/Model_Statistics_Analysis',
   team: '/Team:NCKU_Tainan/Team',
   teamCollaborations: '/Team:NCKU_Tainan/Collaborations',
   teamAttributions: '/Team:NCKU_Tainan/Attributions',

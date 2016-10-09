@@ -42,9 +42,31 @@ module.exports = [
       url: "",
       img: "",
       description: "",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			image1: "/wiki/images/b/b7/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
+			image2: "/wiki/images/f/f7/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
+			image3: "/wiki/images/0/08/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
+			image4: "/wiki/images/c/c0/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
+			image5: "/wiki/images/0/04/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
+			image6: "/wiki/images/a/a3/T--NCKU_Tainan--project-modeling-statistic-image3.jpg"
     },
-    layout:  "./view/Project/modeling.hbs",
+		layout: "./view/Project/modeling.hbs",
     filename: "./product/Model.html"
+  },
+  {
+    data: {
+      title: "Project Modeling : Fitting Theory - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      cssModeling: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Model_css" + typecss,
+			image1: "/wiki/images/b/b7/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
+			image2: "/wiki/images/f/f7/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
+			image3: "/wiki/images/0/08/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
+			image4: "/wiki/images/3/34/T--NCKU_Tainan--project-modeling-fitting-image4.jpg",
+    },
+    layout:  "./view/Project/Model_Fitting_Theory.hbs",
+    filename: "./product/Model_Fitting_Theory.html"
   },
   {
     data: {
