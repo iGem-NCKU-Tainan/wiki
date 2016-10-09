@@ -152,9 +152,21 @@
                   <p class="center">\(c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
                   <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
                   <p class="center">\(\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
+                  <div class="title-line" id="result">Fitting and result</div>
+                  <p>After a derivation of transcription rate in single cell, we now have to exam if the function can correctly match the experimental data well.</p>
+                  <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than \(60 ml/\mu L\) and get <br/>\(\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}\)</p>
+                  <img src="{{image5}}" />
+                  <div>Fig 5, the fitting curve of the glucose concentration and maxima transcription rate.</div>
+                  <br/><br/>
+                  <p>The result shows that the fitting curve can fit the data well.</p>
+                  <br/>
+                  <p>In our case, we want to use the formula to calculate the glucose concentration using the given fluorescence value. It is obvious that if the detected glucose concentration is lower than \(30 mg/\mu L\), U.coli can predict the glucose concentration with relatively high robustness. But if the inputted glucose concentration is higher than \(30 mg/\mu L\), it is hard to exam the glucose concentration numerically</p>
+
                   <div class="title-line" id="ref">Reference</div>
                   <p>[1] Glucose Transport in Escherichia coli Mutant Strains with Defects in Sugar Transport Systems, Journal of Bacteriology, Sonja Steinsiek and Katja Bettenbrock</p>
                   <p>[2] Glucose uptake regulation in <i>E. coli</i> by the small RNA SgrS: comparative analysis of <i>E. coli</i> K-12 (JM109 and MG1655) and <i>E. coli</i> B (BL21), Microbial Cell Factories,Alejandro Negrete, Weng-Ian Ng, Joseph Shiloach</p>
+                 
+
 
                     </div>
                     <div class="col-md-3">
@@ -165,6 +177,7 @@
                         <li><a href="#" onClick="toEvent('part2');">Part II</a></li>
                         <li><a href="#" onClick="toEvent('part3');">Part III</a></li>
                         <li><a href="#" onClick="toEvent('part4');">Part IV</a></li>
+
                         <li><a href="#" onClick="toEvent('ref');">Reference</a></li>
                       </ul>
                     </div>

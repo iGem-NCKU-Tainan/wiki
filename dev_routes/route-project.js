@@ -107,7 +107,8 @@ module.exports = [
       image1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
       image2: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
       image3: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
-      image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg"
+      image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg",
+      image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.jpg"
     },
     layout:  "./view/Project/Model_Fitting_Theory.hbs",
     filename: "./docs/Project/Model_Fitting_Theory.html"
