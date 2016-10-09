@@ -65,11 +65,11 @@ gulp.task('scss', function() {
 gulp.task('watch', function () {
   gulp.watch(['./js/**/*.js'], ['scripts']);
   gulp.watch(['./scss/**/*.scss', './scss/**/*.css'], ['scss']);
-  gulp.watch(['./images/**/*.jpg', './images/**/*.png', './images/**/*.gif'], ['image'])
+  gulp.watch(['./images/**/*.jpg', './images/**/*.png', './images/**/*.gif', './images/**/*.mp4'], ['image'])
 });
 
 gulp.task('image', function () {
-	return gulp.src(['./images/**/*.jpg', './images/**/*.png', './images/**/*.gif'])
+	return gulp.src(['./images/**/*.jpg', './images/**/*.png', './images/**/*.gif', './images/**/*.mp4'])
 	.pipe(gulp.dest('./docs/images/'))
 	.pipe(gulp.dest('./product/images/')); // TODO: inline-js
 });
