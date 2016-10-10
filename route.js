@@ -37,7 +37,7 @@ var commonData = {
   cssLink3: "/wiki/font/T--NCKU_Tainan--font-awesome.min.css",
   jsLink1: "/wiki/js/frame/T--NCKU_Tainan--jquery-1.12.0.min.js",
   jsLink2: "/wiki/js/frame/T--NCKU_Tainan--bootstrap.min.js",
-  MathJaxConfigjs: "/wiki/js/T--NCKU_Tainan--MathjaxConfigLocal.js",
+  MathJaxConfigjs: "/wiki/js/T--NCKU_Tainan--MathjaxConfigIgem.js",
 	MathJaxjs: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
   commonjs: "/wiki/js/T--NCKU_Tainan--common.js",
   font: "/wiki/font/T--NCKU_Tainan--NotoSansCJKtc-Regular.woff",
