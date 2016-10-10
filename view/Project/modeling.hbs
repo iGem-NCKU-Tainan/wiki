@@ -1,53 +1,53 @@
 <html>
   <head>
     {{> head}}
-		<link rel="stylesheet" href="{{css}}">
+        <link rel="stylesheet" href="{{css}}">
   </head>
   <body>
     {{> header }}
-		<style>
-			#photo-left { background-image: url("{{sample2}}"); }
-		</style>
-		<div class="container-fluid" style="margin-top:100px">
-				<div class="head">PROJECT / Model</div>
-				<div class="content row">
-					<div class="col-md-9">
-						<div class="head2">Model</div>
-						<div class="title-line" id="fitting">Fitting Theory</div>
+        <style>
+            #photo-left { background-image: url("{{sample2}}"); }
+        </style>
+        <div class="container-fluid" style="margin-top:100px">
+                <div class="head">PROJECT / Model</div>
+                <div class="content row">
+                    <div class="col-md-9">
+                        <div class="head2">Model</div>
+                        <div class="title-line" id="fitting">Fitting Theory</div>
              <p>To detect the concentration of inputted numerically, a dependable formula for transformation is absolutely needed. Pl is a glucose induced promoter but with complicated regulation pathway. In this section, we derive a formula using quasi-steady state with the method of enzyme kinetics.</p>
              <p>When all compounds reach its steady concentration, the production rate of protein should be a constant and be in form as the following equation:</p>
-						// TODO: 放公式
-						 <p>And the fitting result also show its accuracy and limitation:</p>
-	             <img src="{{image1}}" />
-						<p>(<a href="{{projModel1}}">Read more...</a>)</p>
+                        <p>$$\frac{[Protein]}{dt}=\frac{c1[Glucose]+c2}{[Glucose]+c3}$$</p>
+                         <p>And the fitting result also show its accuracy and limitation:</p>
+                 <img src="{{image1}}" />
+                        <p>(<a href="{{projModel1}}">Read more...</a>)</p>
 
-						<div class="title-line" id="statistics">Statistics Analysis</div>
+                        <div class="title-line" id="statistics">Statistics Analysis</div>
                    <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target.</p>
-						 <div class="img" style="width:32%;display:inline-block;margin-left:8px">
-	             <img src="{{image4}}" />
+                         <div class="img" style="width:32%;display:inline-block;margin-left:8px">
+                 <img src="{{image4}}" />
                <div>0.1 vs 5 mM/L</div>
-						 </div>
-						 <div class="img" style="width:32%;display:inline-block">
-	             <img src="{{image4}}" />
+                         </div>
+                         <div class="img" style="width:32%;display:inline-block">
+                 <img src="{{image4}}" />
                <div>0.1 vs 120 mM/L</div>
              </div>
-						 <div class="img" style="width:32%;display:inline-block">
-	             <img src="{{image6}}" />
+                         <div class="img" style="width:32%;display:inline-block">
+                 <img src="{{image6}}" />
                <div>0.1 model plot</div>
              </div>
                   <p>First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the paired-difference T test part. And, we use the regression and prediction intervals to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
-						
-						<p>(<a href="{{projModel2}}">Read more...</a>)</p>
-					</div>
-					<div class="col-md-3">
-						<ul id="sidemenu">
-							<li><a href="#" onClick="return toEvent('fitting');">Fitting Theory</a></li>
-							<li><a href="#" onClick="return toEvent('statistics');">Statistics Analysis</a></li>
-						</ul>
-					</div>
-				</div>
-		</div> <!-- /.container-fluid -->
-		<script>document.getElementById("line-left2").style.display="none";</script>
-		{{> footer }}
-	</body>
+                        
+                        <p>(<a href="{{projModel2}}">Read more...</a>)</p>
+                    </div>
+                    <div class="col-md-3">
+                        <ul id="sidemenu">
+                            <li><a href="#" onClick="return toEvent('fitting');">Fitting Theory</a></li>
+                            <li><a href="#" onClick="return toEvent('statistics');">Statistics Analysis</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div> <!-- /.container-fluid -->
+        <script>document.getElementById("line-left2").style.display="none";</script>
+        {{> footer }}
+    </body>
 </html>
