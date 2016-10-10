@@ -10,11 +10,15 @@ $(window).on('load', function(){
   sidemenu = document.getElementById('sidemenu');
 
   /* dropdown menu */
-  var dropNum = getDropNum();
-  if(dropNum !== -1) {
-    submenu = document.getElementsByClassName('dropdown-menu')[dropNum];
+  var currentMenu = getCurrentMenu();
+  if(currentMenu) {
+    submenu = document.getElementsByClassName('dropdown-menu')[currentMenu.dropNum];
     submenu.parentElement.classList.add('open');
     submenuWidth = submenu.offsetWidth;
+    var children = submenu.children;
+    if (children.length >= currentMenu.subNum) {
+      children[currentMenu.subNum].classList.add('current-menu');
+    }
   }
 
   /* container */
@@ -75,11 +79,12 @@ function onScroll() {
 	checkContainer();
 }
 
-function getDropNum() {
+function getCurrentMenu() {
   var url = window.location.href;
 	url = url.split("/");
-	url = url[url.length-1]=="" ? url[url.length-2] : url[url.length-1];
-  var dropNum = -1;
+	url = url[url.length-1] === "" ? url[url.length-2] : url[url.length-1];
+  var currentMenu;
+
   var submenuAr = {
     0: ['Project', 'Description', 'Result', 'Model', 'Part'],
     1: ['Hardware', 'Software', 'Demo'],
@@ -91,13 +96,16 @@ function getDropNum() {
 
   for(var index in submenuAr) {
     for(var i = 0; i < submenuAr[index].length; ++i) {
-      if(url.toLowerCase().indexOf(submenuAr[index][i].toLowerCase()) !== -1
-				&& url.indexOf("Team:NCKU")===-1 ) {
-        dropNum = index;
+      if(url.toLowerCase().indexOf(submenuAr[index][i].toLowerCase()) !== -1 &&
+         url.indexOf("Team:NCKU")===-1 ) {
+			  currentMenu = {
+          dropNum: index,
+          subNum: i
+			  };
       }
     }
   }
-  return dropNum;
+  return currentMenu;
 }
 
 function updateSubMenu() {
