@@ -86,11 +86,11 @@
 
 	#sidemenu {
 		margin: 0 auto;
-		width: 80%;
+		width: 90%;
 		padding: 20px 25px;
 		background: $bg-gray;
 		border-top: 10px solid $text;
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: bold;
 		line-height: 30px;
 		li {
@@ -98,7 +98,7 @@
 			list-style-image: none;
 			a {
 				text-decoration: none;
-				border:none; 
+				border:none;
 				color: $text;
 				&:hover {
 					opacity: .8;

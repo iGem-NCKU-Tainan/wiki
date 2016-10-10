@@ -69,7 +69,6 @@
 
   a {
     padding-bottom: 5px;
-    font-size: 13px;
 
     // show yellow underline
     &:hover {
@@ -130,6 +129,11 @@ li .dropdown-menu {
   border: 0;
 }
 
+.dropdown-menu .current-menu > a {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
 @media all and (max-width: 767px) {
   .nav-underline {
     margin: 0 0 5px 15px;
@@ -147,6 +151,8 @@ li .dropdown-menu {
     font-size: 36px;
   }
 }
+
+
 @media all and(min-width: 767px) {
   .navbar-default.fixed {
     position: fixed;

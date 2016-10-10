@@ -79,7 +79,7 @@ p,li {
 	word-wrap: break-word;
 	word-break: break-word;
 	hyphens: auto;
-	text-align: justify;
+	text-align: start;
 	text-justify:inter-ideograph;
 }
 
@@ -104,10 +104,6 @@ body > #globalWrapper {
 
 
 @media all and (max-width: 767px) {
-  li, p {
-    text-align: start;
-  }
-
   .container-fluid {
     width: 100%;
   }
