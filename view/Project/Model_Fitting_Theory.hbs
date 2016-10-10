@@ -78,7 +78,9 @@
                   <p> When [CRP] reach its steady state,</p>
                   <p class="center">\([CRP]=\frac{[CRP_{total}][cAMP]}{K_F+[cAMP]}\)</p>
                   <p> so the transcription rate become </p>
-                  <p class="center">\(\frac{d[mRNA]}{dt}=\frac{V_s}{1+K_G[CRP]}=\frac{V_s(K_F+[cAMP])}{(K_F+[cAMP])+K_G[CRP_{total}][cAMP]}\)<br/>\(=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\)</p>
+                  <p class="center">
+                  \(\begin{split} \frac{d[mRNA]}{dt}&=\frac{V_s}{1+K_G[CRP]}\\&=\frac{V_s(K_F+[cAMP])}{(K_F+[cAMP])+K_G[CRP_{total}][cAMP]} \\
+                  &=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\end{split} \)</p>
                   <p>We can see that the transcription rate of genes is a function of [cAMP]</p>
                                     <div class="title-line" id="part2" style="padding-bottom:0"></div>
                   <div style="font-size:16px;font-weight:bold">Part II: The equilibrium of ATP, cAMP</div>
@@ -145,13 +147,13 @@
                   <p class="center">\(a'=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E}\times \frac{K_B[AC_{total}]k_{-B}[complex]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}\)</p>
                   <br/><br/>
                   <p>then, we can substitute [cAMP] into the formula of transcription</p>
-                  <p class="center">\(\frac{dY}{dt}=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\)<br/>\(=\frac{K_F([Glucose]+c)+(a'[Glucose]+b)}{\frac{K_F}{V_S}([Glucose]+c)+\frac{K_G[CRP_{total}]}{V_S}(a'[Glucose]+b)}\)<br/>\(=\frac{(K_F+a')[Glucose]+(b+K_Fc)}{(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})[Glucose]+(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)}\)<br/>\(=\frac{c1[Glucose]+c2}{[Glucose]+c3}\)</p>
+                  <p class="center">\(\begin{split}\frac{dY}{dt}&=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\\&=\frac{K_F([Glucose]+c)+(a'[Glucose]+b)}{\frac{K_F}{V_S}([Glucose]+c)+\frac{K_G[CRP_{total}]}{V_S}(a'[Glucose]+b)}\\&=\frac{(K_F+a')[Glucose]+(b+K_Fc)}{(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})[Glucose]+(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)}\\&=\frac{c1[Glucose]+c2}{[Glucose]+c3}\end{split}\)</p>
                   <p>where</p>
                   <p class="center">\(c1=(K_F+a')/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
                   <p class="center">\(c2=(b+K_Fc)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
                   <p class="center">\(c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})\)</p>
                   <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
-                  <p class="center">\(\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
+                  <p class="center">\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3\)</p>
                   <div class="title-line" id="result">Fitting and result</div>
                   <p>After a derivation of transcription rate in single cell, we now have to exam if the function can correctly match the experimental data well.</p>
                   <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than 60 mg/μL and get <br/>\(\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}\)</p>
