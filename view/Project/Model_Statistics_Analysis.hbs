@@ -1,7 +1,8 @@
 <html>
   <head>
     {{> head}}
-        <link rel="stylesheet" href="{{cssModeling}}">
+    <link rel="stylesheet" href="{{cssHighlight}}">
+    <link rel="stylesheet" href="{{cssModeling}}">
   </head>
   <body>
     {{> header }}
@@ -319,5 +320,8 @@ legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), 
                 </div>
         </div> <!-- /.container-fluid -->
         {{> footer }}
+				<script src="{{jsHighlight}}"></script>
+				<script src="{{jsHljsNum}}"></script>
+				<script>hljs.initHighlightingOnLoad();hljs.initLineNumbersOnLoad();</script>
     </body>
 </html>
