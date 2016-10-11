@@ -101,10 +101,10 @@ body > #globalWrapper {
 		margin-top: -10px;
 	}
 
-	code {
-		border: none;
-	}
 }
+	code {
+		border: initial; 
+	}
 
 
 @media all and (max-width: 767px) {
