@@ -1,6 +1,7 @@
 <html>
   <head>
     {{> head}}
+    <link rel="stylesheet" href="{{cssHighlight}}">
 		<link rel="stylesheet" href="{{css}}">
   </head>
   <body>
@@ -32,6 +33,135 @@
 							<div style="text-align:center">Figure 3, Report when the result of concentration detection (a) is larger than 30 mg/μL and (b) or lower than 1 mg/μL.</div>
 						</div>
 						<p>By using this code, we can let computer automatically analysis the data and give a report weekly so that our user can adjust their life style by knowing the body condition.</p>
+						<pre><code class="matlab">clear all
+close all
+clc
+
+%Input ten sets of data
+number=10;
+
+file = '/Users/chenshuyu/Desktop/Find Parameter/0822exp/D.csv';
+%load in data set
+S=load(file);
+
+OD_time=S(:,1);
+%load in the data obtained
+for i=1:number
+    OD(:,i)=S(:,i+1)
+end
+
+%calculate speed
+for j = 1:number
+    for i= 1:(length(OD_time)-1)
+    Speed_time(i)=OD_time(i+1);
+    Speed(i,j)=(OD(i+1,j)-OD(i,j))/(OD_time(i+1)-OD_time(i));
+    end
+end
+
+%Run average every 25
+for k = 1:number
+   for i= 1:(length(Speed_time)-25)
+    avg_time(i)=Speed_time(i);
+    sum=0;
+    for j=0:(25-1)
+        sum=sum+Speed(i+j,k);
+    end
+    avg(i,k)=sum/25;
+    end
+end
+%movie
+count=1;
+a = get(0,'ScreenSize'); 
+figure('Position',[0 a(4)/50 a(3)/1 a(4)/1 ]); 
+for time=1:length(avg_time)
+
+          %y=sin(freqrps*t);
+          %plot(t,y);
+          
+          subplot(2,2,1)
+          plot(OD_time(1:time),OD(1:time,1:8));
+          
+          %ylabel('Fluorescence value','FontSize',30,'FontWeight','bold','Color','r');
+          %xlabel('time(mins)','FontSize',20,'FontWeight','bold','Color','b');
+          axis([0,max(avg_time),0,3000])
+         
+          S1=sprintf('time=%.2f mins',time*3);
+          text(100,2800,S1,'FontSize',20)
+          %S2=sprintf('frequency=%.2f rads/sec (%.2f cyc/sec)',freqrps,freqcps);
+          %text(2,.4,S2)
+          xlabel('time(mins)','FontSize',20,'FontWeight','bold','Color','b');
+          ylabel({'Fluorescence value'},'FontSize',30,'FontWeight','bold','Color','r');
+          title('Concentration=5mM','FontSize',45)
+          
+            subplot(2,2,2)
+          plot(avg_time(1:time),avg(1:time,1:7));
+          axis([0,max(avg_time),0,6])
+          S2=sprintf('time=%.2f mins',time*3);
+          text(100,5.6,S2,'FontSize',20)
+          xlabel('time(mins)','FontSize',20,'FontWeight','bold','Color','b');
+          ylabel({'Transcription rate'},'FontSize',30,'FontWeight','bold','Color','r');
+          %}
+          M(time)=getframe;
+          
+end
+
+%Large counting number
+l=0;
+%R counting number
+m=1;
+%movie
+for k=1:number
+    for i=1:length(avg_time);
+        if avg(i,k)==max(avg(:,k));
+            t0(k)=avg_time(i);
+        end
+    end
+    Vmax=max(avg(:,k));
+    Vmax_k(k)=Vmax;
+    
+    if Vmax >= 5
+        l=l+1;
+        x=-1;
+    else
+    %calculate the concentration due to the formula
+    x=(18.6542*Vmax-38.2493)/(5.07-Vmax);
+    end
+    if x<=0
+        
+        continue;
+    else
+        R(m)=x^(1/2.0183);
+        m=m+1;
+    end
+    
+end
+
+if m<=number/2
+    
+    if l>number/2
+        statement='Emergency!!The concentration is too high!!'
+         subplot(2,2,3:4)
+    axis([0 30 0 10])
+    text(5,8,statement,'FontSize',20,'FontWeight','bold','Color','r')
+    else
+        statement='Safe!!The concentration is lower than 0.1'
+         subplot(2,2,3:4)
+    axis([0 30 0 10])
+    text(5,8,statement,'FontSize',20,'FontWeight','bold','Color','g')
+    end
+    
+else
+    
+   subplot(2,2,3:4)
+    statement=sprintf('Mean value=%.2f (mM), Standard deviation=%.2f',mean(R),std(R));
+    histfit(R);
+   
+    axis([0 30 0 10])
+    xlabel('concentration(mM)','Fontsize',30)
+    ylabel('Frequency(times)','Fontsize',30)
+    text(5,8,statement,'FontSize',20)
+end
+						</code></pre>
 					</div>
 					<div class="col-md-3">
 						<ul id="sidemenu" style="width:100%">
@@ -41,5 +171,8 @@
 				</div>
 		</div> <!-- /.container-fluid -->
 		{{> footer }}
+		<script src="{{jsHighlight}}"></script>
+		<script src="{{jsHljsNum}}"></script>
+		<script>hljs.initHighlightingOnLoad();hljs.initLineNumbersOnLoad();</script>
 	</body>
 </html>
