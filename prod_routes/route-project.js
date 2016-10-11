@@ -49,6 +49,19 @@ module.exports = [
   },
   {
     data: {
+      title: "Project Measurement - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+      img6: '/wiki/images/7/7f/T--NCKU_Tainan--image006.png',
+      img8: '/wiki/images/3/36/T--NCKU_Tainan--project-modeling-fitting-image5.jpg',
+    },
+    layout:  "./view/Project/results.hbs",
+    filename: "./product/Results.html"
+  },
+  {
+    data: {
       title: "Project Modeling - iGEM NCKU",
       url: "",
       img: "",

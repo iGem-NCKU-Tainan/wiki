@@ -86,7 +86,7 @@ function getCurrentMenu() {
   var currentMenu;
 
   var submenuAr = {
-    0: ['Project', 'Description', 'Result', 'Model', 'Part'],
+    0: ['Project', 'Description', 'Result', 'Model', 'Part', 'Measurement', 'Proof'],
     1: ['Hardware', 'Software', 'Demo'],
     2: ['Medal', 'Safety'],
     3: ['Team', 'Attribution', 'Acknowledgement', 'Collaboration'],
