@@ -52,6 +52,8 @@ module.exports = [
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
 			fig1: "/wiki/images/Notebook/T--NCKU_Tainan--notebook1.png",
 			fig2: "/wiki/images/Notebook/T--NCKU_Tainan--notebook2.png",
+			fig3: "/wiki/images/Notebook/T--NCKU_Tainan--notebook3.png",
+			fig4: "/wiki/images/Notebook/T--NCKU_Tainan--notebook4.png",
     },
     layout:  "./view/Notebook/protocols.hbs",
     filename: "./docs/Notebook/protocols.html"
