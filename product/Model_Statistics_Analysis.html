@@ -11,7 +11,7 @@
                     <div class="col-md-9">
                         <div class="head2">Model: Statistics Analysis</div>
                         <div class="title-line" id="intro">Introduction</div>
-                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onclick="toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onclick="toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
+                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onclick="return toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onclick="return toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
                         <img src="/wiki/images/c/c0/T--NCKU_Tainan--project-modeling-statistic-image1.jpg">
                         <img src="/wiki/images/0/04/T--NCKU_Tainan--project-modeling-statistic-image2.jpg">
                         <div class="title-line" id="pair">Paired-difference T test</div>
@@ -201,8 +201,8 @@ dbar&lt;-difference%*% rep(1/11,11)
 var&lt;- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10
 sd&lt;-var^0.5
 t&lt;-(dbar/sd)*(11^0.5)</code></pre>
-                    <div class="title-line" id="reg" style="padding-bottom:0"></div>
-                    <div style="font-size:16px;font-weight:bold">Regression &amp; Prediction interval</div>
+                    <div class="title-line long" id="reg"></div>
+                    <div class="title-content">Regression &amp; Prediction interval</div>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L becomes the most important problem. We use the skill of the prediction interval in this part.</p>
                     <br>
                     <p>Procedure</p>
@@ -308,12 +308,13 @@ legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), 
                     </div>
                     <div class="col-md-3">
                       <ul id="sidemenu" style="width:100%">
-                        <li><a href="#" onclick="toEvent('intro');">Introduction</a></li>
-                        <li><a href="#" onclick="toEvent('pair');">Paired-difference T test</a></li>
-                        <li><a href="#" onclick="toEvent('reg');">Regression &amp; Prediction</a></li>
+                        <li><a href="#" onclick="return toEvent('intro');">Introduction</a></li>
+                        <li><a href="#" onclick="return toEvent('pair');">Paired-difference T test</a></li>
+                        <li><a href="#" onclick="return toEvent('reg');">Regression &amp; Prediction</a></li>
                       </ul>
                     </div>
                 </div>
         </div> <!-- /.container-fluid -->
         <script src="/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--jquery-1_12_0_min_js?ctype=text/javascript&amp;action=raw"></script><script src="/Team:NCKU_Tainan/js/frame/T--NCKU_Tainan--bootstrap_min_js?ctype=text/javascript&amp;action=raw"></script><script src="/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/Team:NCKU_Tainan/js/T--NCKU_Tainan--MathjaxConfigIgem_js?ctype=text/javascript&amp;action=raw"></script><script src="/Team:NCKU_Tainan/js/T--NCKU_Tainan--common_js?ctype=text/javascript&amp;action=raw"></script><script>(function() {    /* change icon */    var link = document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = '/wiki/images/8/80/T--NCKU_Tainan--favicon.png';    document.getElementsByTagName('head')[0].appendChild(link);}());</script>    
+
 </body></html>

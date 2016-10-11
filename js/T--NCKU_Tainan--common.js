@@ -90,7 +90,7 @@ function getCurrentMenu() {
     1: ['Hardware', 'Software', 'Demo'],
     2: ['Medal', 'Safety'],
     3: ['Team', 'Attribution', 'Acknowledgement', 'Collaboration'],
-    4: ['Human', 'Practice', 'Engagement'],
+    4: ['Human', 'Integrated', 'Engagement'],
     5: ['Construction', 'Functional', 'Design', 'Protocols']
   };
 

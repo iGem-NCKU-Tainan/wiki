@@ -14,7 +14,7 @@
                     <div class="col-md-9">
                         <div class="head2">Model: Statistics Analysis</div>
                         <div class="title-line" id="intro">Introduction</div>
-                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onClick="toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onClick="toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
+                        <p>In medicine, the blood glucose exceeding 5mM/L implies having diabetes, and it exceeding 120mM/L implies being a severe patient. Finding the person whose glucose concentration is over 5mM/L or 120mM/L is our target. First, we prove that there has difference between 0.1mM/L and 5mM/L (120mM/L) in the <a href="#pair" onClick="return toEvent('pair');">paired-difference T test</a> part. And, we use the <a href="#reg" onClick="return toEvent('reg');">regression and prediction intervals</a> to distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L. From the result, 5mM/L can be distinguished from 0.1mM/L after 101 minutes, and 120mM/L can be distinguished from 0.1mM/L after 88 minutes.</p>
                         <img src="{{image1}}" />
                         <img src="{{image2}}" />
                         <div class="title-line" id="pair">Paired-difference T test</div>
@@ -204,8 +204,8 @@ dbar<-difference%*% rep(1/11,11)
 var<- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10
 sd<-var^0.5
 t<-(dbar/sd)*(11^0.5)</code></pre>
-                    <div class="title-line" id="reg" style="padding-bottom:0"></div>
-                    <div style="font-size:16px;font-weight:bold">Regression & Prediction interval</div>
+                    <div class="title-line long" id="reg"></div>
+                    <div class="title-content">Regression & Prediction interval</div>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mM/L and 5mM/L from exceeding 0.1mM/L becomes the most important problem. We use the skill of the prediction interval in this part.</p>
                     <br/>
                     <p>Procedure</p>
@@ -311,9 +311,9 @@ legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), 
                     </div>
                     <div class="col-md-3">
                       <ul id="sidemenu" style="width:100%">
-                        <li><a href="#" onClick="toEvent('intro');">Introduction</a></li>
-                        <li><a href="#" onClick="toEvent('pair');">Paired-difference T test</a></li>
-                        <li><a href="#" onClick="toEvent('reg');">Regression & Prediction</a></li>
+                        <li><a href="#" onClick="return toEvent('intro');">Introduction</a></li>
+                        <li><a href="#" onClick="return toEvent('pair');">Paired-difference T test</a></li>
+                        <li><a href="#" onClick="return toEvent('reg');">Regression & Prediction</a></li>
                       </ul>
                     </div>
                 </div>
