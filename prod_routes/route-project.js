@@ -58,7 +58,7 @@ module.exports = [
       img8: '/wiki/images/3/36/T--NCKU_Tainan--project-modeling-fitting-image5.jpg',
     },
     layout:  "./view/Project/results.hbs",
-    filename: "./product/Results.html"
+    filename: "./product/Measurement.html"
   },
   {
     data: {
