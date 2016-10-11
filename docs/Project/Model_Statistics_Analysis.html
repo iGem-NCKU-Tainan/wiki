@@ -213,17 +213,21 @@ t&lt;-(dbar/sd)*(11^0.5)</code></pre>
                     <p>(residual plot)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image5.jpg"></p>
                     <p>(Q-Q plot)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image6.jpg"></p>
                     <p>This model conforms the assumption and R-square is equal to 0.9541, so we think the cubic polynomial regression model is suitable.</p> 
-                    <p>(prediction interval)<br>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image7.jpg"></p>
+                    <p>(prediction interval)<br>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)</p>
+										<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image7.jpg">
                     <p>And look the following, the procedure is same in the 5mM/L and 120mM/L.</p><p class="center">(5mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image8.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image9.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image10.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image11.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image12.jpg">(120mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image13.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image14.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image15.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image16.jpg"><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image17.jpg"></p>
-                    <p>2. According to the previous part, we can say that 0.1mM/L and 5mM/L are difference group by the statistical significance. In order to precisely distinguish these two groups, choose the time at which the 5mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image18.jpg"></p>
+                    <p>2. According to the previous part, we can say that 0.1mM/L and 5mM/L are difference group by the statistical significance. In order to precisely distinguish these two groups, choose the time at which the 5mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.</p><img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image18.jpg">
                     <p>By the above tables, we can see that 5mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 101 mins. Hence, it can be expected to have a higher accuracy to take the data after 101 mins.</p>
                     <br>
-                    <p>(prediction interval of 0.1 &amp;5 mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg"></p>
-                    <p>3. Same with procedure 2, choose the time at which the 120mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg"></p>
+                    <p>(prediction interval of 0.1 &amp;5 mM/L)</p>
+										<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg">
+                    <p>3. Same with procedure 2, choose the time at which the 120mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.</p>
+										<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg">
                     <p>By the above tables, we can find that 120mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 88 mins. Hence, it can be expected to have a higher accuracy to take the data in 88 mins.</p>
                     <br>
-                    <p>(prediction interval of 0.1 &amp;120 mM/L)<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg"></p>
-                    <h1 class="center">Appendix</h1>
+                    <p>(prediction interval of 0.1 &amp;120 mM/L)</p>
+										<img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg">
+                    <h1 class="title-line" id="appendix">Appendix</h1>
                     <pre><code class="R">#0.1 vs 5
 #0.1 urine plot
 data&lt;-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
@@ -312,6 +316,7 @@ legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), 
                         <li><a href="#" onclick="return toEvent('intro');">Introduction</a></li>
                         <li><a href="#" onclick="return toEvent('pair');">Paired-difference T test</a></li>
                         <li><a href="#" onclick="return toEvent('reg');">Regression &amp; Prediction</a></li>
+												<li><a href="#appendix" onclick="return toEvent('appendix');">Appendix</a></li>
                       </ul>
                     </div>
                 </div>

@@ -216,17 +216,21 @@ t<-(dbar/sd)*(11^0.5)</code></pre>
                     <p>(residual plot)<img src="{{image5}}" /></p>
                     <p>(Q-Q plot)<img src="{{image6}}" /></p>
                     <p>This model conforms the assumption and R-square is equal to 0.9541, so we think the cubic polynomial regression model is suitable.</p> 
-                    <p>(prediction interval)<br/>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)<img src="{{image7}}" /></p>
+                    <p>(prediction interval)<br/>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)</p>
+										<img src="{{image7}}" />
                     <p>And look the following, the procedure is same in the 5mM/L and 120mM/L.</p><p class="center">(5mM/L)<img src="{{image8}}" /><img src="{{image9}}" /><img src="{{image10}}" /><img src="{{image11}}" /><img src="{{image12}}" />(120mM/L)<img src="{{image13}}" /><img src="{{image14}}" /><img src="{{image15}}" /><img src="{{image16}}" /><img src="{{image17}}" /></p>
-                    <p>2. According to the previous part, we can say that 0.1mM/L and 5mM/L are difference group by the statistical significance. In order to precisely distinguish these two groups, choose the time at which the 5mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="{{image18}}" /></p>
+                    <p>2. According to the previous part, we can say that 0.1mM/L and 5mM/L are difference group by the statistical significance. In order to precisely distinguish these two groups, choose the time at which the 5mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.</p><img src="{{image18}}" />
                     <p>By the above tables, we can see that 5mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 101 mins. Hence, it can be expected to have a higher accuracy to take the data after 101 mins.</p>
                     <br/>
-                    <p>(prediction interval of 0.1 &5 mM/L)<img src="{{image1}}" /></p>
-                    <p>3. Same with procedure 2, choose the time at which the 120mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.<img src="{{image19}}" /></p>
+                    <p>(prediction interval of 0.1 &5 mM/L)</p>
+										<img src="{{image1}}" />
+                    <p>3. Same with procedure 2, choose the time at which the 120mmo/L and 0.1mmo/L prediction interval started to diverge to be the recommended prediction time.</p>
+										<img src="{{image19}}" />
                     <p>By the above tables, we can find that 120mM/L low prediction line exceeds 0.1mM/L up prediction line when the time is more than 88 mins. Hence, it can be expected to have a higher accuracy to take the data in 88 mins.</p>
                     <br/>
-                    <p>(prediction interval of 0.1 &120 mM/L)<img src="{{image2}}" /></p>
-                    <h1 class="center">Appendix</h1>
+                    <p>(prediction interval of 0.1 &120 mM/L)</p>
+										<img src="{{image2}}" />
+                    <h1 class="title-line" id="appendix">Appendix</h1>
                     <pre><code class="R">#0.1 vs 5
 #0.1 urine plot
 data<-read.csv("C:/Users/Rick/Desktop/NCKUactivity/iGEM/819test/0.1urine.csv",header=T)
@@ -315,6 +319,7 @@ legend("topleft", Name, ncol = 1, cex = 1.5, col=c("red","green"),lwd = c(2,2), 
                         <li><a href="#" onClick="return toEvent('intro');">Introduction</a></li>
                         <li><a href="#" onClick="return toEvent('pair');">Paired-difference T test</a></li>
                         <li><a href="#" onClick="return toEvent('reg');">Regression & Prediction</a></li>
+												<li><a href="#appendix" onClick="return toEvent('appendix');">Appendix</a></li>
                       </ul>
                     </div>
                 </div>
