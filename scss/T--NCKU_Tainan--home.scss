@@ -31,13 +31,15 @@
 	}
 	
 	span {
+		white-space: nowrap;
 		margin-left: 80px;
 		font-size: 90px;
 		font-weight: bold;
 		border-bottom: 10px solid $yellow;
-		@media all and (max-width: 1199px) {
-			text-align: center;
-		}
+	}
+	@media all and (max-width: 1199px) {
+		text-align: center;
+		img { margin-bottom: 40px; }
 	}
 }
 

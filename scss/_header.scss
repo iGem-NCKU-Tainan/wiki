@@ -23,6 +23,10 @@
   position: relative;
   top: 45px;
   left: 60px;
+	@media all and (max-width: 768px) {
+		top: 0;
+		left: 0;
+	}
 }
 
 .navbar-default .navbar-nav>li>a,
