@@ -14,20 +14,20 @@
 						<div class="title-line" id="analysis">Automatically Analysis</div>
 						<p>In order to make U.coli works automatically, we develop software that can calculate the data obtained by our device and translate into the glucose concentration with a user-friendly interface.</p>
 						<p>The logic of the code is as follow: Calculating the production rate whenever a new data is inputted, when the production rate starts to decline, automatically find out the value production rate and calculate the corresponding glucose concentration value by the formula we introduce in <a href="/wiki/Project/Model_Fitting_Theory">model.</a></p>
-						<p>The result can be divided into three parts: Safe, In danger and Emergency. As you can see in <a href="#fig1" onclick="return toEvent('fig1');">Figure 1</a>, when glucose concentration is between 1 mg/μL and 30 mg/μL, our device can numerically report the glucose concentration with mean value and standard deviation, see <a href="#fig2" onclick="return toEvent('fig2');">Figure 2</a>. </p>
+						<p>The result can be divided into three parts: Safe, In danger and Emergency. As you can see in <a href="#fig1" onclick="return toEvent('fig1');">Figure 1</a>, when glucose concentration is between 1 mM and 30 mM, our device can numerically report the glucose concentration with mean value and standard deviation, see <a href="#fig2" onclick="return toEvent('fig2');">Figure 2</a>. </p>
 						<div id="fig1" class="img">
 							<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW1.png">
 							<div>Figure 1, The fitting curve of U.coli show the range we can calculate numerically.</div>
 						</div>
 						<div id="fig2" class="img">
 							<img id="fig2" src="/wiki/images/Device/T--NCKU_Tainan--deviceSW2.png">
-							<div>Figure 2, Report when the result of concentration in the calculable range (1 mg/μL ~ 30 mg/μL), the bottom graph shows the user condition.</div>
+							<div>Figure 2, Report when the result of concentration in the calculable range (1 mM ~ 30 mM), the bottom graph shows the user condition.</div>
 						</div>
 						<p>If the concentrate is outside of this range, the software will report ‘‘Safe” if the concentration is too low or ‘‘Emergency’’ if the concentration is too high, see <a href="#fig3" onclick="return toEvent('fig3');">Figure 3</a>.</p>
 						<div id="fig3" class="img" style="text-align:left">
 							(a)<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW3a.png">
 							(b)<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW3b.png">
-							<div style="text-align:center">Figure 3, Report when the result of concentration detection (a) is larger than 30 mg/μL and (b) or lower than 1 mg/μL.</div>
+							<div style="text-align:center">Figure 3, Report when the result of concentration detection (a) is larger than 30 mM and (b) or lower than 1 mM.</div>
 						</div>
 						<p>By using this code, we can let computer automatically analysis the data and give a report weekly so that our user can adjust their life style by knowing the body condition.</p>
 						<pre><code class="matlab">clear all
