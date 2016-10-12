@@ -20,17 +20,13 @@
                  </div>
                  <div class="right">
                    {{#each this}}
-                      {{#if this.Name}}
-                        <div class="member">
-                          <img class="m-img" src="{{this.img}}" alt={{this.Name}} />
-                          <p class="name">{{this.Name}}</p>
-                          <p class="about">{{this.About}}</p>
+                        <div class="member row">
+                          <img class="m-img col-md-5" src="{{this.img}}" alt={{this.Name}} />
+													<div class="col-md-7">
+	                          <p class="name">{{this.Name}}</p>
+  	                        <p class="about">{{this.About}}</p>
+													</div>
                         </div>
-                        {{else}}
-                        <div class="member">
-                          <p class="name">{{this}}</p>
-                        </div>
-                      {{/if}}
                    {{/each}}
                  </div>
                </div>
