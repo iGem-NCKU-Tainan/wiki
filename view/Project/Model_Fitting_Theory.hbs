@@ -50,7 +50,7 @@
                   <p class="center">$$Pl+polymerase+\{nucleotides\}\rightarrow Pl+polymerase+mRNA\ \ ---(H)$$</p>
                   <hr/>
                   <p>Before we get everything started, we first make an assumption so that we can simplify this dynamics considerably.</p>
-                  <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br/>The variation of \(\frac{\Delta[E2A]}{[E2A]}\) is quite small, so we ignore the influence of E2A production reaction chain.</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br/>Because [E2A] and [E2A’] are regulated by a lot of chemical compound, which makes [E2A’] and [E2A] not change considerably after a few amount of Glucose is added into the system. That is,<br/>$$\frac{\Delta [E2A]}{[E2A]},\frac{\Delta [E2A']}{[E2A']\ll 1}$$/p>
                   <p>The following derivation can only be valid if the assumption above is reasonable.</p>
                   <p>Note: k represent reaction rate constant, K represent reaction equilibrium constant.</p>
                   <hr/>
@@ -120,7 +120,6 @@
                   <p class="center">$$[E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B]}{k_B[E2C][Glucose]+k_{-A}[E2A]}$$</p>
                   <p class="center">$$[E2B]=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+k_{-A}[E2A]}-\frac{k_A[E2A'][E2B']}{k_B[E2C][Glucose]+k_{-A}[E2A]}$$</p>
                   <p class="center">$$[E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+(k_{-A}[E2A_{total}]+(k_A-k_{-A})[E2A'])}$$</p>
-                  <p style="color:#FA5858;font-size:1.2em;">Assumption 4:<br/>Because [E2A] and [E2A’] are regulated by a lot of chemical compound, which makes [E2A’] and [E2A] not change considerably after a few amount of Glucose is added into the system.</p>
                   <hr>
                   <p>At reaction (A) and (D), reaction don’t involve enzyme reaction, so we will calculate in <a href="#part4" onClick="return toEvent('part4');">Part IV</a> and treat it as a most time-consuming reaction in the whole process.</p>
                   <div class="title-line long" id="part4"></div>
@@ -154,11 +153,16 @@
                   <p class="center">$$c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})$$</p>
                   <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
                   <p class="center">$$\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3$$</p>
+                  <div class="title-line" id="disc">Discussion and fitting method</div>
+                  <p>Because the solution we derive is the production rate when the system reaches quasi-steady state. To fit the data accurately, it is necessary to understand the reaction process evolution with time.</p>
+                  <p>Before the quasi-steady state is reached, three components will affect the transcription of the promoter Pl, that is, glucose CRP and RNA polymerase. So when the glucose is added into the system, the promoter needs some time to react with the change and keep increasing its transcription rate. However, E. coli will natively produce a small RNA SgrS which can inhibit the translation of glucose transporter. When the glucose transporter is inhibited and glucose remained in E. coli are also digested, the production rate of Pl will return to decrease.</p>
+                  <p>But the reactions mentioned above are too complicated to solve analytically, so we assume that when the differential of the production rate is equal to zero, that means the system has reached the quasi-steady state.</p>
+                  <p>If the assumption is not valid, the result using this method might not be consistent. However, as shown in Fig 5, using this method will not obtain diverse answers.</p>
                   <div class="title-line" id="result">Fitting and result</div>
-                  <p>After a derivation of transcription rate in single cell, we now have to exam if the function can correctly match the experimental data well.</p>
-                  <p>For the fitting data, we differentiate the fluorescence value obtained from photometer, take the differential to get the production rate and fetch out the value when system reach its equilibrium state, fitting the equilibrium production rate with Glucose concentration concentration that lower than 60 mM and get <br/>$$\frac{dY}{dt}=\frac{17.05\times [Glucose]^{1.18}+16.07}{[Glucose]^{1.18}+4.04}$$</p>
+                  <p>After a derivation of transcription rate and discussion in a single cell, we now have to exam if the formula can correctly match the experimental data well./p>
+                  <p>We use the method mentioned above to fit the quasi-steady production rate with Glucose concentration  lower than 30 mg⁄μL and get <br/>$$\frac{d[GFP]}{dt}=\frac{18.65\times [Glucose]^{2.02}+38.25}{[Glucose]^{2.02}+5.07}$$</p>
                   <img src="{{image5}}" />
-                  <div>Fig 5, the fitting curve of the glucose concentration and maxima transcription rate.</div>
+                  <div>Fig5, The fitting curve of the glucose concentration and quasi-steady transcription rate.</div>
                   <br/><br/>
                   <p>The result shows that the fitting curve can fit the data well.</p>
                   <br/>
@@ -179,6 +183,7 @@
                         <li><a href="#" onClick="return toEvent('part2');">Part II</a></li>
                         <li><a href="#" onClick="return toEvent('part3');">Part III</a></li>
                         <li><a href="#" onClick="return toEvent('part4');">Part IV</a></li>
+                        <li><a href="#" onClick="return toEvent('disc');">Discussion and fitting method</a></li>
                         <li><a href="#" onClick="return toEvent('result');">Fitting and result</a></li>
                         <li><a href="#" onClick="return toEvent('ref');">Reference</a></li>
                       </ul>
