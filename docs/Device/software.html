@@ -159,10 +159,90 @@ else
     text(5,8,statement,'FontSize',20)
 end
 						</code></pre>
+
+						<div class="title-line" id="visual">Visualized Data</div>
+						<p>To visualize our data better, we design an app on smart device or on a screen to display the result from U-KNOW. The data is synchronized with the processor of Arduino which is We bring U-KNOW to people’s daily lives and make it available for everyone of us to have an easy access to embrace simple diabetes monitoring.</p>
+						<!-- <img src="" /> -->
+						<p>By using App Inventor, we can easily code the app. We don’t want U-KNOW confined to the people who have engineering background. Moreover, we want to serve those who are in need that they can try to be a user even if they don’t have strong background to achieve their maker dreams. By moving these blocks, app inventor is an easy way for coding basics.</p>
+						<!-- <img src="" /> -->
+						<p>The tool we chose, App Inventor, is an open source which allows us to embrace this technology without much barriers. We are open to any more improvement. Using Arduino and app inventor, as an open source, allows anyone to build new and interesting hardware and software that leverage U-know technology and data.</p>
+						
+						<div class="title-line" id="function">Processing Function</div>
+						<!-- <img src="" /> -->
+						<p>Assembling our Arduino, we use it to trigger the whole system and even digitalize bio-signals. We use light sensitive resistor to transform the bio-signal into digital signal so that we can synchronize the data with the screen and smart device by Bluetooth.</p>
+						<p>By using this code, we can let computer automatically initiate the process and complete the function of Arduino. Below is the code that functions U-KNOW.</p>
+						<pre><code class="C++">/* 
+
+This is the code of our arduino device
+
+*/
+
+#include <liquidcrystal.h>
+
+// initialize lcd screen 
+
+LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
+
+volatile unsigned long cnt = 0;
+unsigned long oldcnt = 0;
+unsigned long t = 0;
+unsigned long last;
+
+void irq1()
+{
+  cnt++;
+}
+
+
+void setup() 
+{
+  Serial.begin(9600);
+  Serial.println("START");
+  pinMode(2, INPUT);
+  pinMode(12, OUTPUT);
+  
+  digitalWrite(2, HIGH);
+  digitalWrite(12, HIGH);
+  
+  attachInterrupt(0, irq1, RISING);
+  
+//start scene 
+  lcd.begin(16, 2);
+  lcd.setCursor(0, 0);
+  lcd.print("   iGEM NCKU!");
+  lcd.setCursor(0,1); // move cursor to second line "1" and 9 spaces over
+  lcd.print("Champion of 2016"); 
+}
+
+void loop() 
+{
+  if (millis() - last &gt;= 1000)
+  {
+    last = millis();
+    t = cnt;
+    unsigned long hz = t - oldcnt;
+    Serial.print("FREQ: "); 
+    Serial.print(hz);
+   
+    Serial.print("\t = "); 
+    Serial.print((hz+50)/100);  // +50 == rounding last digit
+    Serial.println(" mW/m2");
+    
+    lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print("Result:");
+    lcd.setCursor(0,1);
+    lcd.print(hz);
+    lcd.print(" hz");
+    oldcnt = t;
+  }
+}</liquidcrystal.h></code></pre>
 					</div>
 					<div class="col-md-3">
 						<ul id="sidemenu" style="width:100%">
-							<li><a href="#" onclick="return toEvent('analysis');">Automatically Analysis</a></li>
+							<li><a href="#analysis" onclick="return toEvent('analysis');">Automatically Analysis</a></li>
+							<li><a href="#visual" onclick="return toEvent('visual');">Visualized Data</a></li>
+							<li><a href="#function" onclick="return toEvent('function');">Processing Function</a></li>
 						</ul>
 					</div>
 				</div>
