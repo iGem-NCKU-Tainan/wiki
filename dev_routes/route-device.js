@@ -10,6 +10,9 @@ module.exports = [
 			fig2: "/wiki/images/Device/T--NCKU_Tainan--deviceSW2.png",
 			fig3a: "/wiki/images/Device/T--NCKU_Tainan--deviceSW3a.png",
 			fig3b: "/wiki/images/Device/T--NCKU_Tainan--deviceSW3b.png",
+			fig4: "/wiki/images/Device/T--NCKU_Tainan--deviceSW4.jpg",
+			fig5: "/wiki/images/Device/T--NCKU_Tainan--deviceSW5.jpg",
+			fig6: "/wiki/images/Device/T--NCKU_Tainan--deviceSW6.png",
     },
     layout:  "./view/Device/software.hbs",
     filename: "./docs/Device/software.html"

@@ -162,6 +162,15 @@ pre code {
 	}
 }
 
+.phighlight {
+	padding:20px;
+	border:5px solid black;
+	font-weight:bold;
+	b {
+		color: red;
+	}
+}
+
 
 @media all and (max-width: 767px) {
 
