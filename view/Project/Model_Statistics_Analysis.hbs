@@ -206,15 +206,17 @@ var<- ((difference -rep(dbar, 11))^2%*%rep(1,11))/10
 sd<-var^0.5
 t<-(dbar/sd)*(11^0.5)</code></pre>
                     <div class="title-line long" id="reg"></div>
-                    <div class="title-content">Regression & Prediction interval</div>
+                    <div class="title-content">Regression & Prediction interval [1]</div>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our product uses the fluorescence intensity to obtain the concentration of blood glucose. Therefore, whether we could precisely distinguish exceeding 120mM and 5mM from exceeding 0.1mM becomes the most important problem. We use the skill of the prediction interval in this part.</p>
                     <br/>
                     <p>Procedure</p>
                     <p>1. Use the regression to find the model of 0.1, 5, 120mM, and show the prediction interval plot.</p>
                     <p class="center">(0.1mM)<img src="{{image3}}" /></p>
                     <p>(summary)<img src="{{image4}}" /></p>
-                    <p>(residual plot)<img src="{{image5}}" /></p>
-                    <p>(Q-Q plot)<img src="{{image6}}" /></p>
+                    <p>(residual plot) [2]</p>
+										<img src="{{image5}}" />
+                    <p>(Q-Q plot)</p>
+										<img src="{{image6}}" />
                     <p>This model conforms the assumption and R-square is equal to 0.9541, so we think the cubic polynomial regression model is suitable.</p> 
                     <p>(prediction interval)<br/>Formula: \(\bar{X}\pm t_{\frac{\alpha}{2},n-1}S\sqrt{1+\frac{1}{n}}\)</p>
 										<img src="{{image7}}" />
