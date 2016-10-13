@@ -133,14 +133,17 @@ function updateSubMenu() {
 function updateSideMenu() {
   var width = sidemenu.offsetWidth;
   var top = sidemenu.parentElement.getBoundingClientRect().top;
+  var left = sidemenu.getBoundingClientRect().left;
 
   if(top <= 0) {
     sidemenu.style.position = 'fixed';
     sidemenu.style.width = width + "px";
     sidemenu.style.top = '71px';
+		sidemenu.style.left = left + "px";
   } else {
     sidemenu.style.position = 'relative';
     sidemenu.style.top = '';
+		sidemenu.style.left = '';
   }
 }
 
