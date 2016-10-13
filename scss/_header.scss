@@ -46,14 +46,16 @@
 
 .navbar-brand {
   h1 {
-    margin-bottom: 0;
+    margin-bottom: 1px;
     font-size: 48px;
     display: inline-block;
+    overflow: hidden;
   }
   h4 {
     font-size: 18px;
     margin-top: 0;
     display: inline-block;
+    overflow: hidden;
   }
 }
 
@@ -175,7 +177,6 @@ li .dropdown-menu {
 
     .navbar-header {
       h1 {
-        overflow: hidden;
         font-size: 24px;
       }
       h4 {

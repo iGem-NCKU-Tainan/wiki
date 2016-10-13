@@ -43,6 +43,8 @@ function checkContainer(){
 
 function addImgEventlistener() {
   var imgs = document.querySelectorAll('.content img');
+  imgs = Array.prototype.slice.call(imgs);
+
   imgs.forEach(function(img) {
     img.addEventListener('click', onClickImg);
   });
