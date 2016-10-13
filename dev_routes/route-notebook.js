@@ -39,6 +39,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+      cover: "/wiki/images/Notebook/T--NCKU_Tainan--notebookdevicecover.png",
     },
     layout:  "./view/Notebook/device_design.hbs",
     filename: "./docs/Notebook/device_design.html"
