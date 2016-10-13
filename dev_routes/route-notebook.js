@@ -59,4 +59,15 @@ module.exports = [
     layout:  "./view/Notebook/protocols.hbs",
     filename: "./docs/Notebook/protocols.html"
   },
+ {
+    data: {
+      title: "Notebook Modeling - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+    },
+    layout:  "./view/Notebook/modeling.hbs",
+    filename: "./docs/Notebook/modeling.html"
+  },
  ];
