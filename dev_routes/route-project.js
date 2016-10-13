@@ -64,7 +64,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
-      image1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.jpg",
+      image1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.png",
       image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
       image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
       image6: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image3.jpg",
@@ -114,7 +114,7 @@ module.exports = [
       image2: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
       image3: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
       image4: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg",
-      image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.jpg"
+      image5: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.png"
     },
     layout:  "./view/Project/Model_Fitting_Theory.hbs",
     filename: "./docs/Project/Model_Fitting_Theory.html"
