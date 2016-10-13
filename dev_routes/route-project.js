@@ -36,7 +36,7 @@ module.exports = [
       img1: '/wiki/images/result/T--NCKU_Tainan--image001.png',
       img2: '/wiki/images/result/T--NCKU_Tainan--image002.png',
       img3: '/wiki/images/result/T--NCKU_Tainan--image003.png',
-      img4: '/wiki/images/result/T--NCKU_Tainan--image004.jpg',
+      img4: '/wiki/images/result/T--NCKU_Tainan--image004.png',
       img5: '/wiki/images/result/T--NCKU_Tainan--image005.png',
       img6: '/wiki/images/result/T--NCKU_Tainan--image006.png',
       img7: '/wiki/images/result/T--NCKU_Tainan--image007.png',
