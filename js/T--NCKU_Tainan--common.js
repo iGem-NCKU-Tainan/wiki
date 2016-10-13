@@ -2,8 +2,8 @@ var activeImg,
   submenu,
   submenuWidth,
   sidemenu,
-	lastScroll = 0,
-	scrollDir = true;
+  lastScroll = 0,
+  scrollDir = true;
 
 document.onscroll = onScroll;
 
@@ -24,7 +24,7 @@ $(window).on('load', function(){
   }
 
   /* container */
-	checkContainer();
+  checkContainer();
 
   var HQ = document.getElementById('HQ_page');
   if (HQ) HQ.id = '';
@@ -40,7 +40,7 @@ function checkContainer(){
       updateColsHeight(col1, col2);
     }
   }
-	document.documentElement.style.height = document.body.offsetHeight + "px";
+  document.documentElement.style.height = document.body.offsetHeight + "px";
 }
 
 function addImgEventlistener() {
@@ -80,21 +80,21 @@ function updateColsHeight(col1, col2) {
 function onScroll() {
   if (submenu) updateSubMenu();
   if (sidemenu) updateSideMenu();
-	getDirection($(this));
-	checkContainer();
-	checkSubMenu();
+  getDirection($(this));
+  checkContainer();
+  checkSubMenu();
 }
 
 function getDirection(emt) {
-	var thisScroll = emt.scrollTop();
-	scrollDir = thisScroll > lastScroll;
-	lastScroll = thisScroll;
+  var thisScroll = emt.scrollTop();
+  scrollDir = thisScroll > lastScroll;
+  lastScroll = thisScroll;
 }
 
 function getCurrentMenu() {
   var url = window.location.href;
-	url = url.split("/");
-	url = url[url.length-1] === "" ? url[url.length-2] : url[url.length-1];
+  url = url.split("/");
+  url = url[url.length-1] === "" ? url[url.length-2] : url[url.length-1];
   var currentMenu;
 
   var submenuAr = {
@@ -110,10 +110,10 @@ function getCurrentMenu() {
     for(var i = 0; i < submenuAr[index].length; ++i) {
       if(url.toLowerCase().indexOf(submenuAr[index][i].toLowerCase()) !== -1 &&
          url.indexOf("Team:NCKU")===-1 ) {
-			  currentMenu = {
+        currentMenu = {
           dropNum: index,
           subNum: i
-			  };
+        };
       }
     }
   }
@@ -123,8 +123,8 @@ function getCurrentMenu() {
 function updateSubMenu() {
   var nav = document.getElementsByTagName('nav')[0];
   if(window.scrollY >= 10){
-		var opened = document.getElementsByClassName('open')[0];
-		if (opened) opened.classList.remove('open');
+    var opened = document.getElementsByClassName('open')[0];
+    if (opened) opened.classList.remove('open');
     submenu.parentElement.classList.add('open');
     nav.classList.add('fixed');
   } else {
@@ -141,39 +141,39 @@ function updateSideMenu() {
     sidemenu.style.position = 'fixed';
     sidemenu.style.width = width + "px";
     sidemenu.style.top = '71px';
-		sidemenu.style.left = left + "px";
+    sidemenu.style.left = left + "px";
   } else {
     sidemenu.style.position = 'relative';
     sidemenu.style.top = '';
-		sidemenu.style.left = '';
+    sidemenu.style.left = '';
   }
 }
 
 function toEvent(section){
-	var toTop = $('#'+section).offset().top - 66;
+  var toTop = $('#'+section).offset().top - 66;
   $('html, body').animate({ scrollTop: toTop+"px" }, 1000, updateSubMenu);
   return false;
 }
 
 function checkSubMenu(){
-	var emt = document.getElementsByClassName('title-line');
-	var li = document.getElementById('sidemenu').getElementsByTagName('li');
-	var height = window.innerHeight
-						|| document.documentElement.clientHeight
-						|| document.body.clientHeight;
-	for(var i=emt.length-1; i>=0; --i) {
-		var Top = emt[i].getBoundingClientRect().top - height;
-		if(Top <= 0 && !hasClass(li[i],"active") && scrollDir) {
-			li[i].classList.add("active");
-			break;
-		} else if(Top > 0 && hasClass(li[i],"active") && !scrollDir) {
-			li[i].classList.remove("active");
-			break;
-		}
-	}
+  var emt = document.getElementsByClassName('title-line');
+  var li = document.getElementById('sidemenu').getElementsByTagName('li');
+  var height = window.innerHeight
+            || document.documentElement.clientHeight
+            || document.body.clientHeight;
+  for(var i=emt.length-1; i>=0; --i) {
+    var Top = emt[i].getBoundingClientRect().top - height;
+    if(Top <= 0 && !hasClass(li[i],"active") && scrollDir) {
+      li[i].classList.add("active");
+      break;
+    } else if(Top > 0 && hasClass(li[i],"active") && !scrollDir) {
+      li[i].classList.remove("active");
+      break;
+    }
+  }
 }
 
 function hasClass(emt, cls){
-	return (' ' + emt.className + ' ').indexOf(' ' + cls + ' ') !== -1;
+  return (' ' + emt.className + ' ').indexOf(' ' + cls + ' ') !== -1;
 }
 
