@@ -109,7 +109,7 @@ li .dropdown-menu {
 }
 
 .dropdown-menu a::before {
-  width: 2px;
+  width: 3px;
   height: 10px;
   color: #FAD509;
   background: #fad509;
@@ -161,6 +161,7 @@ li .dropdown-menu {
 
 @media all and(min-width: 767px) {
   .navbar-default.fixed {
+		background: rgba(250,213,9,.8);
     position: fixed;
     z-index: 999;
     top: 16px;
@@ -197,6 +198,9 @@ li .dropdown-menu {
 			width: 600px;
       li > a {
         font-size: 14px;
+				&::before {
+					background: #fff;
+				}
       }
     }
   }
