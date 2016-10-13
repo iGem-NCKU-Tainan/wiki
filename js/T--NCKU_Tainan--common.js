@@ -1,7 +1,9 @@
 var activeImg,
   submenu,
   submenuWidth,
-  sidemenu;
+  sidemenu,
+	lastScroll = 0,
+	scrollDir = true;
 
 document.onscroll = onScroll;
 
@@ -76,7 +78,15 @@ function updateColsHeight(col1, col2) {
 function onScroll() {
   if (submenu) updateSubMenu();
   if (sidemenu) updateSideMenu();
+	getDirection($(this));
 	checkContainer();
+	checkSubMenu();
+}
+
+function getDirection(emt) {
+	var thisScroll = emt.scrollTop();
+	scrollDir = thisScroll > lastScroll;
+	lastScroll = thisScroll;
 }
 
 function getCurrentMenu() {
@@ -139,3 +149,26 @@ function toEvent(section){
   $('html, body').animate({ scrollTop: toTop+"px" }, 1000, updateSubMenu);
   return false;
 }
+
+function checkSubMenu(){
+	var emt = document.getElementsByClassName('title-line');
+	var li = document.getElementById('sidemenu').getElementsByTagName('li');
+	var height = window.innerHeight
+						|| document.documentElement.clientHeight
+						|| document.body.clientHeight;
+	for(var i=emt.length-1; i>=0; --i) {
+		var Top = emt[i].getBoundingClientRect().top - height;
+		if(Top <= 0 && !hasClass(li[i],"active") && scrollDir) {
+			li[i].classList.add("active");
+			break;
+		} else if(Top > 0 && hasClass(li[i],"active") && !scrollDir) {
+			li[i].classList.remove("active");
+			break;
+		}
+	}
+}
+
+function hasClass(emt, cls){
+	return (' ' + emt.className + ' ').indexOf(' ' + cls + ' ') !== -1;
+}
+
