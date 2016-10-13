@@ -40,7 +40,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Demo_css" + typecss,
-			video2: "/wiki/images/5/55/T--NCKU_Tainan--UrineCollector.mp4"
+			video2: "/wiki/images/5/55/T--NCKU_Tainan--UrineCollector.mp4",
     },
     layout:  "./view/Device/demonstrate.hbs",
     filename: "./product/Demonstrate.html"
