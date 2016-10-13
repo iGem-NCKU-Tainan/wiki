@@ -6,6 +6,9 @@ html,body {
 	color: $text;
   -webkit-font-smoothing: antialiased;
   font-family: 'NotoSansCJKtc-Regular', 'Noto Sans', "微軟雅黑","Microsoft YaHei", Helvetica, 'sans-serif';
+	p {
+		font-size: 16px;
+	}
 }
 h1,h2,h3,h4,h5,h6{ overflow: auto; }
 
@@ -52,7 +55,7 @@ h1,h2,h3,h4,h5,h6{ overflow: auto; }
 }
 
 .container-fluid {
-	width: 80%;
+	width: 85%;
 }
 
 .block {
