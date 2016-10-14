@@ -6,15 +6,15 @@
           "About": "Professor I-Son Grace Ng is devoted to the synthetic biology, genetic and enzymatic engineering, which to apply in bioenergy and biorefinery. She is currently teaching in Department of Chemical Engineering. She has over 6 years’ experience in iGEM. As the PI of iGEM_NCKU Tainan, she really expects the iGEMers grow up and become the ace in Synthetic Biology.",
           "Name": "Prof. Grace, I-Son Ng",
           "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor1.png",
-          "學歷": "國立成功大學化學工程　博士",
-          "現職": "成功大學化工系助理教授"
+          "Prof": "國立成功大學化學工程　博士",
+          "Department": "Chemical Engineering"
         },
         {
           "About": "Mei-Ling Tsai completed her Philosopher’s Degree at University of Michigan in USA and then returned to Taiwan. After promoted as Associate Professor of Physiology at National Cheng Kung University Medical College, her research has been focusing on the impact of activated estrogen receptor beta on tissue remodeling by using proteomic approaches and revealing unique functions of estrogen receptor beta during tissue remodeling. Because of her dedication to medical education, she has been elected in IUPS (International Union of Physiological Societies) Education Committee since 2009 and FAOPS (Federations of Asian and Oceanian Physiological Societies) council since 2015.",
           "Name": "Prof. Mei-Ling Tsai",
           "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor3.png",
-          "學歷": "美國密西根大學毒物學　博士",
-          "現職": "成大醫學院生理所副教授"
+          "Prof": "美國密西根大學毒物學　博士",
+          "Department": "Physiology"
         }
       ]
     },
@@ -24,15 +24,15 @@
           "About": "I have taught in junior high school for 7 years, further and higher education at NCKU. Being an English lecturer at NCKU offers me many opportunities to collaborate with a lot of experts from different professions. Through the 7-year ESP teaching, I’ve been actively involved in industrial technology, career development, basic civil engineering, and biotechnology.  I, currently, am working on the project of English as a medium of instruction (EMI) and co-working with this cross-disciplinary team, iGEM NCKU, Tainan.",
           "Name": "Lecturer Ching-Yi Yeh",
           "img": "/wiki/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png",
-          "學歷": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
-          "現職": "Lecturer in Foreign Language Department"
+          "Prof": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
+          "Department": "Foreign Language Department"
         },
         {
           "About": "Professor Jo-Shu Chang is a Chair Professor of Department of Chemical Engineering at National Cheng Kung University, Taiwan. He received his Ph.D. degree in 1993 from University of California, Irvine. He owns numerous academic awards and is fellow of AIMBE. His recent research focuses on microalgae biofuels/biorefinery using system biology.",
           "Name": "Chair Prof. Jo-Shu Chang",
           "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor2.png",
-          "學歷": "美國加州大學Irvine分校化工暨生化　博士",
-          "現職": "成功大學化工系特聘教授"
+          "Prof": "美國加州大學Irvine分校化工暨生化　博士",
+          "Department": "Chemical Engineering"
         }
       ]
     },
@@ -80,7 +80,7 @@
         {
           "Department": "Life Science",
           "Name": "Fang-Wei, Yu",
-          "About": "",
+          "About": "Being a student of Life Science, iGEM is a competition meant to be. Pale knowledge in textbooks can never quench my thirst of curiosity. This is the place I can go from the lab to the stage, from the books to reality. Enjoy embracing challenge and new things. Utilize all the thoughts in mind, every bit of resource we have, so I can be a part of this Jamboree. Not even satisfied of just being a geek in the lab, want to explore world.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile12.png",
           "Profession": "Wet-Lab"
         }

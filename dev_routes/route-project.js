@@ -100,7 +100,6 @@ module.exports = [
       image17: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image17.jpg",
       image18: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image18.jpg",
       image19: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image19.jpg",
-      image20: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-statistic-image20.jpg"
     },
     layout:  "./view/Project/Model_Statistics_Analysis.hbs",
     filename: "./docs/Project/Model_Statistics_Analysis.html"

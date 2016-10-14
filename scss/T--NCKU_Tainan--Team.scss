@@ -49,15 +49,21 @@
        width: 100%;
        max-width: 219px;
     }
-
   }
+
+	.member:first-child {
+		margin-top: 0;
+	}
 }
 
 .name {
-  margin-top: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #222222;
+}
+.name2 {
+	color: $text;
+	font-weight: bold;
 }
 
 p {
