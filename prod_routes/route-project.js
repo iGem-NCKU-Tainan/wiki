@@ -21,6 +21,8 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			fig1: "/wiki/images/5/5c/T--NCKU_Tainan--projDes1.jpg",
+			fig2: "/wiki/images/1/1b/T--NCKU_Tainan--projDes2.png"
     },
     layout:  "./view/Project/description.hbs",
     filename: "./product/Description.html"

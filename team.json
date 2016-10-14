@@ -21,14 +21,14 @@
     {
       "Instructors": [
         {
-          "About": "",
+          "About": "I have taught in junior high school for 7 years, further and higher education at NCKU. Being an English lecturer at NCKU offers me many opportunities to collaborate with a lot of experts from different professions. Through the 7-year ESP teaching, I’ve been actively involved in industrial technology, career development, basic civil engineering, and biotechnology.  I, currently, am working on the project of English as a medium of instruction (EMI) and co-working with this cross-disciplinary team, iGEM NCKU, Tainan.",
           "Name": "Lecturer Ching-Yi Yeh",
           "img": "/wiki/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png",
-          "學歷": "劍橋大學第二語言教育研究哲學　碩士",
-          "現職": "成功大學外文系教師"
+          "學歷": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
+          "現職": "Lecturer in Foreign Language Department"
         },
         {
-          "About": "He is currently working in Department of Chemical Engineering. He has the honor of Distinguished research award in Ministry of Science and Technology, Taiwan. He is devoted to the microalgal bio-refinery by system biology.",
+          "About": "Professor Jo-Shu Chang is a Chair Professor of Department of Chemical Engineering at National Cheng Kung University, Taiwan. He received his Ph.D. degree in 1993 from University of California, Irvine. He owns numerous academic awards and is fellow of AIMBE. His recent research focuses on microalgae biofuels/biorefinery using system biology.",
           "Name": "Chair Prof. Jo-Shu Chang",
           "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor2.png",
           "學歷": "美國加州大學Irvine分校化工暨生化　博士",
@@ -39,14 +39,14 @@
     {
       "Advisers": [
         {
-          "Department": "基醫博一",
+          "Department": "Basic Medical Sciences",
           "Name": "Eric, Po-Jen Wu",
           "About": "The game player in biological system. In NCKU_Tainan iGEM team, I want to promote the linkage from theory to the real working system in organism.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Profession": "Team Advisor / The Cross-Pollinator"
+          "Profession": "The Cross-Pollinator"
         },
         {
-          "Department": "資訊碩一",
+          "Department": "Computer Science & Information Engineering",
           "Name": "Chi-Hsuan, Huang",
           "About": "I am passionate about co-working and sharing information and knowledge with people. I dream of using science and technology to making the world better and solving social Issues. I joined the iGEM NCKU Tainan to meet people from all walks of life and together to solve the critical medial problem.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile19.png",
@@ -57,28 +57,28 @@
     {
       "Wet Lab": [
         {
-          "Department": "醫學四",
+          "Department": "Medicine / physics",
           "Name": "Chia-En Wong",
           "About": "Med school student with double major in physics. Having the passion to explore and research in interdisciplinary field ,I want to solve the fundamental problems in medicine from a sceintific way.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Profession": "Wet-Lab"
+          "Profession": "Team Leader"
         },
         {
-          "Department": "化學三",
+          "Department": "Chemistry",
           "Name": "Ying Hsin, Hong",
           "About": "For me, joining iGEM is a big step, because it is a new field which I have never known. During iGEM, I have encountered a lot of challenges, such as communicating with other members. I am so glad that I participated iGEM, and I have learned a lot from other partners. As a member in wet-lab, I help our team to design the gene-circuit in order to make our idea come true.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile6.png",
           "Profession": "Wet-Lab"
         },
         {
-          "Department": "化工三",
+          "Department": "Chemical Engineering",
           "Name": "Sher Wang",
           "About": "I love challenges and doing crazy things. iGEM gives me a chance to apply what I learned from the textbook, and also allows me to explore a new field, synthetic biology. It allows us to turn lots of impossible things to reality and deal with the big issues in our world. Joining iGEM also enables me to make amazing friends, and I love to be together with them. As a team we try everything new and conquer the problems together.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Profession": "Wet-Lab"
+          "Profession": "Vice Leader & Wet lab "
         },
         {
-          "Department": "生科四",
+          "Department": "Life Science",
           "Name": "Fang-Wei, Yu",
           "About": "",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile12.png",
@@ -89,60 +89,60 @@
     {
       "Dry Lab": [
         {
-          "Department": "物理三",
+          "Department": "Physics",
           "Name": "Shu-Yu Chen",
           "About": "Major in physics and interested in medicine, working on quantum information in college, hope to solve medical problems with new physics. I participate in iGEM to meet new people who are also care about medicine and interdisciplinary.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile17.png",
-          "Profession": "Dry-Lab"
+          "Profession": "Dry Lab leader & Simulation"
         },
         {
-          "Department": "醫學四",
+          "Department": "Medicine / physics",
           "Name": "Yi-Hsuan Chen",
           "About": "I want to solve the medical problem in an engineering aspect. Joining iGEM broad my vision on how biological engineering can sovle the medical issue.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Profession": "Dry-Lab"
+          "Profession": "Dry Lab Leader & Engineering Design"
         },
         {
-          "Department": "電機二",
+          "Department": "Electrical Engineering",
           "Name": "Meng Hsuan Tsai",
           "About": "iGEM creates opportunities for students with goodwill to join and make great things even better. We could try to view what a problem in the real world is and also work as a team player to solve it. I not only have a deeper insight about synthetic biology, but also focus on my own discipline. That’s why I am so addicted to iGEM, to apply everything that we learn as a team.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile4.png",
-          "Profession": "Human Practice"
+          "Profession": "Vice Leader & Dry Lab Engineering Design "
         },
         {
-          "Department": "數學三",
+          "Department": "Mathematics",
           "Name": "Hungching Chang",
           "About": "Bimajor in Mathematic and Statistic. Use the power of math to improve the harm brought by technology is my dream. And iGEM let me take a step foward to my dream.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile16.png",
-          "Profession": "Dry-Lab"
+          "Profession": "Statistical modeling"
         },
         {
-          "Department": "化工三",
+          "Department": "Chemical Engineering",
           "Name": "Doodoo Kao",
           "About": "As one of the iGEM NCKU Tainan initiator, I'm glad to enjoy this synthetic biology journey. From Wet Lab to Dry Lab, and also Human Pratice, I participated every singel part in the begining. Finally, I worked in Dry Lab - Hardware Design. As a iGEMer, I'm proud to contribute abilities to iGEM NCKU (somehow we function like synthetic bio!) and wish to enrich my best team till the end of journey. ",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Profession": "Wet-Lab"
+          "Profession": "Dry-Lab Hardware design"
         }
       ]
     },
     {
       "Information Technology": [
         {
-          "Department": "Fourth grade of Computer Science",
+          "Department": "Computer Science & Information Engineering",
           "Name": "Jingfei Yang",
           "About": "One of my hobbies is to make new friends. Besides, I love the atmosphere of teamwork Specially while they are struggling on the same goal and making big process. I have lots of experience about website and algorithm programming. Hope that I can make contributions on iGEM's website and data analysis.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile20.png",
           "Profession": "Infomation Technology"
         },
         {
-          "Department": "資訊三",
+          "Department": "Computer Science & Information Engineering",
           "Name": "Shih-Yu Chen",
           "About": " I'am double majoring in both Computer Science and Electrical Engineering, hoping to use my background knowledge to assist IGEM NCKU Team.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile18.png",
-          "Profession": "Infomation Technology"
+          "Profession": "Website Building"
         },
         {
-          "Department": "醫學三",
+          "Department": "Medicine",
           "Name": "Tim, Hsieh Ting Lin",
           "About": "As a Visual Designer , the most of my work is , well, design. However, design is not only making fancy stuff, but also playing an important role to convey ideas. iGEM provides me opportunities to communicate with people from different fields. On the other hand, it promote our creativity on synthetic biology. In my opinion, all of us are designer, we design better product for the future.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile21.png",
@@ -153,32 +153,32 @@
     {
       "Human Practice": [
         {
-          "Department": "化工三",
+          "Department": "Industrial and Information Management",
           "Name": "Raymond Hou",
           "About": "Major is not a matter, but thinking and action out of the frame is the matter. iGEM is the long experiment to see the potential of  interdiscipline and what we can do. As a multipotentialite, I like to try new things, learn from observation and make ideas reality. All the stories begin with a choice.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Profession": "CEO"
+          "Profession": "Human Practice"
         },
         {
-          "Department": "政治一",
+          "Department": "Medical Laboratory Science and Biotechnology",
           "Name": "Eva Liu",
           "About": "I am a person who would like to face the challenge , this is why i choose to join the first year of iGEM NCKU_Tainan ",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile2.png",
           "Profession": "Human Practice"
         },
         {
-          "Department": "材料一",
+          "Department": "Materials Science and Engineering",
           "Name": "Seow Heqing",
           "About": "Passionate about MSE but would like to indulge in Industrial Design too. Am a girl from a small town in M'sia came to Taiwan to pursue her dreams. Always believe that there's a tenuous link between Life and Science where a slight touch leads to a brilliant sparkle ! Therefore I join iGEM as to widen my view to a whole new field that I had never seen before at the same time meeting great people with the same vision. ",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile3.png",
           "Profession": "Human Practice"
         },
         {
-          "Department": "資訊一",
+          "Department": "Computer Science & Information Engineering",
           "Name": "Yung Chiang Cheng",
           "About": "I join in this team when I was a freshman because of the curiosity about synthetic biology and iGEM. Although I major in computer science and don't have any biology background, I will never retreat. This is a huge challenge to me, but the secret of synthetic biology quite attract me this is the power that made me conquer the difficulty on the way.",
           "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile22.png",
-          "Profession": "Intern"
+          "Profession": "Human Practice"
         }
       ]
     }
@@ -186,117 +186,39 @@
   "Attribution": [
     {
       "Experiments – Biobrick Construction": [
-        {
-          "Department": "化學三",
-          "Name": "Ying Hsin, Hong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Department": "醫學四",
-          "Name": "Chia-En Wong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Profession": "Wet-Lab"
-        },
+        "Ying Hsin, Hong",
+        "Chia-En Wong",
         "Fang Wei, Yu",
-        {
-          "Department": "化工三",
-          "Name": "Sher Wang",
-          "About": "I love challenges and doing crazy things. iGEM gives me a chance to apply what I learned from the textbook, and also allows me to explore a new field, synthetic biology. It allows us to turn lots of impossible things to reality and deal with the big issues in our world. Joining iGEM also enables me to make amazing friends, and I love to be together with them. As a team we try everything new and conquer the problems together.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Profession": "Wet-Lab"
-        }
+        "Sher Wang"
       ]
     },
     {
       "Experiments – Medium Selection": [
-        {
-          "Department": "醫學四",
-          "Name": "Chia-En Wong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Profession": "Wet-Lab"
-        },
+        "Chia-En Wong",
         "Fang Wei, Yu",
-        {
-          "Department": "基醫博一",
-          "Name": "Eric, Po-Jen Wu",
-          "About": "The game player in biological system. In NCKU_Tainan iGEM team, I want to promote the linkage from theory to the real working system in organism.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Profession": "Wet-Lab"
-        }
+        "Eric, Po-Jen Wu"
       ]
     },
     {
       "Experiments – Glucose Functional Test": [
-        {
-          "Department": "醫學四",
-          "Name": "Chia-En Wong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Department": "化工三",
-          "Name": "Sher Wang",
-          "About": "I love challenges and doing crazy things. iGEM gives me a chance to apply what I learned from the textbook, and also allows me to explore a new field, synthetic biology. It allows us to turn lots of impossible things to reality and deal with the big issues in our world. Joining iGEM also enables me to make amazing friends, and I love to be together with them. As a team we try everything new and conquer the problems together.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Department": "化學三",
-          "Name": "Ying Hsin, Hong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Profession": "Wet-Lab"
-        }
+        "Chia-En Wong",
+        "Sher Wang",
+        "Ying Hsin, Hong"
       ]
     },
     {
       "Experiments – Urine Functional Test": [
-        {
-          "Department": "醫學四",
-          "Name": "Chia-En Wong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Department": "醫學三",
-          "Name": "Tim, Hsieh Ting Lin",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Profession": "Design"
-        },
-        {
-          "Department": "化工三",
-          "Name": "Sher Wang",
-          "About": "I love challenges and doing crazy things. iGEM gives me a chance to apply what I learned from the textbook, and also allows me to explore a new field, synthetic biology. It allows us to turn lots of impossible things to reality and deal with the big issues in our world. Joining iGEM also enables me to make amazing friends, and I love to be together with them. As a team we try everything new and conquer the problems together.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Profession": "Wet-Lab"
-        },
+        "Chia-En Wong",
+        "Tim, Hsieh Ting Lin",
+        "Sher Wang",
         "Fang-Wei, Yu"
       ]
     },
     {
       "Experiments – Safety System": [
-        {
-          "Department": "基醫博一",
-          "Name": "Eric, Po-Jen Wu",
-          "About": "The game player in biological system. In NCKU_Tainan iGEM team, I want to promote the linkage from theory to the real working system in organism.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Profession": "Wet-Lab"
-        },
+        "Eric, Po-Jen Wu",
         "Chia-En Wong",
-        {
-          "Department": "化學三",
-          "Name": "Ying Hsin, Hong",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Profession": "Wet-Lab"
-        }
+        "Ying Hsin, Hong"
       ]
     },
     {
@@ -304,13 +226,7 @@
         "Chia-En Wong",
         "Sher Wang",
         "Meng Hsuan Tsai",
-        {
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Profession": "Dry-Lab"
-        }
+        "Yi-Hsuan Chen"
       ]
     },
     {
@@ -325,13 +241,7 @@
     },
     {
       "Dry Lab –  Engineering Design": [
-        {
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Profession": "Dry-Lab"
-        },
+        "Yi-Hsuan Chen ",
         "Meng Hsuan Tsai"
       ]
     },
@@ -340,132 +250,48 @@
         "Chia-En Wong",
         "Sher Wang",
         "Meng Hsuan Tsai",
-        {
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Profession": "Dry-Lab"
-        },
-        {
-          "Department": "化工三",
-          "Name": "Doodoo Kao",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Profession": "Wet-Lab"
-        },
-        "盧明庚",
+        "Yi-Hsuan Chen ",
+        "Doodoo Kao",
+        "Alex Lu",
         "Fang-Wei, Yu"
       ]
     },
     {
       "Presentation and Poster": [
-        {
-          "About": "",
-          "Name": "Lecturer Ching-Yi Yeh",
-          "img": "/wiki/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png",
-          "學歷": "劍橋大學第二語言教育研究哲學　碩士",
-          "現職": "成功大學外文系教師"
-        },
-        {
-          "Department": "材料一",
-          "Name": "Seow Heqing",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile3.png",
-          "Profession": "Human Practice"
-        },
-        {
-          "Department": "化工三",
-          "Name": "Doodoo Kao",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Profession": "Wet-Lab"
-        },
+        "Lecturer Ching-Yi Yeh",
+        "Seow Heqing",
+        "Doodoo Kao",
         "Fang-Wei, Yu",
         "Meng Hsuan Tsai",
-        {
-          "Department": "化工三",
-          "Name": "Raymond Hou",
-          "About": "Major is not a matter, but thinking and action out of the frame is the matter. iGEM is the long experiment to see the potential of  interdiscipline and what we can do. As a multipotentialite, I like to try new things, learn from observation and make ideas reality. All the stories begin with a choice.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Profession": "CEO"
-        },
-        {
-          "Department": "醫學三",
-          "Name": "Tim, Hsieh Ting Lin",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Profession": "Design"
-        }
+        "Raymond Hou",
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Visual Design": [
-        {
-          "Department": "醫學三",
-          "Name": "Tim, Hsieh Ting Lin",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Profession": "Design"
-        }
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Wiki": [
-        {
-          "Department": "醫學三",
-          "Name": "Tim, Hsieh Ting Lin",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Profession": "Design"
-        },
-				"Chi-Hsuan, Huang",
+        "Chi-Hsuan, Huang",
 				"Jingfei Yang",
-				"Shih-Yu Chen"
+				"Shih-Yu Chen",
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Human Practice and Policies": [
-        {
-          "Department": "材料一",
-          "Name": "Seow Heqing",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile3.png",
-          "Profession": "Human Practice"
-        },
+        "Seow Heqing",
         "Meng Hsuan Tsai",
-        {
-          "Department": "政治一",
-          "Name": "Eva Liu",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile2.png",
-          "Profession": "Human Practice"
-        },
-        {
-          "Department": "化工三",
-          "Name": "Raymond Hou",
-          "About": "Major is not a matter, but thinking and action out of the frame is the matter. iGEM is the long experiment to see the potential of  interdiscipline and what we can do. As a multipotentialite, I like to try new things, learn from observation and make ideas reality. All the stories begin with a choice.",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Profession": "CEO"
-        },
-        {
-          "Department": "資訊一",
-          "Name": "Yung Chiang Cheng",
-          "About": "",
-          "img": "/wiki/images/members/T--NCKU_Tainan--iGEMSquareProfile22.png",
-          "Profession": "Intern"
-        }
+        "Eva Liu",
+        "Raymond Hou",
+        "Yung Chiang Cheng"
       ]
     },
     {
       "Fund Raising": [
-        {
-          "About": "",
-          "Name": "Prof. Grace, I-Son Ng",
-          "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor1.png",
-          "學歷": "國立成功大學化學工程　博士",
-          "現職": "成功大學化工系助理教授"
-        }
+        "Prof. Grace, I-Son Ng"
       ]
     }
   ]

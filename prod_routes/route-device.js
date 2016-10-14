@@ -11,7 +11,10 @@ module.exports = [
 			fig1: "/wiki/images/8/88/T--NCKU_Tainan--deviceSW1.png",
 			fig2: "/wiki/images/c/c7/T--NCKU_Tainan--deviceSW2.png",
 			fig3a: "/wiki/images/9/96/T--NCKU_Tainan--deviceSW3a.png",
-			fig3b: "/wiki/images/6/65/T--NCKU_Tainan--deviceSW3b.png"
+			fig3b: "/wiki/images/6/65/T--NCKU_Tainan--deviceSW3b.png",
+			fig4: "/wiki/images/4/45/T--NCKU_Tainan--deviceSW4.jpg",
+			fig5: "/wiki/images/6/61/T--NCKU_Tainan--deviceSW5.jpg",
+			fig6: "/wiki/images/4/48/T--NCKU_Tainan--deviceSW6.png"
     },
     layout:  "./view/Device/software.hbs",
     filename: "./product/Software.html"
@@ -39,8 +42,12 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Demo_css" + typecss,
+			img1: "/wiki/images/8/8e/T--NCKU_Tainan--deviceDM1.png",
 			video2: "/wiki/images/5/55/T--NCKU_Tainan--UrineCollector.mp4",
+			video3: "/wiki/images/f/ff/T--NCKU_Tainan--StructureUKNOW1.mp4",
+			video4: "/wiki/images/a/a8/T--NCKU_Tainan--StructureUKNOW2.mp4",
+			video5: "/wiki/images/b/b3/T--NCKU_Tainan--StructureUKNOW3.mp4",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Demo_css" + typecss,
     },
     layout:  "./view/Device/demonstrate.hbs",
     filename: "./product/Demonstrate.html"
