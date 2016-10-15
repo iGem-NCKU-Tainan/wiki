@@ -30,7 +30,6 @@ h1,h2,h3,h4,h5,h6{ overflow: auto; }
 	#line-left {
 		border-right: 15px solid $yellow;
 		height: 475px;
-		margin-top: -135px;
 		position: absolute;
 		left: 0;
 	}
@@ -38,14 +37,13 @@ h1,h2,h3,h4,h5,h6{ overflow: auto; }
 	#line-right {
 		border-left: 15px solid $yellow;
 		height: 475px;
-		margin-top: 217px;
+		margin-top: 352px;
 		position: absolute;
 		right: 0;
 	}
 
 	#photo-left {
 		width: 60%;
-		margin-top: -135px;
 		height: 390px;
 		background-size: cover;
 		background-repeat: no-repeat;

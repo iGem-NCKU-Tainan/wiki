@@ -25,10 +25,19 @@ $(window).on('load', function(){
 
   /* container */
   checkContainer();
+	changeContainerBig();
 
   var HQ = document.getElementById('HQ_page');
   if (HQ) HQ.id = '';
 });
+
+window.addEventListener('resize', changeContainerBig);
+
+function changeContainerBig(){
+	var Top = document.getElementsByClassName("head")[0].offsetTop;
+	console.log(Top);
+	document.getElementById("container-big").style.top = Top+"px";
+}
 
 function checkContainer(){
   var container = document.getElementsByClassName('content')[0];
