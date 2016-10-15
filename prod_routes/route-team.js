@@ -32,6 +32,13 @@ module.exports = [
       img: "",
       description: "",
       css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Attributions_css" + typecss,
+      imgDiamond: "/wiki/images/8/8f/T--NCKU_Tainan--sponsorDiamond.png",
+      imgMicroBio: "/wiki/images/2/29/T--NCKU_Tainan--sponsorMicroBio.png",
+      imgDow: "/wiki/images/5/59/T--NCKU_Tainan--sponsorDow.png",
+      imgNCKU: "/wiki/images/0/0c/T--NCKU_Tainan--sponsorNCKU.png",
+      imgGeneOnline: "/wiki/images/d/dc/T--NCKU_Tainan--sponsorGeneOnline.png",
+      imgIDT: "/wiki/images/8/8e/T--NCKU_Tainan--sponsorIDT.png",
+      imgMathWorks: "/wiki/images/3/36/T--NCKU_Tainan--sponsorMathWorks.svg",
     },
     layout:  "./view/Team/acknowledgement.hbs",
     filename: "./product/Acknowledgement.html"
