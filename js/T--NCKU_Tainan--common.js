@@ -79,10 +79,12 @@ function updateColsHeight(col1, col2) {
 
 function onScroll() {
   if (submenu) updateSubMenu();
-  if (sidemenu) updateSideMenu();
+  if (sidemenu) {
+		updateSideMenu();
+  	checkSideMenu();
+	}
   getDirection($(this));
   checkContainer();
-  checkSubMenu();
 }
 
 function getDirection(emt) {
@@ -155,7 +157,7 @@ function toEvent(section){
   return false;
 }
 
-function checkSubMenu(){
+function checkSideMenu(){
   var emt = document.getElementsByClassName('title-line');
   var li = document.getElementById('sidemenu').getElementsByTagName('li');
   var height = window.innerHeight
