@@ -126,7 +126,8 @@ li .dropdown-menu {
 }
 // adjust `Notebook` submenu
 .navbar-nav > li:nth-child(6) .dropdown-menu {
-  left: -200px;
+  left: -300px;
+	width: 650px;
 }
 
 #content h1 {
@@ -195,7 +196,7 @@ li .dropdown-menu {
 
     .navbar-nav > li > .dropdown-menu {
       top: -40px;
-			width: 600px;
+			width: 650px;
       li > a {
         font-size: 14px;
 				&::before {

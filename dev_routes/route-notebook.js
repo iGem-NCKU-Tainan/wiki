@@ -81,13 +81,13 @@ module.exports = [
   },
  {
     data: {
-      title: "Notebook Modeling - iGEM NCKU",
+      title: "Notebook Model - iGEM NCKU",
       url: "",
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
     },
-    layout:  "./view/Notebook/modeling.hbs",
-    filename: "./docs/Notebook/modeling.html"
+    layout:  "./view/Notebook/model.hbs",
+    filename: "./docs/Notebook/model.html"
   },
  ];
