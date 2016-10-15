@@ -17,6 +17,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
     },
     layout:  "./view/Notebook/construction.hbs",
     filename: "./docs/Notebook/construction.html"
