@@ -18,7 +18,7 @@ $(window).on('load', function(){
     submenu.parentElement.classList.add('open');
     submenuWidth = submenu.offsetWidth;
     var children = submenu.children;
-    if (children.length >= currentMenu.subNum) {
+    if (children.length > currentMenu.subNum) {
       children[currentMenu.subNum].classList.add('current-menu');
     }
   }
@@ -35,8 +35,7 @@ window.addEventListener('resize', changeContainerBig);
 
 function changeContainerBig(){
 	var Top = document.getElementsByClassName("head")[0].offsetTop;
-	console.log(Top);
-	document.getElementById("container-big").style.top = Top+"px";
+	document.getElementById("container-big").style.top = (Top-20)+"px";
 }
 
 function checkContainer(){
@@ -114,7 +113,7 @@ function getCurrentMenu() {
     2: ['Medal', 'Safety'],
     3: ['Team', 'Attribution', 'Acknowledgement', 'Collaboration'],
     4: ['Human', 'Integrated', 'Engagement'],
-    5: ['Construction', 'Functional', 'Design', 'Protocols']
+    5: ['Construction', 'Functional', 'Design', 'Protocols', 'notebookModel']
   };
 
   for(var index in submenuAr) {

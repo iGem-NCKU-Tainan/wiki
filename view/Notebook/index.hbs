@@ -6,25 +6,23 @@
   <body>
     {{> header }}
 		<style>
-			#photo-left { background-image: url("{{sample2}}"); }
+			#photo-left { background-image: url("{{cover}}"); }
 			#line-left2, #line-right { display: none; }
-			.intro,li { margin: 20px 0; }
+			.intro,.intro li { margin: 20px 0; }
 		</style>
 		<div class="container-fluid" style="margin-top:100px">
 				<div class="head">NOTEBOOK / Overview</div>
 				<div class="content row">
 					<div class="col-md-9">
 						<div class="head2">Notebook - Overview</div>
-						<div class="intro">We divide our record - notebook into four parts:</div>
+						<div class="intro">We divide our record - notebook into five parts:</div>
 						<ol>
 							<li><a href="{{notebookConstruction}}">Construction</a></li>
 							<li><a href="{{notebookFunctional}}">Functional Test</a></li>
 							<li><a href="{{notebookDevice}}">Device Design</a></li>
 							<li><a href="{{notebookProtocol}}">Protocols</a></li>
-							<li><a href="{{notebookModeling}}">Modeling</a></li>
+							<li><a href="{{notebookModel}}">Model</a></li>
 						</ol>
-					</div>
-					<div class="col-md-3">
 					</div>
 				</div>
 		</div> <!-- /.container-fluid -->

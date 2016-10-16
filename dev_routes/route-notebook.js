@@ -6,6 +6,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--Notebook.png",
     },
     layout:  "./view/Notebook/index.hbs",
     filename: "./docs/Notebook/index.html"
@@ -18,6 +19,7 @@ module.exports = [
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
 			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--Construction.png",
     },
     layout:  "./view/Notebook/construction.hbs",
     filename: "./docs/Notebook/construction.html"
@@ -29,6 +31,8 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--Functional.png",
     },
     layout:  "./view/Notebook/functional_test.hbs",
     filename: "./docs/Notebook/functional_test.html"
@@ -40,6 +44,8 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--DeviceDesign.png",
       fig1: "/wiki/images/Notebook/T--NCKU_Tainan--notebook5.png",
       fig2: "/wiki/images/Notebook/T--NCKU_Tainan--notebook6.png",
       fig3: "/wiki/images/Notebook/T--NCKU_Tainan--notebook7.png",
@@ -72,6 +78,8 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--Protocols.png",
 			fig1: "/wiki/images/Notebook/T--NCKU_Tainan--notebook1.png",
 			fig2: "/wiki/images/Notebook/T--NCKU_Tainan--notebook2.png",
 			fig3: "/wiki/images/Notebook/T--NCKU_Tainan--notebook3.png",
@@ -87,8 +95,10 @@ module.exports = [
       img: "",
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Notebook.css",
+			js: "/wiki/js/T--NCKU_Tainan--Notebook.js",
+			cover: "/wiki/images/cover/T--NCKU_Tainan--notebookModel.png",
     },
     layout:  "./view/Notebook/model.hbs",
-    filename: "./docs/Notebook/model.html"
+    filename: "./docs/Notebook/notebookModel.html"
   },
  ];
