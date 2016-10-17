@@ -21,11 +21,7 @@ module.exports = [
 			cover: "/wiki/images/cover/T--NCKU_Tainan--Safety.png",
 			ref3: "/wiki/ref/T--NCKU_Tainan--ref3.pdf",
 			ref4: "/wiki/ref/T--NCKU_Tainan--ref4.pdf",
-			image0: "/wiki/images/judging/T--NCKU_Tainan--safety0.jpg",
-			image1: "/wiki/images/judging/T--NCKU_Tainan--safety1.jpg",
-			image2: "/wiki/images/judging/T--NCKU_Tainan--safety2.jpg",
-			image3: "/wiki/images/judging/T--NCKU_Tainan--safety3.jpg",
-			image4: "/wiki/images/judging/T--NCKU_Tainan--safety4.jpg",
+			image0: "/wiki/images/judging/T--NCKU_Tainan--safety5.png",
     },
     layout:  "./view/judging/safety.hbs",
     filename: "./docs/judging/safety.html"
