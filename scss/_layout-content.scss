@@ -171,6 +171,9 @@ pre code {
 	b {
 		color: red;
 	}
+	p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 

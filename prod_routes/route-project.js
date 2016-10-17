@@ -44,6 +44,8 @@ module.exports = [
       img7: '/wiki/images/2/26/T--NCKU_Tainan--image007.png',
       img8: '/wiki/images/e/e9/T--NCKU_Tainan--image008.png',
       img14: '/wiki/images/b/bd/T--NCKU_Tainan--image014.png',
+      img15: '/wiki/images/c/c2/T--NCKU_Tainan--image015.png',
+			img16: '/wiki/images/e/e6/T--NCKU_Tainan--image016.png'
     },
     layout:  "./view/Project/results.hbs",
     filename: "./product/Results.html"
