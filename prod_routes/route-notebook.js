@@ -1,4 +1,5 @@
 var typecss = '?ctype=text/css&action=raw';
+var typejs = '?ctype=text/javascript&action=raw';
 
 module.exports = [
  {
@@ -7,7 +8,8 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-        css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			cover: "/wiki/images/9/9a/T--NCKU_Tainan--Notebook.png"
     },
     layout:  "./view/Notebook/index.hbs",
     filename: "./product/Notebook"
@@ -18,7 +20,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-        css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			js: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--Notebook_js" + typejs,
+			cover: "/wiki/images/0/0c/T--NCKU_Tainan--Construction.png"
     },
     layout:  "./view/Notebook/construction.hbs",
     filename: "./product/Notebook_Construction.html"
@@ -29,7 +33,9 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-        css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			js: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--Notebook_js" + typejs,
+			cover: "/wiki/images/c/cb/T--NCKU_Tainan--Functional.png",
     },
     layout:  "./view/Notebook/functional_test.hbs",
     filename: "./product/Notebook_Functional_Test.html"
@@ -40,7 +46,8 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-        css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			js: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--Notebook_js" + typejs,
       cover: "/wiki/images/d/d8/T--NCKU_Tainan--notebookdevicecover.png",
       fig1: "/wiki/images/e/e9/T--NCKU_Tainan--notebook5.png",
       fig2: "/wiki/images/a/a7/T--NCKU_Tainan--notebook6.png",
@@ -72,14 +79,29 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-        css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
-            fig1: "/wiki/images/c/c1/T--NCKU_Tainan--notebook1.png",
-            fig2: "/wiki/images/4/4d/T--NCKU_Tainan--notebook2.png",
-            fig3: "/wiki/images/d/d9/T--NCKU_Tainan--notebook3.png",
-            fig4: "/wiki/images/a/a7/T--NCKU_Tainan--notebook4.png"
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			js: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--Notebook_js" + typejs,
+			cover: "/wiki/images/9/91/T--NCKU_Tainan--Protocols.png",
+      fig1: "/wiki/images/c/c1/T--NCKU_Tainan--notebook1.png",
+      fig2: "/wiki/images/4/4d/T--NCKU_Tainan--notebook2.png",
+      fig3: "/wiki/images/d/d9/T--NCKU_Tainan--notebook3.png",
+      fig4: "/wiki/images/a/a7/T--NCKU_Tainan--notebook4.png"
     },
     layout:  "./view/Notebook/protocols.hbs",
     filename: "./product/Notebook_Protocols.html"
+  },
+ {
+    data: {
+      title: "Notebook Model - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+      css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Notebook_css" + typecss,
+			js: "/Team:NCKU_Tainan/js/T--NCKU_Tainan--Notebook_js" + typejs,
+			cover: "/wiki/images/5/54/T--NCKU_Tainan--notebookModel.png"
+    },
+    layout:  "./view/Notebook/model.hbs",
+    filename: "./product/Notebook_Model.html"
   },
  ];
 

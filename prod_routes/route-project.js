@@ -3,11 +3,12 @@ var typecss = '?ctype=text/css&action=raw';
 module.exports = [
   {
     data: {
-      title: "Project Overview - iGEM NCKU",
+      title: "Project Background - iGEM NCKU",
       url: "",
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/7/7f/T--NCKU_Tainan--Background.png",
     	diabetes1: "/wiki/images/c/c6/T--NCKU_Tainan--projDiabetes1.png",
     	diabetes2: "http://2016.igem.org/wiki/images/a/a8/T--NCKU_Tainan--projDiabetes2.jpg",
     },
@@ -21,6 +22,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/f/f3/T--NCKU_Tainan--Description.png",
 			fig1: "/wiki/images/5/5c/T--NCKU_Tainan--projDes1.jpg",
 			fig2: "/wiki/images/1/1b/T--NCKU_Tainan--projDes2.png"
     },
@@ -34,6 +36,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/6/6f/T--NCKU_Tainan--Results.png",
 			img0: "/wiki/images/e/ea/T--NCKU_Tainan--image000.png",
       img1: '/wiki/images/9/91/T--NCKU_Tainan--image001.png',
       img2: '/wiki/images/2/21/T--NCKU_Tainan--image002.png',
@@ -57,6 +60,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/7/7e/T--NCKU_Tainan--Measurement.png",
       img6: '/wiki/images/7/7f/T--NCKU_Tainan--image006.png',
       img8: '/wiki/images/8/89/T--NCKU_Tainan--project-modeling-fitting-image5.png'
     },
@@ -70,6 +74,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/4/40/T--NCKU_Tainan--Model.png",
 			image1: "/wiki/images/8/89/T--NCKU_Tainan--project-modeling-fitting-image5.png",
 			image4: "/wiki/images/c/c0/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
 			image5: "/wiki/images/0/04/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
@@ -85,6 +90,7 @@ module.exports = [
       img: "",
       description: "",
       cssModeling: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Model_css" + typecss,
+			cover: "/wiki/images/c/c9/T--NCKU_Tainan--Stat.png",
 			image1: "/wiki/images/c/c0/T--NCKU_Tainan--project-modeling-statistic-image1.jpg",
 			image2: "/wiki/images/0/04/T--NCKU_Tainan--project-modeling-statistic-image2.jpg",
 			image3: "/wiki/images/a/a3/T--NCKU_Tainan--project-modeling-statistic-image3.jpg",
@@ -115,6 +121,7 @@ module.exports = [
       img: "",
       description: "",
       cssModeling: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Model_css" + typecss,
+			cover: "/wiki/images/e/eb/T--NCKU_Tainan--Fitting.png",
 			image1: "/wiki/images/b/b7/T--NCKU_Tainan--project-modeling-fitting-image1.jpg",
 			image2: "/wiki/images/f/f7/T--NCKU_Tainan--project-modeling-fitting-image2.jpg",
 			image3: "/wiki/images/0/08/T--NCKU_Tainan--project-modeling-fitting-image3.jpg",
@@ -131,6 +138,7 @@ module.exports = [
       img: "",
       description: "",
       cssParts: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Parts_css" + typecss,
+			cover: "/wiki/images/3/34/T--NCKU_Tainan--Parts.png"
     },
     layout:  "./view/Project/parts.hbs",
     filename: "./product/Parts.html"

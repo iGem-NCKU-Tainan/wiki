@@ -67,9 +67,9 @@ var commonData = {
 	notebookFunctional: '/Team:NCKU_Tainan/Notebook_Functional_Test',
 	notebookDevice: '/Team:NCKU_Tainan/Notebook_Device_Design',
 	notebookProtocol: '/Team:NCKU_Tainan/Notebook_Protocols',
+  notebookModel: '/Team:NCKU_Tainan/Notebook_Model',
   judgingMedal: '/Team:NCKU_Tainan/Medal',
   judgingSafety: '/Team:NCKU_Tainan/Safety',
-  sample2: "/wiki/images/c/c1/T--NCKU_Tainan--sample2.jpg",
 };
 
 

@@ -9,6 +9,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Team_css" + typecss,
+			cover: "/wiki/images/7/76/T--NCKU_Tainan--Team.png",
       member: teamData.Member
     },
     layout:  "./view/Team/index.hbs",
@@ -21,6 +22,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Attributions_css" + typecss,
+			cover: "/wiki/images/9/90/T--NCKU_Tainan--Attributions.png"
     },
     layout:  "./view/Team/attributions.hbs",
     filename: "./product/Attributions.html"
@@ -32,6 +34,7 @@ module.exports = [
       img: "",
       description: "",
       css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Attributions_css" + typecss,
+			cover: "/wiki/images/2/22/T--NCKU_Tainan--Acknowledgement.png",
       imgDiamond: "/wiki/images/8/8f/T--NCKU_Tainan--sponsorDiamond.png",
       imgMicroBio: "/wiki/images/2/29/T--NCKU_Tainan--sponsorMicroBio.png",
       imgDow: "/wiki/images/5/59/T--NCKU_Tainan--sponsorDow.png",
@@ -50,6 +53,7 @@ module.exports = [
       img: "",
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			cover: "/wiki/images/0/06/T--NCKU_Tainan--Collaborations.png",
 			fig1: "/wiki/images/d/d8/T--NCKU_Tainan--collaborations1.jpg",
 			fig2: "/wiki/images/8/8f/T--NCKU_Tainan--collaborations2.jpg",
     },
