@@ -7,7 +7,7 @@ module.exports = [
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
 			cover: "/wiki/images/cover/T--NCKU_Tainan--Software.png",
-			fig1: "/wiki/images/Device/T--NCKU_Tainan--deviceSW1.png",
+      fig1: "/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.png",
 			fig2: "/wiki/images/Device/T--NCKU_Tainan--deviceSW2.png",
 			fig3a: "/wiki/images/Device/T--NCKU_Tainan--deviceSW3a.png",
 			fig3b: "/wiki/images/Device/T--NCKU_Tainan--deviceSW3b.png",
