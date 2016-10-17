@@ -21,18 +21,18 @@
     {
       "Instructors": [
         {
-          "About": "I have taught in junior high school for 7 years, further and higher education at NCKU. Being an English lecturer at NCKU offers me many opportunities to collaborate with a lot of experts from different professions. Through the 7-year ESP teaching, I’ve been actively involved in industrial technology, career development, basic civil engineering, and biotechnology.  I, currently, am working on the project of English as a medium of instruction (EMI) and co-working with this cross-disciplinary team, iGEM NCKU, Tainan.",
-          "Name": "Lecturer Ching-Yi Yeh",
-          "img": "/wiki/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png",
-          "Prof": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
-          "Department": "Foreign Language Department"
-        },
-        {
           "About": "Professor Jo-Shu Chang is a Chair Professor of Department of Chemical Engineering at National Cheng Kung University, Taiwan. He received his Ph.D. degree in 1993 from University of California, Irvine. He owns numerous academic awards and is fellow of AIMBE. His recent research focuses on microalgae biofuels/biorefinery using system biology.",
           "Name": "Chair Prof. Jo-Shu Chang",
           "img": "/wiki/images/instructors/T--NCKU_Tainan--instructor2.png",
           "Prof": "美國加州大學Irvine分校化工暨生化　博士",
           "Department": "Chemical Engineering"
+        },
+        {
+          "About": "I have taught in junior high school for 7 years, further and higher education at NCKU. Being an English lecturer at NCKU offers me many opportunities to collaborate with a lot of experts from different professions. Through the 7-year ESP teaching, I’ve been actively involved in industrial technology, career development, basic civil engineering, and biotechnology.  I, currently, am working on the project of English as a medium of instruction (EMI) and co-working with this cross-disciplinary team, iGEM NCKU, Tainan.",
+          "Name": "Lecturer Ching-Yi Yeh",
+          "img": "/wiki/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png",
+          "Prof": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
+          "Department": "Foreign Language Department"
         }
       ]
     },
