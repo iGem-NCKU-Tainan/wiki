@@ -6,7 +6,7 @@ html,body {
 	color: $text;
   -webkit-font-smoothing: antialiased;
   font-family: 'NotoSansCJKtc-Regular', 'Noto Sans', "微軟雅黑","Microsoft YaHei", Helvetica, 'sans-serif';
-	p {
+	p,li {
 		font-size: 16px;
 	}
 }

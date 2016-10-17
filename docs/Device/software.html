@@ -11,10 +11,15 @@
 				<div class="content row">
 					<div class="col-md-9">
 						<div class="head2">Software</div>
-						<div class="title-line" id="analysis">Automatically Analysis</div>
-						<p>In order to make U.coli works automatically, we develop software that can calculate the data obtained by our device and translate into the glucose concentration with a user-friendly interface.</p>
-						<p>The logic of the code is as follow: Calculating the production rate whenever a new data is inputted, when the production rate starts to decline, automatically find out the value production rate and calculate the corresponding glucose concentration value by the formula we introduce in <a href="/wiki/Project/Model_Fitting_Theory">model.</a></p>
-						<p>The result can be divided into three parts: Safe, In danger and Emergency. As you can see in <a href="#fig1" onclick="return toEvent('fig1');">Figure 1</a>, when glucose concentration is between 1 mM and 30 mM, our device can numerically report the glucose concentration with mean value and standard deviation, see <a href="#fig2" onclick="return toEvent('fig2');">Figure 2</a>. </p>
+						<div class="title-line long" id="analysis"></div>
+						<div class="title-content">Automatically Analysis</div>
+						<p>In order to make U.coli work automatically, we developed the software  to calculate the data obtained by our device and translate them into the glucose concentrations with a user-friendly interface.</p>
+						<p>The logic of the coding process is as follows:
+							</p><ol><li>It  calculates the production rate whenever a new data is fed</li>
+							<li>When the production rate starts to decline, the software automatically finds out the maximum value production rate which is as the steady state.</li>
+							<li>After knowing the value production rate, it calculates the corresponding glucose concentration value by the formula we introduce in&nbsp;<a href="/wiki/Project/modeling">model</a>.</li></ol><p></p>
+						<p>Then,  the result can be divided into three parts: Safe, In danger and Emergency. As you can see in&nbsp;<a href="#fig1" onclick="return toEvent('fig1');">Figure 1</a>, when glucose concentration is between 1 mM and 30 m&lt;, our device can numerically report the glucose concentration with  a mean value and standard deviation (see&nbsp;<a href="#fig2" onclick="return toEvent('fig2');">Figure 2</a>).</p>
+							
 						<div id="fig1" class="img">
 							<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW1.png">
 							<div>Figure 1, The fitting curve of U.coli show the range we can calculate numerically.</div>
@@ -23,13 +28,13 @@
 							<img id="fig2" src="/wiki/images/Device/T--NCKU_Tainan--deviceSW2.png">
 							<div>Figure 2, Report when the result of concentration in the calculable range (1 mM ~ 30 mM), the bottom graph shows the user condition.</div>
 						</div>
-						<p>If the concentrate is outside of this range, the software will report ‘‘Safe” if the concentration is too low or ‘‘Emergency’’ if the concentration is too high, see <a href="#fig3" onclick="return toEvent('fig3');">Figure 3</a>.</p>
+						<p>When the concentrate  exceeds the  range, (number of the range), the software can report the state as "Safe". On the other hans, the device would show “Emergency” whenthe concentration is abnormal,  too low or "Emergency" if the concentration is too high, see&nbsp;<a href="#fig3" onclick="return toEvent('fig3');">Figure 3</a>.</p>
 						<div id="fig3" class="img" style="text-align:left">
 							(a)<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW3a.png">
 							(b)<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW3b.png">
 							<div style="text-align:center">Figure 3, Report when the result of concentration detection (a) is larger than 30 mM and (b) or lower than 1 mM.</div>
 						</div>
-						<p>By using this code, we can let computer automatically analysis the data and give a report weekly so that our user can adjust their life style by knowing the body condition.</p>
+						<p>This code allows the computer automatically analyzing the data and giving  a report to help  our users  adjust their life style by knowing the body condition.</p>
 						<pre><code class="matlab">clear all
 close all
 clc
@@ -161,16 +166,17 @@ end
 						</code></pre>
 
 						<div class="title-line" id="visual">Visualized Data</div>
-						<p>To visualize our data better, we design an app on smart device or on a screen to display the result from U-KNOW. The data is synchronized with the processor of Arduino which is We bring U-KNOW to people’s daily lives and make it available for everyone of us to have an easy access to embrace simple diabetes monitoring.</p>
+						<p>To visualize our data better, we designed an app applicable to the smart devices and  displays  which visualize the result from U-KNOW. The data is synchronized with the processor of Arduino. With the simple I/O Arduino user interface,  we bring U-KNOW to people’s daily lives and make it available for everyone to have an easy access to embrace simple diabetes monitoring.</p>
+
 						<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW4.jpg">
-						<p>By using App Inventor, we can easily code the app. We don’t want U-KNOW confined to the people who have engineering background. Moreover, we want to serve those who are in need that they can try to be a user even if they don’t have strong background to achieve their maker dreams. By moving these blocks, app inventor is an easy way for coding basics.</p>
+						<p>Also,  by using App Inventor, we can easily code the app. It brings out one additional benefit. People who are interested to make their own U-KNOW can easily find the open resources and produce one for themselves. Even if they don’t possess strong engineering background, they are still able to be a marker. By moving these blocks,  App inventor is an easy way to provide those makers the coding basics.</p>
 						<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW5.jpg">
-						<p>The tool we chose, App Inventor, is an open source which allows us to embrace this technology without much barriers. We are open to any more improvement. Using Arduino and app inventor, as an open source, allows anyone to build new and interesting hardware and software that leverage U-know technology and data.</p>
+						<p>App Inventor is an open source which allows us to adopting this technology without many barriers. Using Arduino and App inventor, as open sources, enable people to build the new and innovative hardware and software that leverage this emerging technology.</p>
 						
 						<div class="title-line" id="function">Processing Function</div>
 						<img src="/wiki/images/Device/T--NCKU_Tainan--deviceSW6.png">
-						<p>Assembling our Arduino, we use it to trigger the whole system and even digitalize bio-signals. We use light sensitive resistor to transform the bio-signal into digital signal so that we can synchronize the data with the screen and smart device by Bluetooth.</p>
-						<p>By using this code, we can let computer automatically initiate the process and complete the function of Arduino. Below is the code that functions U-KNOW.</p>
+						<p>Assembling our Arduino, we use it to trigger the whole system and even digitalize bio-signals.  A light sensitive resistor is adopted to transform the bio-signal into digital signal so that we can synchronize the data with the displays and smart device by Bluetooth.</p>
+						<p>The computer can automatically initiate the process and complete the function of Arduino in terms of codes. Below is the code to function U-KNOW.</p>
 						<pre><code class="C++">/* 
 
 This is the code of our arduino device
