@@ -11,61 +11,60 @@
                     <div class="col-md-9">
                   <div class="head2">Model: Fitting Theory</div>
                   <div class="title-line" id="intro">Introduction</div>
-                  <p>U.coli uses promoter Pl, which can be inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process that glucose induces the promoter is not a direct process, there are a lot of compound involve in it and form a network.</p>
+                  <p>U.coli uses promoter Pl, inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process for this glucose-induced promoter is not a direct process, there are a lot of compounds involving and to form a network.</p>
+                  <p>There are two main system in this process: glucose digest system and CRP activation system. The two are competitive to each other.</p>
+                  <p>When glucose is added, some related compounds decrease in the reaction chain which reduce the concentration of activated CRP. Then, the promoter PI inhibited by CRP initiates the transcription of the gene and enhances the gene’s expression.</p>
+                  <p>The downstream genes can be expressed more explicitly by PI, the CRP inhibited promoter.</p>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
-                    <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
+                    <div>Fig 1 , the network of induction of glucose induced promoter Pl.</div>
                   </div>
-                  <p> This network is composed of two main systems: glucose digest system and CRP activation system, which are competitive to each other. </p>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
                     <div>Fig2, Two different pathway in the network.</div>
                   </div>
-                  <p> When glucose is added, some related compound will decrease during the reaction chain, and finally the concentration of activated CRP will also decrease, which means the CRP inhibited promoter Pl can express more following gene with the addition of glucose.</p>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image3.jpg">
                     <div>Fig3, The overall impact when glucose is added.</div>
                   </div>
-                  <p>Obviously, the concentration of adding glucose and the activated CRP have negative correlation. But if we want to assay the concentration of inputted glucose numerically, we have to derive a formula base on these chemical pathways.</p>
+                  <p>In other words, the increased concentration by adding glucose and the activated CRP have a negative response. But if we want to assay the concentration of the added glucose numerically, we have to derive a formula based on the two networks.</p>
                   <br><br><br>
                   <div class="title-line" id="theory">Theory</div>
-                  <p>According to <a href="#ref" onclick="return toEvent('ref');">reference (1)</a> we can list the following reaction to simply represent the reaction chain involve in the whole process.</p>
+                  <p>According to <a href="#ref" onclick="return toEvent('ref');">reference (1)</a>, we can list the following reaction to simply represent the reaction chain involve in the whole process.</p>
                   <br>
                   <p class="center">$$(PEP-Pi)+E1\leftrightarrow PEP+(E1-Pi)$$</p>
                   <p class="center">$$(E_1-Pi)+HPr\leftrightarrow E_1+(HPr-Pi)$$</p>
                   <p class="center">$$(HPr-Pi)+E2A\leftrightarrow (E2A-Pi)+HPr$$</p>
-                  <p> when glucose participate:</p>
+                  <p> when glucose is added:</p>
                   <p class="center">$$(E2A-Pi)+E2B\leftrightarrow E2A+(E2B-Pi)\ \ \ \ \ \ \ \ ---(A)$$</p>
                   <p class="center">$$(E2B-Pi)+Glucose\overset{E2C}{\rightarrow} E2B+G6P\ \ \ \ \ \ \ \ ---(B)$$</p>
                   <p class="center">$$G6P\underset{Respiration}{\rightarrow}Energy\ \ \ \ \ \ \ \ ---(C)$$</p>
                   <br>
-                  <p> when glucose absence:</p>
+                  <p>The CRP inhibiting pathway:</p>
                   <p class="center">$$(E2A-Pi)+AC\leftrightarrow E2A+(AC-Pi)\ \ \ \ \ \ \ \ ---(D)$$</p>
                   <p class="center">$$ATP\overset{(AC-Pi)}{\rightarrow} cAMP\ \ \ \ \ \ \ \ ---(E)$$</p>
                   <p class="center">$$cAMP+CRPx\leftrightarrow CRP\ \ \ \ \ \ \ \ ---(F)$$</p>
                   <p class="center">$$CRP+Pl\leftrightarrow Plx\ \ \ \ \ \ \ \ ---(G)$$</p>
                   <p class="center">$$Pl+polymerase+\{nucleotides\}\rightarrow Pl+polymerase+mRNA\ \ ---(H)$$</p>
                   <hr>
-                  <p>Before we get everything started, we first make an assumption so that we can simplify this dynamics considerably.</p>
-                  <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br>Because [E2A] and [E2A’] are regulated by a lot of chemical compound, which makes [E2A’] and [E2A] not change considerably after a few amount of Glucose is added into the system. That is,<br>$$\frac{\Delta [E2A]}{[E2A]},\frac{\Delta [E2A']}{[E2A']\ll 1}$$/p&gt;
-                  </p><p>The following derivation can only be valid if the assumption above is reasonable.</p>
-                  <p>Note: k represent reaction rate constant, K represent reaction equilibrium constant.</p>
-                  <hr>
-                  <p>Because reaction E,F,G and B,C involve enzyme reaction, which means the steady state will be reached in a very short time (~seconds), we will deal with them first at <a href="#part1" onclick="return toEvent('part1');">Part I</a> to <a href="#part3" onclick="return toEvent('part3');">Part III</a>.</p>
-
+                  <p>For making the calculations less complex, we derived three assumptions. By starting it, we made the first assumption to simplify this dynamics considerably.</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 1:<br>Because [E2A] and [E2A’] are regulated by a lot of chemical compound, which makes [E2A’] and [E2A] not change considerably after a few amount of Glucose is added into the system. That this,<br>$$\frac{\Delta [E2A]}{[E2A]},\frac{\Delta [E2A']}{[E2A']\ll 1}$$</p>
+                  <p>The following derivation can only be valid if the assumption above is reasonable.</p>
+                  <p>Note: k represents reaction rate constant and K represent reaction equilibrium constant.</p>
+                  <hr>c
                   <div class="title-line long" id="part1"></div>
                   <div class="title-content">Part I: Gene inhibitor activated transcription</div>
                   <p>If we only see reaction (F) to (H), it can be seen as a modified form of induced system whereas CRP is an inhibitor activated by cAMP.</p>
                   <p class="center">$$\frac{d[mRNA]}{dt}=k_H[Pl][Poly]\prod \{nucleotides\}$$</p>
                   <p class="center">$$\frac{d[Pl]}{dt}=-k_G[CRP][Pl]+k_{-G}[Plx]$$</p>
-                  <p>if Pl reach its steady state in a very short time, compared to the change of [CRP], that</p>
+                  <p>Compared to the change of CRP, PI needs a shorter time to reach its steady state. That is </p>
                   <p class="center">$$\frac{d[Pl]}{dt}=0$$</p>
                   <p>then,</p>
                   <p class="center">$$[Pl]=\frac{k_{-G}}{k_G[CRP]+k_{-G}}[Pl_{total}]=\frac{1}{1+K_G[CPR]}[Pl_{total}]$$</p>
                   <p> where \(K_G=k_G/k_{-G}\), \([Pl_{total}]=[Pl]+[Plx]\)</p>
-                  <p>Then the transcription rate will become</p>
+                  <p>Then the transcription rate will becomes</p>
                   <p class="center">$$\frac{d[mRNA]}{dt}=k_H[Pl][Poly]\prod \{nucleotides\}=\frac{k_H[Poly]\prod\{nucleotides\}}{1+K_G[CRP]}[Pl_{total}]$$</p>
-                  <p>Because nucleotides in biology system is large enough, we can treat it as a constant during the reaction.</p>
+                  <p>Because nucleotides in biology system are large enough, we can treat it as a constant during the reaction.c</p>
                   <p>Set \(V_s=k_H[Pl][Ploy]\prod\{nucleotides\}[Pl_{total}]\), then</p>
                   <p class="center">$$\frac{d[mRNA]}{dt}=\frac{V_s}{1+K_G[CRP]}$$</p>
                   <br>
@@ -74,27 +73,14 @@
                   <p class="center">$$\frac{d[CRP]}{dt}=k_F[cAMP][CRPx]-k_{-F}[CRP]$$</p>
                   <p> When [CRP] reach its steady state,</p>
                   <p class="center">$$[CRP]=\frac{[CRP_{total}][cAMP]}{K_F+[cAMP]}$$</p>
-                  <p> so the transcription rate become </p>
+                  <p>so the transcription rate become</p>
                   <p class="center">
                   $$\begin{split} \frac{d[mRNA]}{dt}&amp;=\frac{V_s}{1+K_G[CRP]}\\&amp;=\frac{V_s(K_F+[cAMP])}{(K_F+[cAMP])+K_G[CRP_{total}][cAMP]} \\
-                  &amp;=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\end{split} $$</p>
-                  <p>We can see that the transcription rate of genes is a function of [cAMP]</p>
+                  &amp;=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_s}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_s}}\end{split} $$</p>
+                  <p>We can see that the transcription rate of genes is a function of [cAMP].</p>
                   <div class="title-line long" id="part2"></div>
-                  <div class="title-content">Part II: The equilibrium of ATP, cAMP</div>
-                  <p>cAMP actually participate many biological system not listed here. But briefly, we can assume that it is a first order reaction,</p>
-                  <p class="center">$$\frac{d[cAMP]}{dt}|_{consume}=-d_{cAMP}[cAMP]$$</p>
-                  <p>according to reaction (E) and (F),</p>
-                  <p class="center">$$\frac{d[cAMP]}{dt}=k_E\frac{AC'_{total}[ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}$$</p>
-                  <p>Because in <a href="#part1" onclick="return toEvent('part1');">part I</a>, [CRP] in steady state require the concentration of cAMP, which means the whole process will be very complicated if [cAMP] will keep changing with [CRP], so an assumption is needed to make the calculation simpler.</p>
-                  <p style="color:#FA5858;font-size:1.2em;">Assumption 2:<br>The reaction of [CRP] contribute very small to [cAMP], that is, <br>$$k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}\approx k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]$$</p>
-                  <br>
-                  <p> Under the assumption, the equilibrium of [cAMP] will be very easy to get,</p>
-                  <p class="center">$$\frac{d[cAMP]}{dt}=k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]$$</p>
-                  <p> so, </p>
-                  <p class="center">$$[cAMP]=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E]}[AC'_{total}]$$</p>
-                  <div class="title-line long" id="part3"></div>
-                  <div class="title-content">Part III: Respiration of <i>E. coli</i> effect on E2B’</div>
-                  <p>The Glucose transmission and digestion are described in <a href="#ref" onclick="return toEvent('ref');">reference [1]</a>, </p>
+                  <div class="title-content">Part II: E2B’ response to the addition of Glucose </div>
+                  <p>The Glucose transmission and digestion are described in <a href="#ref" onclick="return toEvent('ref');">reference [1]</a>.</p>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image4.jpg">
                     <div>Fig4, The pathway of glucose digestion.</div>
@@ -107,32 +93,44 @@
                   <p class="center">$$\frac{d[complex]}{dt}=0$$</p>
                   <p> then</p>
                   <p class="center">$$[complex]=\frac{k_B[E2B'][E2C]}{(k_{-B}+k_{cat})}$$</p>
-                  <p>here we introduce an assumption</p>
-                  <p style="color:#FA5858;font-size:1.2em;">Assumption 3:<br>[complex] is very dilute so that [Glucose] will keep its concentration during the reaction chain.</p>
+                  <p>here we introduce the third assumption</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 2:<br>[complex] is very dilute so that [Glucose] will keep its concentration during the reaction chain.</p>
                   <p>We combine this result and calculate reaction (A) and get</p>
-                  <p class="center">$$\frac{d[E2B']}{dt}=-k_B[E2B'][Glucose][E2C]+k_{-B}[complex][Glucose]+k_A[E2A'][E2B]-k_A[E2A][E2B'c]$$</p>
-                  <p>When E2B’ reach its steady state so that</p>
+                  <p class="center">$$\frac{d[E2B']}{dt}=-k_B[E2B'][Glucose][E2C]+k_{-B}[complex][Glucose]+k_A[E2A'][E2B]-k_{-A}[E2A][E2B']$$</p>
+                  <p>When E2B’ reach its steady state, it is </p>
                   <p class="center">$$\frac{d[E2B']}{dt}=0$$</p>
                   <p>then</p>
                   <p class="center">$$[E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B]}{k_B[E2C][Glucose]+k_{-A}[E2A]}$$</p>
                   <p class="center">$$[E2B]=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+k_{-A}[E2A]}-\frac{k_A[E2A'][E2B']}{k_B[E2C][Glucose]+k_{-A}[E2A]}$$</p>
-                  <p class="center">$$[E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+(k_{-A}[E2A_{total}]+(k_A-k_{-A})[E2A'])}$$</p>
+                  <p class="center">$$[E2B']=\frac{k_{-B}[complex][Glucose]+k_A[E2A'][E2B_{total}]}{k_B[E2C][Glucose]+(k_{-A}[E2A_{total}]+a(k_A-k_{-A})[E2A'])}$$</p>
                   <hr>
-                  <p>At reaction (A) and (D), reaction don’t involve enzyme reaction, so we will calculate in <a href="#part4" onclick="return toEvent('part4');">Part IV</a> and treat it as a most time-consuming reaction in the whole process.</p>
-                  <div class="title-line long" id="part4"></div>
-                  <div class="title-content">Part IV: E2B, E2A and AC</div>
-                  <p>Here, our target is to find our [AC’] when it reaches steady state.From (A) and (D). Obviously, it is a competitive reaction.</p>
+                  <div class="title-line long" id="part3"></div>
+                  <div class="title-content">Part III: E2B, E2A and AC</div>
+                  <p>In this part, our target is to find our [AC'] when reaction A and reaction D reach their equilibrium state.</p>
                   <p>We here have two equilibrium constants</p>
                   <p class="center">$$K_A=\frac{[E2A][E2B']}{[E2A'][E2B]}$$</p>
                   <p class="center">$$K_B=\frac{[E2A][AC']}{[E2A'][AC]}$$</p>
-                  <p>so</p>
-                  <p class="center">$$\frac{K_A}{K_B}=\frac{[E2B'][AC]}{[E2B][AC']}=\frac{[E2B']([AC_{total}]-[AC'])}{([E2B_{total}])[AC']}$$</p>
+                  <p>So,</p>
+                  <p class="center">$$\frac{K_A}{K_B}=\frac{[E2B'][AC]}{[E2B][AC']}=\frac{[E2B']([AC_{total}]-[AC'])}{([E2B_{total}]-[E2B'])[AC']}$$</p>
                   <p>Reassemble and get</p>
-                  <p class="center">$$[AC']=\frac{K_B[B2B'][AC_{total}]}{K_A([E2B_{total}]-[E2B'])+K_B[E2B']}=\frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}$$</p>
-                  <p>Here we have calculated the concentration of [AC’], [E2B’] and [cAMP] in <a href="#part2" onclick="return toEvent('part2');">Part II</a> ~ <a href="#part4" onclick="return toEvent('part4');">Part IV</a>, and we also derive a formula that can express the transcription rate of the genes following to the promoter Pl in <a href="#part1" onclick="return toEvent('part1');">Part I</a>. </p>
+                  <p class="center">$$[AC']=\frac{K_B[E2B'][AC_{total}]}{K_A([E2B_{total}]-[E2B'])+K_B[E2B']}=\frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}$$</p>
+                  <div class="title-line long" id="part4"></div>
+                  <div class="title-content">Part IV: The equilibrium of ATP, cAMP</div>
+                  <p>cAMP actually participate many biological system not listed here. But briefly, we can assume that it is a first order reaction,</p>
+                  <p class="center">$$\frac{d[cAMP]}{dt}|_{consume}=-d_{cAMP}[cAMP]$$</p>
+                  <p>According to reaction (E) and (F), </p>
+                  <p class="center">$$\frac{d[cAMP]}{dt}=k_E\frac{AC'_{total}[ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}$$</p>
+                  <p>Because in <a href="#part1" onclick="return toEvent('part1');">part I</a>, [CRP] in steady state require the concentration of cAMP, which means the whole process will be very complicated if [cAMP] will keep changing with [CRP], so an assumption is needed to make the calculation simpler.</p>
+                  <p style="color:#FA5858;font-size:1.2em;">Assumption 3:<br>The reaction of CRP-cAMP bind contribute very small to the change of  [cAMP], that is, <br>$$k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]-\frac{d[CRP]}{dt}\approx k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP]$$</p>
+                  <p> Under the assumption, the equilibrium of [cAMP] will be very easy to get,</p>
+                  <p class="center">$$\frac{d[cAMP]}{dt}=k_E\frac{[AC'_{total}][ATP]}{[ATP]+K_E}-d[cAMP] = 0$$</p>
+                  <p> so, </p>
+                  <p class="center">$$[cAMP]=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E]}[AC'_{total}]$$</p>
+                  <hr>c
+                  <p>Here we have calculated the concentration of [AC’], [E2B’] and [cAMP] in <a href="#part2" onclick="return toEvent('part2');">Part II</a> ~ <a href="#part4" onclick="return toEvent('part4');">Part IV</a>, and we also derive a formula that can express the transcription rate of the downstream genes following to Genes are Back of the PI in<a href="#part1" onclick="return toEvent('part1');">Part I</a>. </p>
                   <br>
                   <p>First, we substitute [E2B’] into [AC’] and get</p>
-                  <p class="center">$$ [AC'] = \frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}=\frac{a[Glucose]+b}{[Glucose]+c}  $$</p>
+                  <p class="center">$$ [AC'] = \frac{K_B[AC_{total}]}{K_A[E2B_{total}]/[E2B']+(K_B-K_A)}=\frac{a[Glucose]+b}{[Glucose]+c} $$</p>
                   <p>where</p>
                   <p class="center">$$a=\frac{K_B[AC_{total}]k_{-B}[complex]}{K_A[E2B_{total}]+(K_B-K_A)k_{-B}[complex]}$$</p>
                   <p class="center">$$b=\frac{K_B[AC_{total}]k_A[E2A'][E2B_{total}]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}$$</p>
@@ -143,33 +141,43 @@
                   <p class="center">$$a'=\frac{k_E}{d}\frac{[ATP]}{[ATP]+K_E}\times \frac{K_B[AC_{total}]k_{-B}[complex]}{K_A[E2B_{total}]k_B[E2C]+(K_B-K_A)k_{-B}[complex]}$$</p>
                   <br><br>
                   <p>then, we can substitute [cAMP] into the formula of transcription</p>
-                  <p class="center">$$\begin{split}\frac{dY}{dt}&amp;=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_S}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_S}}\\&amp;=\frac{K_F([Glucose]+c)+(a'[Glucose]+b)}{\frac{K_F}{V_S}([Glucose]+c)+\frac{K_G[CRP_{total}]}{V_S}(a'[Glucose]+b)}\\&amp;=\frac{(K_F+a')[Glucose]+(b+K_Fc)}{(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})[Glucose]+(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)}\\&amp;=\frac{c1[Glucose]+c2}{[Glucose]+c3}\end{split}$$</p>
+                  <br>
+                  <p class="center">$$\begin{split}\frac{dY}{dt}&amp;=\frac{K_F\frac{1}{[cAMP]}+1}{\frac{K_F}{V_s}\frac{1}{[cAMP]}+\frac{K_G[CRP_{total}]}{V_s}}\\&amp;=\frac{K_F([Glucose]+c)+(a'[Glucose]+b)}{\frac{K_F}{V_s}([Glucose]+c)+\frac{K_G[CRP_{total}]}{V_S}(a'[Glucose]+b)}\\&amp;=\frac{(K_F+a')[Glucose]+(b+K_Fc)}{(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})[Glucose]+(\frac{K_F}{V_s}c+\frac{K_G[CRP_{total}]}{V_s}b)}\\&amp;=\frac{c1[Glucose]+c2}{[Glucose]+c3}\end{split}$$</p>
+                  <p>$$\frac{d[mRNA]}{dt}=\frac{c1[Glucose]+c2}{[Glucose]+c3}$$</p>
                   <p>where</p>
-                  <p class="center">$$c1=(K_F+a')/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})$$</p>
-                  <p class="center">$$c2=(b+K_Fc)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})$$</p>
-                  <p class="center">$$c3=(\frac{K_F}{V_S}c+\frac{K_G[CRP_{total}]}{V_S}b)/(\frac{K_G[CRP_{total}]}{V_S}+\frac{K_F}{V_S})$$</p>
+                  <p class="center">$$c1=(K_F+a')/(\frac{K_G[CRP_{total}]}{V_s}+\frac{K_F}{V_S})$$</p>
+                  <p class="center">$$c2=(b+K_Fc)/(\frac{K_G[CRP_{total}]}{V_s}+\frac{K_F}{V_s})$$</p>
+                  <p class="center">$$c3=(\frac{K_F}{V_s}c+\frac{K_G[CRP_{total}]}{V_s}b)/(\frac{K_G[CRP_{total}]}{V_s}+\frac{K_F}{V_s})$$</p>
                   <p>For the correction of cooperativity, we add a Hill parameters, n, on the equation, so that the final formula will become</p>
                   <p class="center">$$\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3$$</p>
                   <div class="title-line" id="disc">Discussion and fitting method</div>
                   <p>Because the solution we derive is the production rate when the system reaches quasi-steady state. To fit the data accurately, it is necessary to understand the reaction process evolution with time.</p>
-                  <p>Before the quasi-steady state is reached, three components will affect the transcription of the promoter Pl, that is, glucose CRP and RNA polymerase. So when the glucose is added into the system, the promoter needs some time to react with the change and keep increasing its transcription rate. However, E. coli will natively produce a small RNA SgrS which can inhibit the translation of glucose transporter. When the glucose transporter is inhibited and glucose remained in E. coli are also digested, the production rate of Pl will return to decrease.</p>
+                  <p>Before the quasi-steady state is reached, three components will affect the transcription of the promoter Pl, that is, glucose CRP and RNA polymerase. So when the glucose is added into the system, the promoter needs some time to react with the change and keep increasing its transcription rate. However, E. coli will natively produce a small RNA SgrS which can inhibit the translation of glucose transporter. The inhibition of glucose transporter hinders glucose entering a cell, and the in-cell glucose is continually consumed by E.coli. They both lead to a decrease rate.</p>
                   <p>But the reactions mentioned above are too complicated to solve analytically, so we assume that when the differential of the production rate is equal to zero, that means the system has reached the quasi-steady state.</p>
-                  <p>If the assumption is not valid, the result using this method might not be consistent. However, as shown in Fig 5, using this method will not obtain diverse answers.</p>
+                  <p>If the assumption is not valid, the result using this method might not be consistent However, as shown in Fig 5, the data were consistent by applying the hypothesis.</p>
+                  <div class="img">
+                    (a)
+                    <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.png">
+                    (b)
+                    <img src="">
+                    (c)
+                    <img src="">
+                    <div>Fig 5, Production rate v.s time in 10 experiments and 3 different concentrations. <br>(a), 5mM, (b) 10mM, (c)15mM. </div>
+                  </div>
+
                   <div class="title-line" id="result">Fitting and result</div>
-                  <p>After a derivation of transcription rate and discussion in a single cell, we now have to exam if the formula can correctly match the experimental data well./p&gt;
-                  </p><p>We use the method mentioned above to fit the quasi-steady production rate with Glucose concentration  lower than 30 mg⁄μL and get <br>$$\frac{d[GFP]}{dt}=\frac{18.65\times [Glucose]^{2.02}+38.25}{[Glucose]^{2.02}+5.07}$$</p>
-                  <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image5.png">
-                  <div>Fig5, The fitting curve of the glucose concentration and quasi-steady transcription rate.</div>
+                  <p>After a derivation of transcription rate and discussion in a single cell, we now have to exam if the formula can correctly match the experimental data well.</p>
+                  <p>We use the method mentioned above to fit the quasi-steady production rate with a lower glucose concentration (&lt; 30mM) and get <br>$$\frac{d[Y]}{dt}=\frac{18.65\times [Glucose]^{2.02}+38.25}{[Glucose]^{2.02}+5.07}$$</p>
+                  <img src="">
+                  <div>Fig6, The fitting curve of the glucose concentration and maxima transcription rate.</div>
                   <br><br>
                   <p>The result shows that the fitting curve can fit the data well.</p>
                   <br>
-                  <p>In our case, we want to use the formula to calculate the glucose concentration using the given fluorescence value. It is obvious that if the detected glucose concentration is lower than 30 mM, U.coli can predict the glucose concentration with relatively high robustness. But if the inputted glucose concentration is higher than 30 mM, it is hard to exam the glucose concentration numerically</p>
+                  <p>In our case, we intended to use the formula to calculate the glucose concentration with a given fluorescence value. It is obvious that U.coli can predict the glucose concentration with relatively high robustness<b>when the detected glucose concentration is lower than 30 mM.</b>But if the inputted glucose concentration is higher than 30 mg/μL, it is hard to exam the glucose concentration numericallys.</p>
 
                   <div class="title-line" id="ref">Reference</div>
                   <p>[1] Steinsiek S., et al., Glucose transport in Escherichia coli mutant strains with defects in sugar transport systems, Journal of Bacteriology (2012)</p>
                   <p>[2] Alejandro N., et al., Glucose uptake regulation in <i>E. coli</i> by the small RNA SgrS: comparative analysis of <i>E. coli</i> K-12 (JM109 and MG1655) and <i>E. coli</i> B (BL21), Microbial Cell Factories(2010)</p>
-                 
-
 
                     </div>
                     <div class="col-md-3">
