@@ -51,7 +51,45 @@ module.exports = [
     },
     layout:  "./view/Human_Practices/engagement.hbs",
     filename: "./product/Engagement.html"
-  }
+  },
+  {
+    data: {
+      title: "HP Gold - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			videoEdu: "",
+			conf1: "/wiki/images/0/0e/T--NCKU_Tainan--hpConf1.jpg",
+			conf2: "/wiki/images/d/d5/T--NCKU_Tainan--hpConf2.jpg",
+			conf3: "/wiki/images/a/ac/T--NCKU_Tainan--hpConf3.jpg",
+			conf4: "/wiki/images/a/af/T--NCKU_Tainan--hpConf4.jpg",
+			conf5: "/wiki/images/b/b5/T--NCKU_Tainan--hpConf5.jpg",
+			interview: "/wiki/images/b/bc/T--NCKU_Tainan--hpInterview.jpg",
+			visiting1: "/wiki/images/d/d7/T--NCKU_Tainan--hpVisiting1.jpg",
+			visiting2: "/wiki/images/3/3a/T--NCKU_Tainan--hpVisiting2.jpg",
+			exp1: "/wiki/images/8/87/T--NCKU_Tainan--hpExp1.jpg",
+			exp2: "/wiki/images/1/13/T--NCKU_Tainan--hpExp2.jpg",
+			exp3: "/wiki/images/d/de/T--NCKU_Tainan--hpExp3.jpg",
+			round1: "/wiki/images/b/b1/T--NCKU_Tainan--hpRound1.jpg",
+			round2: "/wiki/images/0/01/T--NCKU_Tainan--hpRound2.jpg",
+			round3: "/wiki/images/4/45/T--NCKU_Tainan--hpRound3.jpg"
+    },
+    layout:  "./view/Human_Practices/hpGold.hbs",
+    filename: "./product/HP/Gold.html"
+  },
+  {
+    data: {
+      title: "HP Silver - iGEM NCKU",
+      url: "",
+      img: "",
+      description: "",
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
+			img: "/wiki/images/9/99/T--NCKU_Tainan--hpEngagement.jpg"
+    },
+    layout:  "./view/Human_Practices/hpSilver.hbs",
+    filename: "./product/HP/Silver.html"
+  },
  ];
 
 
