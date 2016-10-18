@@ -176,6 +176,12 @@ pre code {
 	}
 }
 
+.demo-video {
+  width: 100%;
+  max-width: 853px;
+  margin: 10px auto;
+  display: block;
+}
 
 @media all and (max-width: 767px) {
 
@@ -197,3 +203,4 @@ pre code {
     margin-left: 45%;
   }
 }
+

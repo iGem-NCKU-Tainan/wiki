@@ -23,7 +23,7 @@ module.exports = [
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
 			cover: "/wiki/images/5/50/T--NCKU_Tainan--Integrated.png",
-			videoEdu: "",
+			videoEdu: "/wiki/images/c/c4/T--NCKU_Tainan--eduVideo.mp4",
 			hpVideo1: "/wiki/images/e/e9/T--NCKU_Tainan--hpVideo1.mp4",
 			hpVideo2: "/wiki/images/e/e4/T--NCKU_Tainan--hpVideo2.mp4",
 			hpVideo3: "/wiki/images/8/80/T--NCKU_Tainan--hpVideo3.mp4",

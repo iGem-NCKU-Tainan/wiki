@@ -21,7 +21,7 @@ module.exports = [
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
 			cover: "/wiki/images/cover/T--NCKU_Tainan--Integrated.png",
-			videoEdu: "",
+			videoEdu: "/wiki/images/HumanPractices/T--NCKU_Tainan--eduVideo.mp4",
 			hpVideo1: "/wiki/images/HumanPractices/T--NCKU_Tainan--hpVideo1.mp4",
 			hpVideo2: "/wiki/images/HumanPractices/T--NCKU_Tainan--hpVideo2.mp4",
 			hpVideo3: "/wiki/images/HumanPractices/T--NCKU_Tainan--hpVideo3.mp4",
