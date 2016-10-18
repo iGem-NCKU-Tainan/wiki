@@ -11,13 +11,13 @@
                     <div class="col-md-9">
                   <div class="head2">Model: Fitting Theory</div>
                   <div class="title-line" id="intro">Introduction</div>
-                  <p>U.coli uses promoter Pl, inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process for this glucose-induced promoter is not a direct process, there are a lot of compounds involving and to form a network.</p>
+                  <p>U. coli uses promoter Pl, inhibited by CRP and indirectly induced by glucose, to produce fluorescent protein. Because the process for this glucose-induced promoter is not a direct process, there are a lot of compounds involving and to form a network.</p>
                   <p>There are two main system in this process: glucose digest system and CRP activation system. The two are competitive to each other.</p>
                   <p>When glucose is added, some related compounds decrease in the reaction chain which reduce the concentration of activated CRP. Then, the promoter PI inhibited by CRP initiates the transcription of the gene and enhances the gene’s expression.</p>
                   <p>The downstream genes can be expressed more explicitly by PI, the CRP inhibited promoter.</p>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image1.jpg">
-                    <div>Fig 1 , the network of induction of glucose induced promoter Pl.</div>
+                    <div>Fig 1, the network of induction of glucose induced promoter Pl.</div>
                   </div>
                   <div class="img">
                     <img src="/wiki/images/Modeling/T--NCKU_Tainan--project-modeling-fitting-image2.jpg">
@@ -151,7 +151,7 @@
                   <p class="center">$$\frac{d[Gene]}{dt}=\frac{c1\times [Glucose]^n+c2}{[Glucose]^n}+c3$$</p>
                   <div class="title-line" id="disc">Discussion and fitting method</div>
                   <p>Because the solution we derive is the production rate when the system reaches quasi-steady state. To fit the data accurately, it is necessary to understand the reaction process evolution with time.</p>
-                  <p>Before the quasi-steady state is reached, three components will affect the transcription of the promoter Pl, that is, glucose CRP and RNA polymerase. So when the glucose is added into the system, the promoter needs some time to react with the change and keep increasing its transcription rate. However, E. coli will natively produce a small RNA SgrS which can inhibit the translation of glucose transporter. The inhibition of glucose transporter hinders glucose entering a cell, and the in-cell glucose is continually consumed by E.coli. They both lead to a decrease rate.</p>
+                  <p>Before the quasi-steady state is reached, three components will affect the transcription of the promoter Pl, that is, glucose CRP and RNA polymerase. So when the glucose is added into the system, the promoter needs some time to react with the change and keep increasing its transcription rate. However, <i>E. coli</i> will natively produce a small RNA SgrS which can inhibit the translation of glucose transporter. The inhibition of glucose transporter hinders glucose entering a cell, and the in-cell glucose is continually consumed by <i>E. coli</i>. They both lead to a decrease rate.</p>
                   <p>But the reactions mentioned above are too complicated to solve analytically, so we assume that when the differential of the production rate is equal to zero, that means the system has reached the quasi-steady state.</p>
                   <p>If the assumption is not valid, the result using this method might not be consistent However, as shown in Fig 5, the data were consistent by applying the hypothesis.</p>
                   <div class="img">
@@ -172,7 +172,7 @@
                   <br><br>
                   <p>The result shows that the fitting curve can fit the data well.</p>
                   <br>
-                  <p>In our case, we intended to use the formula to calculate the glucose concentration with a given fluorescence value. It is obvious that U.coli can predict the glucose concentration with relatively high robustness<b> when the detected glucose concentration is lower than 30 mM.</b>But if the inputted glucose concentration is higher than 30 mg/μL, it is hard to exam the glucose concentration numericallys.</p>
+                  <p>In our case, we intended to use the formula to calculate the glucose concentration with a given fluorescence value. It is obvious that U. coli can predict the glucose concentration with relatively high robustness<b> when the detected glucose concentration is lower than 30 mM.</b>But if the inputted glucose concentration is higher than 30 mg/μL, it is hard to exam the glucose concentration numericallys.</p>
 
                   <div class="title-line" id="ref">Reference</div>
                   <p>[1] Steinsiek S., et al., Glucose transport in Escherichia coli mutant strains with defects in sugar transport systems, Journal of Bacteriology (2012)</p>

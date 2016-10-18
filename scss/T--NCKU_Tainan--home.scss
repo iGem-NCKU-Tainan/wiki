@@ -70,6 +70,27 @@
 	}
 }
 
+@keyframes subTitle {
+	0% {
+		color: white;
+	}
+	30% {
+		color: white;
+	}
+	50% {
+		color: $text;
+	}
+	80% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 #big-title {
 	margin-bottom: 70px;
 	width: 75%;
@@ -89,17 +110,26 @@
 		}
 		
 		span {
-			white-space: nowrap;
-			margin-left: 80px;
-			font-size: 90px;
 			font-weight: bold;
-			border-bottom: 10px solid $yellow;
-			top: -100px;
 			position: relative;
-			animation-name: bigTitle;
-			animation-iteration-count: infinite;
-			animation-timing-function: ease-out;
-			animation-duration: 6s;
+			margin-left: 80px;
+			top: -80px;
+			&#smallSpan {
+				font-size: 30px;
+				animation-name: subTitle;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-out;
+				animation-duration: 6s;
+			}
+			&#bigSpan {
+				font-size: 90px;
+				white-space: nowrap;
+				border-bottom: 10px solid $yellow;
+				animation-name: bigTitle;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-out;
+				animation-duration: 6s;
+			}
 		}
 	}
 
