@@ -36,7 +36,7 @@ window.addEventListener('resize', changeContainerBig);
 function changeContainerBig(){
 	var Head = document.getElementsByClassName('head');
 	if(Head.length) {
-		Head[0].offsetTop;
+		var Top = Head[0].offsetTop;
 		document.getElementById("container-big").style.top = (Top-20)+"px";
 	}
 }
