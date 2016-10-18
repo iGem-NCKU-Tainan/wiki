@@ -44,7 +44,7 @@ module.exports = [
       url: "",
       img: "",
       description: "",
-    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Demo_css" + typecss,
+    	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
 			cover: "/wiki/images/8/8e/T--NCKU_Tainan--Demonstrate.png",
 			img1: "/wiki/images/8/8e/T--NCKU_Tainan--deviceDM1.png",
 			video2: "/wiki/images/5/55/T--NCKU_Tainan--UrineCollector.mp4",
