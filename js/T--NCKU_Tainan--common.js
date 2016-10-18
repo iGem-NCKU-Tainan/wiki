@@ -166,7 +166,10 @@ function toEvent(section){
 }
 
 function checkSideMenu(){
-  var emt = document.getElementsByClassName('title-line');
+	var isTeam = document.getElementsByClassName('exp').length;
+	var emt;
+	if(!isTeam) emt = document.getElementsByClassName('title-line');
+	else emt = document.getElementsByClassName('head2');
   var li = document.getElementById('sidemenu').getElementsByTagName('li');
   var height = window.innerHeight
             || document.documentElement.clientHeight
