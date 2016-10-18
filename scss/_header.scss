@@ -37,6 +37,17 @@
   .navbar-toggle {
     margin-top: 32px;
   }
+
+
+	#navbar-container {
+		width: 72%;
+		@media all and(max-width:1290px) {
+			width: 85%;
+		}
+		@media all and(max-width: 1093px) {
+			width: 100%;
+		}
+	}
 }
 
 .nav {
@@ -187,7 +198,7 @@ li .dropdown-menu {
     z-index: 999;
     top: 16px;
     left: 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid $yellow;
 
     #navbar {
       margin-left: 130px;
