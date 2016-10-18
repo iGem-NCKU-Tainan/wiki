@@ -7,6 +7,14 @@ var activeImg,
 
 document.onscroll = onScroll;
 
+document.getElementsByTagName('body')[0].addEventListener('click', function(){
+  var opened = document.getElementsByClassName('open')[0];
+  var fixed = document.getElementsByClassName('fixed')[0];
+  if (submenu && (fixed || !opened) ) {
+   	setTimeout(function(){ submenu.parentElement.classList.add('open'); }, 10 );
+	}
+});
+
 $(window).on('load', function(){
   addImgEventlistener();
   sidemenu = document.getElementById('sidemenu');
