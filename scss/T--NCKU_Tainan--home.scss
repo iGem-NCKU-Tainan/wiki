@@ -22,12 +22,46 @@
 	}
 }
 
+@keyframes bigImg {
+	0% {
+		height: 255px;
+		width: 0;
+		opacity: .2;
+	}
+	30% {
+		height: 255px;
+		width: 220px;
+		opacity: 1;
+	}
+	35% {
+		opacity: .2;
+	}
+}
+
+@keyframes bigTitle {
+	0% {
+		color: white;
+		border-bottom: 0 solid $yellow;
+	}
+	15% {
+		border-bottom: 0 solid $yellow;
+	}
+	30% {
+		color: $text;
+		border-bottom: 10px solid $yellow;
+	}
+}
+
 #big-title {
 	margin-bottom: 70px;
 	width: 75%;
 	
 	img { 
 		height: 255px;
+		animation-name: bigImg;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-out;
+		animation-duration: 6s;
 	}
 	
 	span {
@@ -36,6 +70,10 @@
 		font-size: 90px;
 		font-weight: bold;
 		border-bottom: 10px solid $yellow;
+		animation-name: bigTitle;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-out;
+		animation-duration: 6s;
 	}
 	@media all and (max-width: 1199px) {
 		text-align: center;

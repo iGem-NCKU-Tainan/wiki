@@ -34,8 +34,11 @@ $(window).on('load', function(){
 window.addEventListener('resize', changeContainerBig);
 
 function changeContainerBig(){
-	var Top = document.getElementsByClassName("head")[0].offsetTop;
-	document.getElementById("container-big").style.top = (Top-20)+"px";
+	var Head = document.getElementsByClassName('head');
+	if(Head.length) {
+		Head[0].offsetTop;
+		document.getElementById("container-big").style.top = (Top-20)+"px";
+	}
 }
 
 function checkContainer(){
