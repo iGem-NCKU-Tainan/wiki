@@ -36,6 +36,15 @@
 	35% {
 		opacity: .2;
 	}
+	80% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 @keyframes bigTitle {
@@ -49,6 +58,15 @@
 	30% {
 		color: $text;
 		border-bottom: 10px solid $yellow;
+	}
+	80% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 
