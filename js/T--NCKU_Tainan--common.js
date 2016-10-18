@@ -28,7 +28,9 @@ $(window).on('load', function(){
 	changeContainerBig();
 
   var HQ = document.getElementById('HQ_page');
+	var ltr = document.getElementsByClassName('mw-content-ltr');
   if (HQ) HQ.id = '';
+	for(var i=0; i<ltr.length; ++i) ltr[i].classList.remove('mw-content-ltr');
 });
 
 window.addEventListener('resize', changeContainerBig);
@@ -116,7 +118,7 @@ function getCurrentMenu() {
     2: ['Medal', 'Safety'],
     3: ['Team', 'Attribution', 'Acknowledgement', 'Collaboration'],
     4: ['Human', 'Integrated', 'Engagement'],
-    5: ['Construction', 'Functional', 'Design', 'Protocols', 'notebookModel']
+    5: ['Construction', 'Functional', 'Design', 'Protocols', 'Notebook_Model']
   };
 
   for(var index in submenuAr) {
