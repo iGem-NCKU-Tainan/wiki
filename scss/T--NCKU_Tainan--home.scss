@@ -24,12 +24,12 @@
 
 @keyframes bigImg {
 	0% {
-		height: 255px;
+		height: 0;
 		width: 0;
 		opacity: .2;
 	}
 	30% {
-		height: 255px;
+		height: 100%;
 		width: 220px;
 		opacity: 1;
 	}
@@ -73,29 +73,45 @@
 #big-title {
 	margin-bottom: 70px;
 	width: 75%;
-	
-	img { 
-		height: 255px;
-		animation-name: bigImg;
-		animation-iteration-count: infinite;
-		animation-timing-function: ease-out;
-		animation-duration: 6s;
+
+	.row {
+		div { 
+			height: 255px;
+			display: inline-block;
+			img {
+				height: 100%;
+				display: block;
+				animation-name: bigImg;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-out;
+				animation-duration: 6s;
+			}
+		}
+		
+		span {
+			white-space: nowrap;
+			margin-left: 80px;
+			font-size: 90px;
+			font-weight: bold;
+			border-bottom: 10px solid $yellow;
+			top: -100px;
+			position: relative;
+			animation-name: bigTitle;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-out;
+			animation-duration: 6s;
+		}
 	}
-	
-	span {
-		white-space: nowrap;
-		margin-left: 80px;
-		font-size: 90px;
-		font-weight: bold;
-		border-bottom: 10px solid $yellow;
-		animation-name: bigTitle;
-		animation-iteration-count: infinite;
-		animation-timing-function: ease-out;
-		animation-duration: 6s;
-	}
+
 	@media all and (max-width: 1199px) {
 		text-align: center;
-		img { margin-bottom: 40px; }
+		.row {
+			div img { margin-bottom: 40px; }
+			span { 
+				top: 30px; 
+				display: block;
+			}
+		}
 	}
 }
 
