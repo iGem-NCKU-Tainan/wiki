@@ -5,14 +5,30 @@
   z-index: 99;
 }
 
+#bodyContent .navbar-default {
+	top: -20px;
+
+	.navbar-brand {
+		padding-top: 0;
+		h4 { margin-bottom: 10; }
+	}
+
+	@media all and(min-width: 767px) {
+  	&.fixed {
+			top: 16px;
+			.navbar-brand {
+				padding-top: 15px;
+				h4 { margin-bottom: 0; }
+			}
+		}
+	}
+}
+
+
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.8);
   border-color: transparent;
   width: 100%;
-
-	#bodyContent {
-		top: -30px;
-	}
 
 	.navbar-header {
 		z-index: 20;
