@@ -35,6 +35,15 @@ $(window).on('load', function(){
   checkContainer();
 	changeContainerBig();
 
+	/* add toTop icon */
+	var topIcon = document.createElement("i");
+	topIcon.className = "glyphicon glyphicon-arrow-up";
+	topIcon.style.cssText = "position:fixed;font-size:30px;top:95%;right:10%;color:#fad509;cursor:pointer";
+	sidemenu.parentElement.appendChild(topIcon);
+	topIcon.addEventListener('click', function(){
+  	$('html, body').animate({ scrollTop: 0 }, 1000, updateSubMenu);
+	});
+
   var HQ = document.getElementById('HQ_page');
 	var ltr = document.getElementsByClassName('mw-content-ltr');
   if (HQ) HQ.id = '';
