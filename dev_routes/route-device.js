@@ -26,6 +26,7 @@ module.exports = [
       description: "",
       css: "/wiki/css/T--NCKU_Tainan--Layout.css",
 			cover: "/wiki/images/cover/T--NCKU_Tainan--Device.png",
+      img1: "/wiki/images/Device/T--NCKU_Tainan--deviceDM1.png",
 			fig1: "/wiki/images/Device/T--NCKU_Tainan--deviceHW1.png",
 			fig2: "/wiki/images/Device/T--NCKU_Tainan--deviceHW2.png",
 			fig3: "/wiki/images/Device/T--NCKU_Tainan--deviceHW3.png",

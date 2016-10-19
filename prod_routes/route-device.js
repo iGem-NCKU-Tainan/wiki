@@ -28,6 +28,8 @@ module.exports = [
       description: "",
     	css: "/Team:NCKU_Tainan/css/T--NCKU_Tainan--Layout_css" + typecss,
 			cover: "/wiki/images/6/6b/T--NCKU_Tainan--Device.png",
+			img1: "/wiki/images/8/8e/T--NCKU_Tainan--deviceDM1.png",
+			img1: "/wiki/images/8/8e/T--NCKU_Tainan--deviceDM1.png",
 			fig1: "/wiki/images/1/10/T--NCKU_Tainan--deviceHW1.png",
 			fig2: "/wiki/images/7/7a/T--NCKU_Tainan--deviceHW2.png",
 			fig3: "/wiki/images/0/09/T--NCKU_Tainan--deviceHW3.png",
