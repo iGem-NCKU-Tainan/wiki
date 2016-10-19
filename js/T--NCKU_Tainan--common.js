@@ -38,7 +38,7 @@ $(window).on('load', function(){
 	/* add toTop icon */
 	var topIcon = document.createElement("i");
 	topIcon.className = "glyphicon glyphicon-arrow-up";
-	sidemenu.parentElement.appendChild(topIcon);
+	if(sidemenu) sidemenu.parentElement.appendChild(topIcon);
 	topIcon.addEventListener('click', function(){
   	$('html, body').animate({ scrollTop: 0 }, 1000, updateSubMenu);
 	});
