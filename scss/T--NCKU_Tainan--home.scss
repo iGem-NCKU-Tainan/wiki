@@ -78,7 +78,7 @@
 		color: white;
 	}
 	50% {
-		color: $text;
+		color: #7f7f7f;
 	}
 	80% {
 		opacity: 1;
@@ -115,6 +115,7 @@
 			margin-left: 80px;
 			top: -80px;
 			&#smallSpan {
+				color: #7f7f7f;
 				font-size: 30px;
 				animation-name: subTitle;
 				animation-iteration-count: infinite;
