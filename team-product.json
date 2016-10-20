@@ -3,64 +3,53 @@
     {
       "Primary Instructors": [
         {
-          "學歷": "國立成功大學化學工程　博士",
-          "現職": "成功大學化工系助理教授",
-          "Name": "Prof. 吳意珣 I-Son Ng",
-          "img": "/wiki/images/6/62/T--NCKU_Tainan--instructor1.png",
-					"About": "Professor I-Son Grace Ng is devoted to the synthetic biology, genetic and enzymatic engineering, which to apply in bioenergy and biorefinery. She is currently teaching in Department of Chemical Engineering. She has over 6 years’ experience in iGEM. As the PI of iGEM_NCKU Tainan, she really expects the iGEMers grow up and become the ace in Synthetic Biology."
+          "About": "Professor I-Son Grace Ng is devoted to the synthetic biology, genetic and enzymatic engineering, which to apply in bioenergy and biorefinery. She is currently teaching in Department of Chemical Engineering. She has over 6 years’ experience in iGEM. As the PI of iGEM_NCKU Tainan, she really expects the iGEMers grow up and become the ace in Synthetic Biology.",
+          "Name": "Prof. Grace, I-Son Ng",
+          "img": "/wiki/images/d/d3/T--NCKU_Tainan--instructor3.png",
+          "Prof": "國立成功大學化學工程　博士",
+          "Department": "Chemical Engineering"
         },
         {
-          "學歷": "美國密西根大學毒物學　博士",
-          "現職": "成大醫學院生理所副教授",
-          "Name": "Prof. 蔡美玲 Mei-Ling Tsai",
-          "img": "/wiki/images/d/d3/T--NCKU_Tainan--instructor3.png"
+          "About": "Mei-Ling Tsai completed her Philosopher’s Degree at University of Michigan in USA and then returned to Taiwan. After promoted as Associate Professor of Physiology at National Cheng Kung University Medical College, her research has been focusing on the impact of activated estrogen receptor beta on tissue remodeling by using proteomic approaches and revealing unique functions of estrogen receptor beta during tissue remodeling. Because of her dedication to medical education, she has been elected in IUPS (International Union of Physiological Societies) Education Committee since 2009 and FAOPS (Federations of Asian and Oceanian Physiological Societies) council since 2015.",
+          "Name": "Prof. Mei-Ling Tsai",
+          "img": "/wiki/images/d/d3/T--NCKU_Tainan--instructor3.png",
+          "Prof": "美國密西根大學毒物學　博士",
+          "Department": "Physiology"
         }
       ]
     },
     {
       "Instructors": [
         {
-          "學歷": "劍橋大學第二語言教育研究哲學　碩士",
-          "現職": "成功大學外文系教師",
-          "Name": "Prof. Ching-Yi Yeh",
-          "img": "/wiki/images/3/30/T--NCKU_Tainan--SpecialThanks4.png"
+          "About": "Professor Jo-Shu Chang is a Chair Professor of Department of Chemical Engineering at National Cheng Kung University, Taiwan. He received his Ph.D. degree in 1993 from University of California, Irvine. He owns numerous academic awards and is fellow of AIMBE. His recent research focuses on microalgae biofuels/biorefinery using system biology.",
+          "Name": "Chair Prof. Jo-Shu Chang",
+          "img": "/wiki/images/c/c1/T--NCKU_Tainan--instructor2.png",
+          "Prof": "美國加州大學Irvine分校化工暨生化　博士",
+          "Department": "Chemical Engineering"
         },
         {
-          "學歷": "美國加州大學Irvine分校化工暨生化　博士",
-          "現職": "成功大學化工系特聘教授",
-          "Name": "Prof. 張嘉修",
-          "img": "/wiki/images/c/c1/T--NCKU_Tainan--instructor2.png"
+          "About": "I have taught in junior high school for 7 years, further and higher education at NCKU. Being an English lecturer at NCKU offers me many opportunities to collaborate with a lot of experts from different professions. Through the 7-year ESP teaching, I’ve been actively involved in industrial technology, career development, basic civil engineering, and biotechnology.  I, currently, am working on the project of English as a medium of instruction (EMI) and co-working with this cross-disciplinary team, iGEM NCKU, Tainan.",
+          "Name": "Lecturer Ching-Yi Yeh",
+          "img": "/wiki/images/3/30/T--NCKU_Tainan--SpecialThanks4.png",
+          "Prof": "MPhil in Second Language Research in Second Language Education, Cambridge University, UK <br/>MA in TESOL, York University, UK",
+          "Department": "Foreign Language Department"
         }
       ]
     },
     {
       "Advisers": [
         {
-          "Experience": [
-            "2008年TAA校園創意提案策略競賽 入圍",
-            "中正大學社團評鑑委員會 執行秘書",
-            "中正大學校務會議 社團代表",
-            "第一屆中正桌球聯盟 總召集人",
-            ""
-          ],
-          "About": "和上帝對賭的玩家。因為覺得做生物實驗要和上帝擲骰子，所以持續專研這個遊戲中；除了讓gene變成蛋白質粉末和處理生物資訊的技能外，也曾和行銷、社團、體育比賽的隊友們東征西討。",
+          "Department": "Basic Medical Sciences",
+          "Name": "Eric, Po-Jen Wu",
+          "About": "The game player in biological system. In NCKU_Tainan iGEM team, I want to promote the linkage from theory to the real working system in organism.",
           "img": "/wiki/images/7/76/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Department": "基醫博一",
-          "Name": "吳博仁 Eric, Po-Jen Wu",
-          "Profession": "Wet-Lab"
+          "Profession": "The Cross-Pollinator"
         },
         {
-          "Experience": [
-            "Organizer of TaiwanStat",
-            "TEDxTainan Department of IT/Director",
-            "Taiwan Youth Climate Coalition Promotion team leader",
-            "",
-            ""
-          ],
+          "Department": "Computer Science & Information Engineering",
+          "Name": "Chi-Hsuan, Huang",
           "About": "I am passionate about co-working and sharing information and knowledge with people. I dream of using science and technology to making the world better and solving social Issues. I joined the iGEM NCKU Tainan to meet people from all walks of life and together to solve the critical medial problem.",
           "img": "/wiki/images/2/2d/T--NCKU_Tainan--iGEMSquareProfile19.png",
-          "Department": "資訊碩一",
-          "Name": "黃啟軒 Chi-Hsuan, Huang",
           "Profession": "Infomation Technology"
         }
       ]
@@ -68,73 +57,31 @@
     {
       "Wet Lab": [
         {
-          "Experience": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "醫學系大四，雙主修物理系，對於interdiscipline的領域有興趣。希望在團隊扮演「橋梁」的腳色，因為對生醫以及理工都有學習，期望能夠對團隊的專業溝通有幫助。",
+          "Department": "Medicine / physics",
+          "Name": "Chia-En Wong",
+          "About": "Med school student with double major in physics. Having the passion to explore and research in interdisciplinary field ,I want to solve the fundamental problems in medicine from a sceintific way.",
           "img": "/wiki/images/a/ad/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Department": "醫學四",
-          "Name": "王佳恩 Chia-En Wong",
-          "Profession": "Wet-Lab"
+          "Profession": "Team Leader"
         },
         {
-          "Experience": [
-            "化工系吳意珣助理教授基因體與蛋白質組學實驗室專題生",
-            "成大化學系系隊隊長",
-            "",
-            "",
-            ""
-          ],
-          "About": "目前在蛋白質與基因組學的實驗室做專題，發現了不同於傳統化學的另一種生方式，雖然生物的背景並不深厚，但相信靠著自學可以彌補這個不足，希望之後能在wet lab上有所貢獻",
+          "Department": "Chemistry",
+          "Name": "Ying Hsin, Hong",
+          "About": "For me, joining iGEM is a big step, because it is a new field which I have never known. During iGEM, I have encountered a lot of challenges, such as communicating with other members. I am so glad that I participated iGEM, and I have learned a lot from other partners. As a member in wet-lab, I help our team to design the gene-circuit in order to make our idea come true.",
           "img": "/wiki/images/8/8c/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Department": "化學三",
-          "Name": "洪迎馨 Ying Hsin Hong",
           "Profession": "Wet-Lab"
         },
         {
-          "Experience": [
-            "化工系陳美瑾副教授前瞻性醫療裝置實驗室專題生",
-            "成大職業生涯教練計畫 TSMC副小組長",
-            "",
-            "",
-            ""
-          ],
-          "About": "在系上陳美瑾副教授實驗室做專題，熟悉實驗室的各項基本操作，對研究抱有熱忱。藉由iGEM，提升學習自主性與興趣，將所學應用，結合生物，走出傳統化工業。",
+          "Department": "Chemical Engineering",
+          "Name": "Wei Hsuan Wang",
+          "About": "I love challenges and doing crazy things. iGEM gives me a chance to apply what I learned from the textbook, and also allows me to explore a new field, synthetic biology. It allows us to turn lots of impossible things to reality and deal with the big issues in our world. Joining iGEM also enables me to make amazing friends, and I love to be together with them. As a team we try everything new and conquer the problems together.",
           "img": "/wiki/images/6/6b/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Department": "化工三",
-          "Name": "汪維萱 Wei-Hsuan Wang",
-          "Profession": "Wet-Lab"
+          "Profession": "Vice Leader & Wet lab "
         },
         {
-          "Experience": [
-            "Carnegie Training輔導員",
-            "生化所吳昭良教授實驗室專題生",
-            "Bioleader Of Future 創始成員",
-            "成大生命科學系學會課程組副組長",
-            ""
-          ],
-          "About": "生科系大四，曾在生化所吳昭良老師的實驗室進行CRISPR的專題研究，修過生技創業課程。對於生物技術的實際應用以及後續在產業端的延續有著濃厚興趣，想在iGEM這樣整合多個面像的全方位競賽當中檢視所學，並找出自身能力的更多可能。",
+          "Department": "Life Science",
+          "Name": "Fang-Wei, Yu",
+          "About": "Being a student of Life Science, iGEM is a competition meant to be. Pale knowledge in textbooks can never quench my thirst of curiosity. This is the place I can go from the lab to the stage, from the books to reality. Enjoy embracing challenge and new things. Utilize all the thoughts in mind, every bit of resource we have, so I can be a part of this Jamboree. Not even satisfied of just being a geek in the lab, want to explore world.",
           "img": "/wiki/images/c/c9/T--NCKU_Tainan--iGEMSquareProfile12.png",
-          "Department": "生科四",
-          "Name": "游方暐Fang-Wei Yu",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Experience": [
-            "2008年TAA校園創意提案策略競賽 入圍",
-            "中正大學社團評鑑委員會 執行秘書",
-            "中正大學校務會議 社團代表",
-            "第一屆中正桌球聯盟 總召集人",
-            ""
-          ],
-          "About": "和上帝對賭的玩家。因為覺得做生物實驗要和上帝擲骰子，所以持續專研這個遊戲中；除了讓gene變成蛋白質粉末和處理生物資訊的技能外，也曾和行銷、社團、體育比賽的隊友們東征西討。",
-          "img": "/wiki/images/7/76/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Department": "基醫博一",
-          "Name": "吳博仁 Eric, Po-Jen Wu",
           "Profession": "Wet-Lab"
         }
       ]
@@ -142,195 +89,96 @@
     {
       "Dry Lab": [
         {
-          "Experience": [
-            "環安會理院代表",
-            "物理系大一大二卷一",
-            "",
-            "",
-            ""
-          ],
-          "About": "物理系大三，大一大二修遍工學院航太、水利、機械、電機系的課程，都激不起興趣，在大三開始對再生醫學有興趣，開始閱讀幹細胞工程、分子生物學、統計力學、組織工程等等，目前正在張為民教授的團隊中研究量子神經系統。在團隊負責dry lab管理及作業。",
+          "Department": "Physics",
+          "Name": "Shu-Yu Chen",
+          "About": "Major in physics and interested in medicine, working on quantum information in college, hope to solve medical problems with new physics. I participate in iGEM to meet new people who are also care about medicine and interdisciplinary.",
           "img": "/wiki/images/a/a0/T--NCKU_Tainan--iGEMSquareProfile17.png",
-          "Department": "物理三",
-          "Name": "陳書宇Shu-Yu Chen",
-          "Profession": "Dry-Lab"
+          "Profession": "Dry Lab leader & Simulation"
         },
         {
-          "Experience": [
-            "Chief engineer of Sketchat",
-            "NPSC2009 fifth prize",
-            "",
-            "",
-            ""
-          ],
-          "About": "跨領域冒險王，喜歡挑戰各種極限，雖為醫學院背景，但是觸角觸及各領域，夢想有一天可以靠醫學跟工程結合來創業",
+          "Department": "Medicine / physics",
+          "Name": "Yi-Hsuan Chen",
+          "About": "I want to solve the medical problem in an engineering aspect. Joining iGEM broad my vision on how biological engineering can sovle the medical issue.",
           "img": "/wiki/images/d/d7/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "Profession": "Dry-Lab"
+          "Profession": "Dry Lab Leader & Engineering Design"
         },
         {
-          "Experience": [
-            "tedxtainan展場部",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "雖為理工背景，高中三類對生物熱情還是忘不了，對設計也很有興趣。想透過igem嘗試挖掘自己更多的可能，從不同面向貢獻於團隊。",
+          "Department": "Electrical Engineering",
+          "Name": "Meng Hsuan Tsai",
+          "About": "iGEM creates opportunities for students with goodwill to join and make great things even better. We could try to view what a problem in the real world is and also work as a team player to solve it. I not only have a deeper insight about synthetic biology, but also focus on my own discipline. That’s why I am so addicted to iGEM, to apply everything that we learn as a team.",
           "img": "/wiki/images/e/e8/T--NCKU_Tainan--iGEMSquareProfile4.png",
-          "Department": "電機二",
-          "Name": "蔡孟軒Meng Hsuan Tsai",
-          "Profession": "Human Practice"
+          "Profession": "Vice Leader & Dry Lab Engineering Design "
         },
         {
-          "Experience": [
-            "成大數學系會長",
-            "成大系聯會理學院院理事",
-            "",
-            "",
-            ""
-          ],
-          "About": "數字傳播員。dry lab成員，專研於數學及統計，也具備程設背景及基本機械設計程式應用能力，渴望運用數字改變舊有思維，想在iGEM做出能改變世界的作品。",
+          "Department": "Mathematics",
+          "Name": "Hungching Chang",
+          "About": "Bimajor in Mathematic and Statistic. Use the power of math to improve the harm brought by technology is my dream. And iGEM let me take a step foward to my dream.",
           "img": "/wiki/images/9/9d/T--NCKU_Tainan--iGEMSquareProfile16.png",
-          "Department": "數學三",
-          "Name": "張宏卿Hung-ching Chang",
-          "Profession": "Dry-Lab"
+          "Profession": "Statistical modeling"
         },
         {
-          "Experience": [
-            "AIESEC 海外實習部門 副會長",
-            "TEDxTainan 講者公關組",
-            "台美學生會議 南區規劃專員",
-            "台南城市浪人\n產品組組長",
-            "成大電競\n總招"
-          ],
-          "About": "除了本身的化工背景，也有學習「生物基因」相關課程，喜歡活化並整合舊有的觀念或事物，也因此希望能用「合成生物學」在科技方面找到更多可能；具有電繪繪圖能力，樂於將抽象的或是尚未存在的產品概念以圖片或動畫展示，藉此將才藝與專業背景結合，貢獻團隊！",
+          "Department": "Chemical Engineering",
+          "Name": "Doodoo Kao",
+          "About": "As one of the iGEM NCKU Tainan initiator, I'm glad to enjoy this synthetic biology journey. From Wet Lab to Dry Lab, and also Human Pratice, I participated every singel part in the begining. Finally, I worked in Dry Lab - Hardware Design. As a iGEMer, I'm proud to contribute abilities to iGEM NCKU (somehow we function like synthetic bio!) and wish to enrich my best team till the end of journey. ",
           "img": "/wiki/images/6/67/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Department": "化工三",
-          "Name": "高紹軒",
-          "Profession": "Wet-Lab"
-        },
-        "盧明庚"
+          "Profession": "Dry-Lab Hardware design"
+        }
       ]
     },
     {
       "Information Technology": [
         {
-          "Experience": [
-            "2014-2016 Web Developer of CSIE, NCKU",
-            "2012-2016 Programming Contest Training Team",
-            "2014-2015 Microsoft Student Partners",
-            "2012-2013 Director of Campus Computer & Network Society Club",
-            ""
-          ],
+          "Department": "Computer Science & Information Engineering",
+          "Name": "Jingfei Yang",
           "About": "One of my hobbies is to make new friends. Besides, I love the atmosphere of teamwork Specially while they are struggling on the same goal and making big process. I have lots of experience about website and algorithm programming. Hope that I can make contributions on iGEM's website and data analysis.",
           "img": "/wiki/images/b/b6/T--NCKU_Tainan--iGEMSquareProfile20.png",
-          "Department": "Fourth grade of Computer Science",
-          "Name": "Jingfei Yang",
           "Profession": "Infomation Technology"
         },
         {
-          "Experience": [
-            "建設五子棋遊戲網頁",
-            "CIC可程式邏輯設計競賽",
-            "高中北二區數學能力競賽佳作",
-            "",
-            ""
-          ],
-          "About": "資訊系大三學生，對資訊、電機、數學及生物皆有所興趣，目前雙主修電機，希望能夠幫助iGEM架設網站，同時利用課餘時間投入Dry Lab的研究。",
+          "Department": "Computer Science & Information Engineering",
+          "Name": "Shih-Yu Chen",
+          "About": " I'am double majoring in both Computer Science and Electrical Engineering, hoping to use my background knowledge to assist IGEM NCKU Team.",
           "img": "/wiki/images/9/9e/T--NCKU_Tainan--iGEMSquareProfile18.png",
-          "Department": "資訊三",
-          "Name": "陳識宇",
-          "Profession": "Infomation Technology"
+          "Profession": "Website Building"
         },
         {
-          "Experience": [
-            "成大學生會新聞部部長",
-            "成大單車節設計部長",
-            "",
-            "成杏合唱團美術",
-            "業餘動畫師"
-          ],
-          "About": "負責處理團隊的視覺設計，包括Brand Design、資料視覺化、產品prototype、網頁美術設計、文書排版。對於美的事有強烈的堅持。",
+          "Department": "Medicine",
+          "Name": "Tim, Hsieh Ting Lin",
+          "About": "As a Visual Designer , the most of my work is , well, design. However, design is not only making fancy stuff, but also playing an important role to convey ideas. iGEM provides me opportunities to communicate with people from different fields. On the other hand, it promote our creativity on synthetic biology. In my opinion, all of us are designer, we design better product for the future.",
           "img": "/wiki/images/2/2f/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Department": "醫學三",
-          "Name": "林協霆 Tim, Hsieh Ting Lin",
           "Profession": "Design"
-        },
-        {
-          "Experience": [
-            "Organizer of TaiwanStat",
-            "TEDxTainan Department of IT/Director",
-            "Taiwan Youth Climate Coalition Promotion team leader",
-            "",
-            ""
-          ],
-          "About": "I am passionate about co-working and sharing information and knowledge with people. I dream of using science and technology to making the world better and solving social Issues. I joined the iGEM NCKU Tainan to meet people from all walks of life and together to solve the critical medial problem.",
-          "img": "/wiki/images/2/2d/T--NCKU_Tainan--iGEMSquareProfile19.png",
-          "Department": "資訊碩一",
-          "Name": "黃啟軒 Chi-Hsuan, Huang",
-          "Profession": "Infomation Technology"
         }
       ]
     },
     {
       "Human Practice": [
         {
-          "Experience": [
-            "N次坊　創辦人",
-            "台美學生會議 行銷長",
-            "台南城市浪人 發起人",
-            "2015 GIS Taiwan English Presentation First Prize",
-            ""
-          ],
-          "About": "多向潛能分化者。雖就讀地獄般的工學院，卻積極嘗試不同可能性。從簡報、提案企劃、行銷策略皆有相關經驗。\n喜好分享，並執行各種古怪的想法。認為跨領域是這時代必備的能力。\n\n",
+          "Department": "Industrial and Information Management",
+          "Name": "Raymond Hou",
+          "About": "Major is not a matter, but thinking and action out of the frame is the matter. iGEM is the long experiment to see the potential of  interdiscipline and what we can do. As a multipotentialite, I like to try new things, learn from observation and make ideas reality. All the stories begin with a choice.",
           "img": "/wiki/images/c/c4/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Department": "化工三",
-          "Name": "侯智薰",
-          "Profession": "CEO"
+          "Profession": "Human Practice"
         },
         {
-          "Experience": [
-            "第七屆TYPT(台灣青年英文物理辯論競賽)銅牌獎",
-            "文山盃、城曦盃辯論比賽冠軍",
-            "",
-            "",
-            ""
-          ],
-          "About": "文、理組跨領域背景，有一定的行政能力。\n負責亞太交流會的草案及活動規劃，政治講究的是利益分配及行政管理，盡可能的為團隊謀取最大利益。\n能概略懂得生物基因體設計，以我為最低底線設計推廣課程，力求讓社會大眾都能懂得合成生物學將改變未來的我們，\n希望能讓更多人理解合成生物學。",
+          "Department": "Medical Laboratory Science and Biotechnology",
+          "Name": "Eva Liu",
+          "About": "I am a person who would like to face the challenge , this is why i choose to join the first year of iGEM NCKU_Tainan ",
           "img": "/wiki/images/8/8e/T--NCKU_Tainan--iGEMSquareProfile2.png",
-          "Department": "政治一",
-          "Name": "劉珈君",
           "Profession": "Human Practice"
         },
         {
-          "Experience": [
-            "Built own artificial intelligence during SEED workshop about robotic organized by Schlumburger",
-            "",
-            "Won in the Young Entrepreneur programme nationally sponsored by Vishay Company",
-            "won first place in national level with my team in Choral Speaking Competition",
-            ""
-          ],
-          "About": "Speaks English quite fluently and writing is so my thing so I'm now taking care of medium journal. On the time being, i'm trying to figure out the strengths in other teams that were nominated or even won the Human Practice Award to see the outstanding side which can bring benefits to our team.",
+          "Department": "Materials Science and Engineering",
+          "Name": "Seow Heqing",
+          "About": "Passionate about MSE but would like to indulge in Industrial Design too. Am a girl from a small town in M'sia came to Taiwan to pursue her dreams. Always believe that there's a tenuous link between Life and Science where a slight touch leads to a brilliant sparkle ! Therefore I join iGEM as to widen my view to a whole new field that I had never seen before at the same time meeting great people with the same vision. ",
           "img": "/wiki/images/5/5c/T--NCKU_Tainan--iGEMSquareProfile3.png",
-          "Department": "材料一",
-          "Name": "蕭荷青",
           "Profession": "Human Practice"
         },
         {
-          "Experience": [
-            "第七屆TYPT(台灣青年英文物理辯論競賽)銅牌獎",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "資訊系大一，從國中就對生物相當有興趣，從這個團隊得到相當多生物相關的知識，覺得相當充實。希望藉由這個比賽讓這個社會有些許改變，即使微不足道。",
+          "Department": "Computer Science & Information Engineering",
+          "Name": "Yung Chiang Cheng",
+          "About": "I join in this team when I was a freshman because of the curiosity about synthetic biology and iGEM. Although I major in computer science and don't have any biology background, I will never retreat. This is a huge challenge to me, but the secret of synthetic biology quite attract me this is the power that made me conquer the difficulty on the way.",
           "img": "/wiki/images/1/15/T--NCKU_Tainan--iGEMSquareProfile22.png",
-          "Department": "資訊一",
-          "Name": "鄭詠鏹",
-          "Profession": "Intern"
+          "Profession": "Human Practice"
         }
       ]
     }
@@ -338,470 +186,112 @@
   "Attribution": [
     {
       "Experiments – Biobrick Construction": [
-        {
-          "Experience": [
-            "化工系吳意珣助理教授基因體與蛋白質組學實驗室專題生",
-            "成大化學系系隊隊長",
-            "",
-            "",
-            ""
-          ],
-          "About": "目前在蛋白質與基因組學的實驗室做專題，發現了不同於傳統化學的另一種生方式，雖然生物的背景並不深厚，但相信靠著自學可以彌補這個不足，希望之後能在wet lab上有所貢獻",
-          "img": "/wiki/images/8/8c/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Department": "化學三",
-          "Name": "洪迎馨 Ying Hsin Hong",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Experience": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "醫學系大四，雙主修物理系，對於interdiscipline的領域有興趣。希望在團隊扮演「橋梁」的腳色，因為對生醫以及理工都有學習，期望能夠對團隊的專業溝通有幫助。",
-          "img": "/wiki/images/a/ad/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Department": "醫學四",
-          "Name": "王佳恩 Chia-En Wong",
-          "Profession": "Wet-Lab"
-        },
-        "游方暐 Fang-Wei Yu",
-        {
-          "Experience": [
-            "化工系陳美瑾副教授前瞻性醫療裝置實驗室專題生",
-            "成大職業生涯教練計畫 TSMC副小組長",
-            "",
-            "",
-            ""
-          ],
-          "About": "在系上陳美瑾副教授實驗室做專題，熟悉實驗室的各項基本操作，對研究抱有熱忱。藉由iGEM，提升學習自主性與興趣，將所學應用，結合生物，走出傳統化工業。",
-          "img": "/wiki/images/6/6b/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Department": "化工三",
-          "Name": "汪維萱 Wei-Hsuan Wang",
-          "Profession": "Wet-Lab"
-        }
+        "Ying Hsin, Hong",
+        "Chia-En Wong",
+        "Fang Wei, Yu",
+        "Wei Hsuan Wang"
       ]
     },
     {
       "Experiments – Medium Selection": [
-        {
-          "Experience": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "醫學系大四，雙主修物理系，對於interdiscipline的領域有興趣。希望在團隊扮演「橋梁」的腳色，因為對生醫以及理工都有學習，期望能夠對團隊的專業溝通有幫助。",
-          "img": "/wiki/images/a/ad/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Department": "醫學四",
-          "Name": "王佳恩 Chia-En Wong",
-          "Profession": "Wet-Lab"
-        },
-        "游方暐 Fang-Wei Yu",
-        {
-          "Experience": [
-            "2008年TAA校園創意提案策略競賽 入圍",
-            "中正大學社團評鑑委員會 執行秘書",
-            "中正大學校務會議 社團代表",
-            "第一屆中正桌球聯盟 總召集人",
-            ""
-          ],
-          "About": "和上帝對賭的玩家。因為覺得做生物實驗要和上帝擲骰子，所以持續專研這個遊戲中；除了讓gene變成蛋白質粉末和處理生物資訊的技能外，也曾和行銷、社團、體育比賽的隊友們東征西討。",
-          "img": "/wiki/images/7/76/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Department": "基醫博一",
-          "Name": "吳博仁 Eric, Po-Jen Wu",
-          "Profession": "Wet-Lab"
-        }
+        "Chia-En Wong",
+        "Fang Wei, Yu",
+        "Eric, Po-Jen Wu"
       ]
     },
     {
       "Experiments – Glucose Functional Test": [
-        {
-          "Experience": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "醫學系大四，雙主修物理系，對於interdiscipline的領域有興趣。希望在團隊扮演「橋梁」的腳色，因為對生醫以及理工都有學習，期望能夠對團隊的專業溝通有幫助。",
-          "img": "/wiki/images/a/ad/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Department": "醫學四",
-          "Name": "王佳恩 Chia-En Wong",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Experience": [
-            "化工系陳美瑾副教授前瞻性醫療裝置實驗室專題生",
-            "成大職業生涯教練計畫 TSMC副小組長",
-            "",
-            "",
-            ""
-          ],
-          "About": "在系上陳美瑾副教授實驗室做專題，熟悉實驗室的各項基本操作，對研究抱有熱忱。藉由iGEM，提升學習自主性與興趣，將所學應用，結合生物，走出傳統化工業。",
-          "img": "/wiki/images/6/6b/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Department": "化工三",
-          "Name": "汪維萱 Wei-Hsuan Wang",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Experience": [
-            "化工系吳意珣助理教授基因體與蛋白質組學實驗室專題生",
-            "成大化學系系隊隊長",
-            "",
-            "",
-            ""
-          ],
-          "About": "目前在蛋白質與基因組學的實驗室做專題，發現了不同於傳統化學的另一種生方式，雖然生物的背景並不深厚，但相信靠著自學可以彌補這個不足，希望之後能在wet lab上有所貢獻",
-          "img": "/wiki/images/8/8c/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Department": "化學三",
-          "Name": "洪迎馨 Ying Hsin Hong",
-          "Profession": "Wet-Lab"
-        }
+        "Chia-En Wong",
+        "Wei Hsuan Wang",
+        "Ying Hsin, Hong"
       ]
     },
     {
       "Experiments – Urine Functional Test": [
-        {
-          "Experience": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "醫學系大四，雙主修物理系，對於interdiscipline的領域有興趣。希望在團隊扮演「橋梁」的腳色，因為對生醫以及理工都有學習，期望能夠對團隊的專業溝通有幫助。",
-          "img": "/wiki/images/a/ad/T--NCKU_Tainan--iGEMSquareProfile5.png",
-          "Department": "醫學四",
-          "Name": "王佳恩 Chia-En Wong",
-          "Profession": "Wet-Lab"
-        },
-        {
-          "Experience": [
-            "成大學生會新聞部部長",
-            "成大單車節設計部長",
-            "",
-            "成杏合唱團美術",
-            "業餘動畫師"
-          ],
-          "About": "負責處理團隊的視覺設計，包括Brand Design、資料視覺化、產品prototype、網頁美術設計、文書排版。對於美的事有強烈的堅持。",
-          "img": "/wiki/images/2/2f/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Department": "醫學三",
-          "Name": "林協霆 Tim, Hsieh Ting Lin",
-          "Profession": "Design"
-        },
-        {
-          "Experience": [
-            "化工系陳美瑾副教授前瞻性醫療裝置實驗室專題生",
-            "成大職業生涯教練計畫 TSMC副小組長",
-            "",
-            "",
-            ""
-          ],
-          "About": "在系上陳美瑾副教授實驗室做專題，熟悉實驗室的各項基本操作，對研究抱有熱忱。藉由iGEM，提升學習自主性與興趣，將所學應用，結合生物，走出傳統化工業。",
-          "img": "/wiki/images/6/6b/T--NCKU_Tainan--iGEMSquareProfile10.png",
-          "Department": "化工三",
-          "Name": "汪維萱 Wei-Hsuan Wang",
-          "Profession": "Wet-Lab"
-        },
-        "游方暐 Fang-Wei Yu"
+        "Chia-En Wong",
+        "Tim, Hsieh Ting Lin",
+        "Wei Hsuan Wang",
+        "Fang-Wei, Yu"
       ]
     },
     {
       "Experiments – Safety System": [
-        {
-          "Experience": [
-            "2008年TAA校園創意提案策略競賽 入圍",
-            "中正大學社團評鑑委員會 執行秘書",
-            "中正大學校務會議 社團代表",
-            "第一屆中正桌球聯盟 總召集人",
-            ""
-          ],
-          "About": "和上帝對賭的玩家。因為覺得做生物實驗要和上帝擲骰子，所以持續專研這個遊戲中；除了讓gene變成蛋白質粉末和處理生物資訊的技能外，也曾和行銷、社團、體育比賽的隊友們東征西討。",
-          "img": "/wiki/images/7/76/T--NCKU_Tainan--iGEMSquareProfile13.png",
-          "Department": "基醫博一",
-          "Name": "吳博仁 Eric, Po-Jen Wu",
-          "Profession": "Wet-Lab"
-        },
-        "王佳恩Chia-En Wong",
-        {
-          "Experience": [
-            "化工系吳意珣助理教授基因體與蛋白質組學實驗室專題生",
-            "成大化學系系隊隊長",
-            "",
-            "",
-            ""
-          ],
-          "About": "目前在蛋白質與基因組學的實驗室做專題，發現了不同於傳統化學的另一種生方式，雖然生物的背景並不深厚，但相信靠著自學可以彌補這個不足，希望之後能在wet lab上有所貢獻",
-          "img": "/wiki/images/8/8c/T--NCKU_Tainan--iGEMSquareProfile6.png",
-          "Department": "化學三",
-          "Name": "洪迎馨 Ying Hsin Hong",
-          "Profession": "Wet-Lab"
-        }
+        "Eric, Po-Jen Wu",
+        "Chia-En Wong",
+        "Ying Hsin, Hong"
       ]
     },
     {
       "Experiments – Prototype Functional Test": [
-        "王佳恩Chia-En Wong",
-        "汪維萱",
-        "蔡孟軒",
-        {
-          "Experience": [
-            "Chief engineer of Sketchat",
-            "NPSC2009 fifth prize",
-            "",
-            "",
-            ""
-          ],
-          "About": "跨領域冒險王，喜歡挑戰各種極限，雖為醫學院背景，但是觸角觸及各領域，夢想有一天可以靠醫學跟工程結合來創業",
-          "img": "/wiki/images/d/d7/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "Profession": "Dry-Lab"
-        }
+        "Chia-En Wong",
+        "Wei Hsuan Wang",
+        "Meng Hsuan Tsai",
+        "Yi-Hsuan Chen"
       ]
     },
     {
       "Dry Lab – Modeling": [
-        "陳書宇 Shu-Yu Chen"
+        "Shu-Yu Chen"
       ]
     },
     {
       "Dry Lab – Statistic Analysis": [
-        "張宏卿 Hung-ching Chang"
+        "Hungching Chang"
       ]
     },
     {
       "Dry Lab –  Engineering Design": [
-        {
-          "Experience": [
-            "Chief engineer of Sketchat",
-            "NPSC2009 fifth prize",
-            "",
-            "",
-            ""
-          ],
-          "About": "跨領域冒險王，喜歡挑戰各種極限，雖為醫學院背景，但是觸角觸及各領域，夢想有一天可以靠醫學跟工程結合來創業",
-          "img": "/wiki/images/d/d7/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "Profession": "Dry-Lab"
-        },
-        "蔡孟軒 Meng Hsuan Tsai"
+        "Yi-Hsuan Chen ",
+        "Meng Hsuan Tsai"
       ]
     },
     {
       "Dry Lab –  Prototype Design": [
-        "王佳恩Chia-En Wong",
-        "汪維萱",
-        "蔡孟軒",
-        {
-          "Experience": [
-            "Chief engineer of Sketchat",
-            "NPSC2009 fifth prize",
-            "",
-            "",
-            ""
-          ],
-          "About": "跨領域冒險王，喜歡挑戰各種極限，雖為醫學院背景，但是觸角觸及各領域，夢想有一天可以靠醫學跟工程結合來創業",
-          "img": "/wiki/images/d/d7/T--NCKU_Tainan--iGEMSquareProfile15.png",
-          "Department": "醫學四",
-          "Name": "陳乙軒",
-          "Profession": "Dry-Lab"
-        },
-        {
-          "Experience": [
-            "AIESEC 海外實習部門 副會長",
-            "TEDxTainan 講者公關組",
-            "台美學生會議 南區規劃專員",
-            "台南城市浪人\n產品組組長",
-            "成大電競\n總招"
-          ],
-          "About": "除了本身的化工背景，也有學習「生物基因」相關課程，喜歡活化並整合舊有的觀念或事物，也因此希望能用「合成生物學」在科技方面找到更多可能；具有電繪繪圖能力，樂於將抽象的或是尚未存在的產品概念以圖片或動畫展示，藉此將才藝與專業背景結合，貢獻團隊！",
-          "img": "/wiki/images/2/2d/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Department": "化工三",
-          "Name": "高紹軒",
-          "Profession": "Wet-Lab"
-        },
-        "盧明庚",
-        "游方暐 Fang-Wei Yu"
+        "Chia-En Wong",
+        "Wei Hsuan Wang",
+        "Meng Hsuan Tsai",
+        "Yi-Hsuan Chen ",
+        "Doodoo Kao",
+        "Alex Lu",
+        "Fang-Wei, Yu"
       ]
     },
     {
       "Presentation and Poster": [
-        {
-          "學歷": "劍橋大學第二語言教育研究哲學　碩士",
-          "現職": "成功大學外文系教師",
-          "Name": "Prof. 葉靜怡",
-          "img": "/images/SpecialThanks/T--NCKU_Tainan--SpecialThanks4.png"
-        },
-        {
-          "Experience": [
-            "Built own artificial intelligence during SEED workshop about robotic organized by Schlumburger",
-            "",
-            "Won in the Young Entrepreneur programme nationally sponsored by Vishay Company",
-            "won first place in national level with my team in Choral Speaking Competition",
-            ""
-          ],
-          "About": "Speaks English quite fluently and writing is so my thing so I'm now taking care of medium journal. On the time being, i'm trying to figure out the strengths in other teams that were nominated or even won the Human Practice Award to see the outstanding side which can bring benefits to our team.",
-          "img": "/wiki/images/5/5c/T--NCKU_Tainan--iGEMSquareProfile3.png",
-          "Department": "材料一",
-          "Name": "蕭荷青",
-          "Profession": "Human Practice"
-        },
-        {
-          "Experience": [
-            "AIESEC 海外實習部門 副會長",
-            "TEDxTainan 講者公關組",
-            "台美學生會議 南區規劃專員",
-            "台南城市浪人\n產品組組長",
-            "成大電競\n總招"
-          ],
-          "About": "除了本身的化工背景，也有學習「生物基因」相關課程，喜歡活化並整合舊有的觀念或事物，也因此希望能用「合成生物學」在科技方面找到更多可能；具有電繪繪圖能力，樂於將抽象的或是尚未存在的產品概念以圖片或動畫展示，藉此將才藝與專業背景結合，貢獻團隊！",
-          "img": "/wiki/images/2/2d/T--NCKU_Tainan--iGEMSquareProfile9.png",
-          "Department": "化工三",
-          "Name": "高紹軒",
-          "Profession": "Wet-Lab"
-        },
-        "游方暐 Fang-Wei Yu",
-        "蔡孟軒 Meng Hsuan Tsai",
-        {
-          "Experience": [
-            "N次坊　創辦人",
-            "台美學生會議 行銷長",
-            "台南城市浪人 發起人",
-            "2015 GIS Taiwan English Presentation First Prize",
-            ""
-          ],
-          "About": "多向潛能分化者。雖就讀地獄般的工學院，卻積極嘗試不同可能性。從簡報、提案企劃、行銷策略皆有相關經驗。\n喜好分享，並執行各種古怪的想法。認為跨領域是這時代必備的能力。\n\n",
-          "img": "/wiki/images/c/c4/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Department": "化工三",
-          "Name": "侯智薰",
-          "Profession": "CEO"
-        },
-        {
-          "Experience": [
-            "成大學生會新聞部部長",
-            "成大單車節設計部長",
-            "",
-            "成杏合唱團美術",
-            "業餘動畫師"
-          ],
-          "About": "負責處理團隊的視覺設計，包括Brand Design、資料視覺化、產品prototype、網頁美術設計、文書排版。對於美的事有強烈的堅持。",
-          "img": "/wiki/images/2/2f/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Department": "醫學三",
-          "Name": "林協霆 Tim, Hsieh Ting Lin",
-          "Profession": "Design"
-        }
+        "Lecturer Ching-Yi Yeh",
+        "Seow Heqing",
+        "Doodoo Kao",
+        "Fang-Wei, Yu",
+        "Meng Hsuan Tsai",
+        "Raymond Hou",
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Visual Design": [
-        {
-          "Experience": [
-            "成大學生會新聞部部長",
-            "成大單車節設計部長",
-            "",
-            "成杏合唱團美術",
-            "業餘動畫師"
-          ],
-          "About": "負責處理團隊的視覺設計，包括Brand Design、資料視覺化、產品prototype、網頁美術設計、文書排版。對於美的事有強烈的堅持。",
-          "img": "/wiki/images/2/2f/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Department": "醫學三",
-          "Name": "林協霆 Tim, Hsieh Ting Lin",
-          "Profession": "Design"
-        }
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Wiki": [
-        {
-          "Experience": [
-            "成大學生會新聞部部長",
-            "成大單車節設計部長",
-            "",
-            "成杏合唱團美術",
-            "業餘動畫師"
-          ],
-          "About": "負責處理團隊的視覺設計，包括Brand Design、資料視覺化、產品prototype、網頁美術設計、文書排版。對於美的事有強烈的堅持。",
-          "img": "/wiki/images/2/2f/T--NCKU_Tainan--iGEMSquareProfile21.png",
-          "Department": "醫學三",
-          "Name": "林協霆 Tim, Hsieh Ting Lin",
-          "Profession": "Design"
-        }
+        "Chi-Hsuan, Huang",
+				"Jingfei Yang",
+				"Shih-Yu Chen",
+        "Tim, Hsieh Ting Lin"
       ]
     },
     {
       "Human Practice and Policies": [
-        {
-          "Experience": [
-            "Built own artificial intelligence during SEED workshop about robotic organized by Schlumburger",
-            "",
-            "Won in the Young Entrepreneur programme nationally sponsored by Vishay Company",
-            "won first place in national level with my team in Choral Speaking Competition",
-            ""
-          ],
-          "About": "Speaks English quite fluently and writing is so my thing so I'm now taking care of medium journal. On the time being, i'm trying to figure out the strengths in other teams that were nominated or even won the Human Practice Award to see the outstanding side which can bring benefits to our team.",
-          "img": "/wiki/images/5/5c/T--NCKU_Tainan--iGEMSquareProfile3.png",
-          "Department": "材料一",
-          "Name": "蕭荷青",
-          "Profession": "Human Practice"
-        },
-        "蔡孟軒 Meng Hsuan Tsai",
-        {
-          "Experience": [
-            "第七屆TYPT(台灣青年英文物理辯論競賽)銅牌獎",
-            "文山盃、城曦盃辯論比賽冠軍",
-            "",
-            "",
-            ""
-          ],
-          "About": "文、理組跨領域背景，有一定的行政能力。\n負責亞太交流會的草案及活動規劃，政治講究的是利益分配及行政管理，盡可能的為團隊謀取最大利益。\n能概略懂得生物基因體設計，以我為最低底線設計推廣課程，力求讓社會大眾都能懂得合成生物學將改變未來的我們，\n希望能讓更多人理解合成生物學。",
-          "img": "/wiki/images/8/8e/T--NCKU_Tainan--iGEMSquareProfile2.png",
-          "Department": "政治一",
-          "Name": "劉珈君",
-          "Profession": "Human Practice"
-        },
-        {
-          "Experience": [
-            "N次坊　創辦人",
-            "台美學生會議 行銷長",
-            "台南城市浪人 發起人",
-            "2015 GIS Taiwan English Presentation First Prize",
-            ""
-          ],
-          "About": "多向潛能分化者。雖就讀地獄般的工學院，卻積極嘗試不同可能性。從簡報、提案企劃、行銷策略皆有相關經驗。\n喜好分享，並執行各種古怪的想法。認為跨領域是這時代必備的能力。\n\n",
-          "img": "/wiki/images/c/c4/T--NCKU_Tainan--iGEMSquareProfile1.png",
-          "Department": "化工三",
-          "Name": "侯智薰",
-          "Profession": "CEO"
-        },
-        {
-          "Experience": [
-            "第七屆TYPT(台灣青年英文物理辯論競賽)銅牌獎",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "About": "資訊系大一，從國中就對生物相當有興趣，從這個團隊得到相當多生物相關的知識，覺得相當充實。希望藉由這個比賽讓這個社會有些許改變，即使微不足道。",
-          "img": "/wiki/images/1/15/T--NCKU_Tainan--iGEMSquareProfile22.png",
-          "Department": "資訊一",
-          "Name": "鄭詠鏹",
-          "Profession": "Intern"
-        }
+        "Seow Heqing",
+        "Meng Hsuan Tsai",
+        "Eva Liu",
+        "Raymond Hou",
+        "Yung Chiang Cheng"
       ]
     },
     {
       "Fund Raising": [
-        {
-          "學歷": "國立成功大學化學工程　博士",
-          "現職": "成功大學化工系助理教授",
-          "Name": "Prof. 吳意珣 I-Son Ng",
-          "img": "/images/instructors/T--NCKU_Tainan--instructor1.png"
-        }
+        "Prof. Grace, I-Son Ng"
       ]
     }
   ]
