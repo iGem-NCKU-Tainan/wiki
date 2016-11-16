@@ -55,7 +55,7 @@ var commonData = {
   projModeling: '/Team:NCKU_Tainan/Model',
   projModel1: '/Team:NCKU_Tainan/Model_Fitting_Theory',
   projModel2: '/Team:NCKU_Tainan/Model_Statistics_Analysis',
-	video1: "/wiki/images/4/44/T--NCKU_Tainan--Demonstration.mp4",
+	video1: "/wiki/images/0/0b/T--NCKU_Tainan--introVideo.mp4",
   deviceHardware: '/Team:NCKU_Tainan/Hardware',
   deviceSoftware: '/Team:NCKU_Tainan/Software',
   deviceDemo: '/Team:NCKU_Tainan/Demonstrate',
